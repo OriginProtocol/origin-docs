@@ -31,14 +31,13 @@
 
 ## OGN
 
-* [xOGN Staking](ogn/xogn-staking.md)
+* [Staking](ogn/staking.md)
 * [Governance](ogn/governance.md)
 * [Vote Delegation](ogn/vote-delegation.md)
 * [University Governance Program](ogn/university-governance-program.md)
 
 ## Contracts
 
-* [Architecture](contracts/architecture.md)
 * [Registry](contracts/registry/README.md)
   * [OETH Registry](contracts/registry/oeth-registry.md)
   * [OUSD Registry](contracts/registry/ousd-registry.md)
