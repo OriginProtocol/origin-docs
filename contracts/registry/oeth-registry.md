@@ -26,11 +26,11 @@ The AURA/ETH price comes from Origin's `AuraWETHPriceFeed` contract, which uses 
 
 #### Base
 
-<table><thead><tr><th width="294"></th><th></th></tr></thead><tbody><tr><td>wOETH (ERC-20)</td><td><a href="https://basescan.org/address/0xd8724322f44e5c58d7a815f542036fb17dbbf839#code">0xD8724322f44E5c58D7A815F542036fb17DbbF839</a></td></tr><tr><td>OETH / wOETH Exchange Rate (Chainlink Oracle)</td><td><a href="https://basescan.org/address/0xe96EB1EDa83d18cbac224233319FA5071464e1b9#code">0xe96EB1EDa83d18cbac224233319FA5071464e1b9</a></td></tr></tbody></table>
+<table><thead><tr><th width="294">Contract</th><th>Address</th></tr></thead><tbody><tr><td>wOETH (ERC-20)</td><td><a href="https://basescan.org/address/0xd8724322f44e5c58d7a815f542036fb17dbbf839#code">0xD8724322f44E5c58D7A815F542036fb17DbbF839</a></td></tr><tr><td>OETH / wOETH Exchange Rate (Chainlink Oracle)</td><td><a href="https://basescan.org/address/0xe96EB1EDa83d18cbac224233319FA5071464e1b9#code">0xe96EB1EDa83d18cbac224233319FA5071464e1b9</a></td></tr></tbody></table>
 
 #### Optimism
 
-<table><thead><tr><th width="297"></th><th></th></tr></thead><tbody><tr><td>wOETH (ERC-20)</td><td>Coming soon™️</td></tr><tr><td>OETH / wOETH Exchange Rate (Chainlink Oracle)</td><td><a href="https://basescan.org/address/0xe96EB1EDa83d18cbac224233319FA5071464e1b9#code">0x70843CE8E54d2b87Ee02B1911c06EA5632cd07d3</a></td></tr></tbody></table>
+<table><thead><tr><th width="297">Contract</th><th>Address</th></tr></thead><tbody><tr><td>wOETH (ERC-20)</td><td>Coming soon™️</td></tr><tr><td>OETH / wOETH Exchange Rate (Chainlink Oracle)</td><td><a href="https://basescan.org/address/0xe96EB1EDa83d18cbac224233319FA5071464e1b9#code">0x70843CE8E54d2b87Ee02B1911c06EA5632cd07d3</a></td></tr></tbody></table>
 
 #### Deprecated
 
