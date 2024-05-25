@@ -44,7 +44,7 @@
   * [OUSD Registry](contracts/registry/ousd-registry.md)
   * [ARM Registry](contracts/registry/arm-registry.md)
 
-***
+## Links
 
 * [GitHub](https://github.com/OriginProtocol)
 * [Discord](https://originprotocol.com/discord)
