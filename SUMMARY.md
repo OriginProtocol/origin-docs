@@ -19,7 +19,6 @@
 * [ARM](protocol/arm/README.md)
   * [Automated Redemption](protocol/arm/automated-redemption.md)
 * [Wrapping](protocol/wrapping.md)
-* [Price Oracles](protocol/price-oracles.md)
 * [Bridging](protocol/bridging.md)
 
 ## Security & Risk
@@ -27,7 +26,7 @@
 * [Audits](security-and-risk/audits.md)
 * [Risk Framework](security-and-risk/risk-framework.md)
 * [Bug Bounties](security-and-risk/bug-bounties.md)
-* [Insurance](security-and-risk/insurance.md)
+* [Price Oracles](security-and-risk/price-oracles.md)
 
 ## OGN
 
