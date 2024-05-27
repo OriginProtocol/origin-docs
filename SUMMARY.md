@@ -3,7 +3,6 @@
 ## Introduction
 
 * [Overview](README.md)
-* [Guides](introduction/guides.md)
 * [FAQ](introduction/faq.md)
 
 ## Protocol
@@ -34,7 +33,8 @@
 
 * [Staking](ogn/staking.md)
 * [Governance](ogn/governance.md)
-* [Vote Delegation](ogn/vote-delegation.md)
+* [Vote Delegation](ogn/vote-delegation/README.md)
+  * [Recognized Delegates](ogn/vote-delegation/recognized-delegates.md)
 * [University Governance Program](ogn/university-governance-program.md)
 
 ## Contracts
@@ -43,6 +43,15 @@
   * [OETH Registry](contracts/registry/oeth-registry.md)
   * [OUSD Registry](contracts/registry/ousd-registry.md)
   * [ARM Registry](contracts/registry/arm-registry.md)
+
+## Guides
+
+* [Governance Templates](guides/governance-templates/README.md)
+  * [Rebase Opt-In Proposal](guides/governance-templates/rebase-opt-in-proposal.md)
+  * [Integration Proposal](guides/governance-templates/integration-proposal.md)
+  * [General Proposal](guides/governance-templates/general-proposal.md)
+  * [Yield Strategy Proposal](guides/governance-templates/yield-strategy-proposal.md)
+  * [Collateral Proposal](guides/governance-templates/collateral-proposal.md)
 
 ## Links
 
