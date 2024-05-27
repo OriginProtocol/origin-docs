@@ -9,7 +9,7 @@ As the Origin community grows in members and in TVL, there will likely be an ove
 * [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — Origin smart contract engineer
 * [0x50fb…AEE1](https://etherscan.io/address/0x50fb9F9C069721FC4EF7Ea74cfe0680dc28eAEE1) — active community member “Orion” handle on Discord
 
-University blockchain clubs participating in the [University Governance Program](https://docs.oeth.com/governance/university-governance-program) also hold significant voting power in the Origin DAO:
+University blockchain clubs participating in the [university-governance-program.md](../university-governance-program.md "mention") also hold significant voting power in the Origin DAO:
 
 * [franklindao.eth](https://etherscan.io/address/0xcc878369b26127bd4bc1b0b465bc8be9b92a4c62) — UPenn/FranklinDAO
 * [michiganblockchain.eth](https://etherscan.io/address/0x13bdae8c5f0fc40231f0e6a4ad70196f59138548) — University of Michigan
