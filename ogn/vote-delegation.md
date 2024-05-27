@@ -9,7 +9,7 @@ You may choose to delegate your voting power for off-chain proposals on the [Ori
 * Go to: [https://snapshot.org/#/delegate](https://snapshot.org/#/delegate).
 * Type in the address or ENS name you want to delegate to.
 * There is an option to limit the delegation power to only Origin by selecting "Limit delegation to a specific space" and typing in “origingov.eth”.
-* Click confirm to save your delegation.Delegating your voting power only for the ousdgov.eth Snapshot space
+* Click confirm to save your delegation. Delegating your voting power only for the ousdgov.eth Snapshot space
 
 After completing these steps, the xOGN voting power is successfully delegated to the address specified.
 
