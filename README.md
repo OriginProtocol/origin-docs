@@ -1,5 +1,5 @@
 ---
-description: Work in progress
+description: The Future of Yield
 ---
 
 # Overview
