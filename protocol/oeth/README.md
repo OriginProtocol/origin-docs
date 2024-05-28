@@ -1,4 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # OETH
+
+<figure><img src="../../.gitbook/assets/OETH Meta Tag Image.jpg" alt=""><figcaption></figcaption></figure>
 
 Origin Ether (OETH) is a liquid ETH staking token designed to offer enhanced security, higher yield, and a tighter peg to ETH when compared to other LSTs. This is accomplished through rigorous audits, decentralized validator technology (DVT), and a permissionless redemption mechanism paired with deep exit liquidity.
 
