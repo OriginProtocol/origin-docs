@@ -1,6 +1,8 @@
-# Lending
+---
+description: Unbanking the banked
+---
 
-**Unbank the Banked**
+# Lending
 
 DeFi money markets let users lend and borrow crypto assets without any middlemen. Both lenders and borrowers get more value from their crypto. Lenders earn interest, while borrowers deposit crypto as collateral to gain access to credit without traditional banking headaches. These platforms can provide far superior returns for lenders than are generally available in traditional markets.
 

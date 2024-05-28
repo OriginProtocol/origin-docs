@@ -1,6 +1,8 @@
-# Rewards
+---
+description: Socialized farming
+---
 
-**Collecting Rewards**
+# Rewards
 
 In addition to collecting interest from lending and fees from market making, the protocol automatically claims and converts the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens and Curve gives away CRV tokens. These bonus rewards are regularly converted into the backing collateral (stables for OUSD, LSTs & ETH for OETH), and distributed to token holders in the form of additional yield.
 

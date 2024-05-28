@@ -1,5 +1,5 @@
 ---
-description: Own your Stake in Decentralized Exchanges
+description: Effortless liquidity provision
 ---
 
 # Market Making
