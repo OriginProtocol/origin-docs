@@ -3,7 +3,6 @@
 ## Introduction
 
 * [Overview](README.md)
-* [FAQ](introduction/faq.md)
 
 ## Protocol
 
@@ -20,8 +19,7 @@
     * [Rebasing & Smart Contracts](protocol/ousd/elastic-supply/rebasing-and-smart-contracts.md)
   * [Collateral](protocol/ousd/collateral.md)
   * [Flipper](protocol/ousd/flipper.md)
-* [ARM](protocol/arm/README.md)
-  * [Automated Redemption](protocol/arm/automated-redemption.md)
+* [ARM](protocol/arm.md)
 * [Wrapping](protocol/wrapping.md)
 * [Bridging](protocol/bridging.md)
 
@@ -49,6 +47,7 @@
 
 ## Guides
 
+* [FAQ](guides/faq.md)
 * [Governance Templates](guides/governance-templates/README.md)
   * [Rebase Opt-In Proposal](guides/governance-templates/rebase-opt-in-proposal.md)
   * [Integration Proposal](guides/governance-templates/integration-proposal.md)
