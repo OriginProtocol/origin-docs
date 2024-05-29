@@ -60,4 +60,4 @@
 * [GitHub](https://github.com/OriginProtocol)
 * [Discord](https://originprotocol.com/discord)
 * [Website](https://originprotocol.com)
-* [Dapp](https://app.originprotocol.com)
+* [Dapp](https://originprotocol.eth.limo)

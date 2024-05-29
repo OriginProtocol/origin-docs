@@ -16,7 +16,7 @@ With the launch of OETH, OGN governance is able to whitelist specific addresses 
 If you are deploying a contract and intend to call`rebaseOptIn()`to earn yield, you cannot call it from the contract's constructor. The contract must be deployed before it can be called.
 {% endhint %}
 
-[Safe](https://gnosis-safe.io/) users are encouraged to use [the Origin dapp](https://app.originprotocol.com) which will prompt you to opt-in to receiving yield. If you are using the "Old" [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) or another contract-based wallet, you will need the [proxy contract address](../../../contracts/registry/) and the corresponding [ABI](https://api.etherscan.io/api?module=contract\&action=getabi\&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or`rebaseOptOut()` to turn it off again.
+[Safe](https://gnosis-safe.io/) users are encouraged to use the [Origin dapp](https://originprotocol.eth.limo) which will prompt you to opt-in to receiving yield. If you are using the "Old" [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) or another contract-based wallet, you will need the [proxy contract address](../../../contracts/registry/) and the corresponding [ABI](https://api.etherscan.io/api?module=contract\&action=getabi\&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or`rebaseOptOut()` to turn it off again.
 
 #### Checking rebase status
 

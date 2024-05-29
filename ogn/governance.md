@@ -10,7 +10,7 @@ A minimum of 20% of the xOGN supply is required to reach quorum. There is no min
 
 ## **Proposal lifecycle**
 
-Changes to the Origin Dollar and Origin Ether contracts and the movement of funds require on-chain proposals to be created, approved, and executed by governance token holders. All pending and historical on-chain proposals are visible on the governance page of the Origin Dapp.&#x20;
+Changes to the Origin Dollar and Origin Ether contracts and the movement of funds require on-chain proposals to be created, approved, and executed by governance token holders. All pending and historical on-chain proposals are visible on the governance page of the [Origin Dapp](https://originprotocol.eth.limo).&#x20;
 
 Initiating this type of formal, binding proposal requires technical skills and knowledge of the protocol’s code. On-chain proposals also involve transaction costs (Ethereum gas) necessary to update the state of the blockchain. As a result, most proposals go through an informal, off-chain process occurring on the [Origin Protocol Snapshot Space](https://snapshot.org/#/origingov.eth). Snapshot enables any eligible governance token holder to create a proposal or vote at no cost. This also reduces the complexity and expense required to make a proposal and allows for the community to signal its approval or opposition to a given change. We encourage everyone to propose improvements at any time.
 

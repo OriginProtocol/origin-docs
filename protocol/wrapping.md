@@ -12,7 +12,7 @@ Both OETH and wOETH earn at the same rate and can be transferred just like any o
 
 ### Wrapping
 
-OETH and OUSD can be wrapped using their respective swap forms in [the Origin dapp](https://app.originprotocol.com/#/oeth).
+OETH and OUSD can be wrapped using their respective swap forms in the [Origin dapp](https://originprotocol.eth.limo).
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-05-25 at 23.19.09.png" alt=""><figcaption><p>Lossless token wrapping in the Origin dapp</p></figcaption></figure>
 
@@ -20,4 +20,4 @@ wOETH is also a supported swap route in [1inch](https://app.1inch.io/), which en
 
 ### Unwrapping
 
-Converting back to the underlying yield-bearing tokens does not require any ERC-20 approvals. There's also no minimum term or lockup period. You can use the same swap form in the Origin dapp to unwrap OETH or OUSD or use Etherscan to call the `withdraw` function if you prefer to specify the amount of [OETH](https://etherscan.io/address/0xdcee70654261af21c44c093c300ed3bb97b78192#writeProxyContract#F13) or [OUSD](https://etherscan.io/address/0xd2af830e8cbdfed6cc11bab697bb25496ed6fa62#writeProxyContract#F13) to be taken out.
+Converting back to the underlying yield-bearing tokens does not require any ERC-20 approvals. There's also no minimum term or lockup period. You can use the same swap form in the [Origin dapp](https://originprotocol.eth.limo) to unwrap OETH or OUSD or use Etherscan to call the `withdraw` function if you prefer to specify the amount of [OETH](https://etherscan.io/address/0xdcee70654261af21c44c093c300ed3bb97b78192#writeProxyContract#F13) or [OUSD](https://etherscan.io/address/0xd2af830e8cbdfed6cc11bab697bb25496ed6fa62#writeProxyContract#F13) to be taken out.

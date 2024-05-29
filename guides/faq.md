@@ -2,7 +2,7 @@
 
 **Where can I acquire OETH and OUSD?**
 
-OETH and OUSD can be acquired in our {dApp}.
+OETH and OUSD can be acquired in the [Origin dapp](https://originprotocol.eth.limo).
 
 
 
@@ -31,7 +31,7 @@ You can read about our various strategies in [Yield Generation](../protocol/ousd
 
 **Why is my balance increasing at a slower rate than the advertised APY?**
 
-Balances increase when the supply is rebased. But the size of each rebase varies wildly depending on how much the vault has earned since the last rebase. And while most rebases collect a small amount earnings from lending strategies, other rebases involve liquidating rewards tokens or collecting fees. As a result, the yield will vary significantly during short time periods.
+Balances increase when the supply is rebased. But the size of each rebase varies wildly depending on how much the vault has earned since the last rebase. And while most rebases collect a small amount of earnings from lending strategies, other rebases involve liquidating rewards tokens or collecting fees. As a result, the yield will vary significantly during short periods of time.
 
 
 
