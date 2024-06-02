@@ -24,7 +24,7 @@ Hold sufficient xOGN tokens (Staked Origin Tokens)
 
 * No minimum to vote on existing proposals
 * 5,000 xOGN to create a Snapshot proposal
-* 100,000 veOGV to create an on-chain proposal
+* 100,000 xOGN to create an on-chain proposal
 
 (Note, you have the option to delegate your votes to another Ethereum wallet.)
 
