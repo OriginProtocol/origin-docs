@@ -16,6 +16,14 @@ description: Contracts for all Origin tokens and products
 
 <table><thead><tr><th width="250">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Timelock</td><td>0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</td></tr><tr><td>Admin (5 of 8 multi-sig)</td><td>0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</td></tr><tr><td>Strategist (2 of 9 multi-sig)</td><td>0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</td></tr></tbody></table>
 
+#### Arbitrum
+
+<table><thead><tr><th width="252">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 multi-sig)</td><td>0xfD1383fb4eE74ED9D83F2cbC67507bA6Eac2896a</td></tr></tbody></table>
+
+#### Base
+
+<table><thead><tr><th width="252">Contract</th><th>Addres</th></tr></thead><tbody><tr><td>Admin (5 of 8 multi-sig)</td><td>0x92A19381444A001d62cE67BaFF066fA1111d7202</td></tr></tbody></table>
+
 ## Products
 
 {% content-ref url="oeth-registry.md" %}
