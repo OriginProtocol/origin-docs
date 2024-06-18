@@ -53,12 +53,12 @@ Feel free to use one of the [templates](https://docs.oeth.com/guides/governance-
 | Late quorum extension | 11,520 blocks (\~1.6 days) | The amount of time required to pass from when a proposal reaches quorum until its voting period ends                                                                                     |
 | Timelock delay        | 172,800 seconds (2 days)   | The minimum amount of time required after the end of the voting period before a proposal can be executed and take effect                                                                 |
 
-## Strategists
+## Guardians
 
 \
-Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far fewer signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Strategists, have the ability to execute a limited number of functions with only 2 of 9 signers.
+Some functionality, such as rebalancing funds between OUSD strategies or pausing deposits, can be triggered without the timelock and with far fewer signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Guardians, have the ability to execute a limited number of functions with only 2 of 9 signers.
 
-The strategist multi-sig can do the following actions on the vault:
+The Guardian multi-sig can do the following actions on the vault:
 
 * depositToStrategy - deposit multiple assets from the vault into the strategy.
 * withdrawFromStrategy - withdraw multiple assets from the strategy to the vault.
