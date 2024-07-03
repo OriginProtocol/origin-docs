@@ -44,6 +44,7 @@
   * [OETH Registry](contracts/registry/oeth-registry.md)
   * [OUSD Registry](contracts/registry/ousd-registry.md)
   * [ARM Registry](contracts/registry/arm-registry.md)
+* [API](contracts/api.md)
 
 ## Guides
 
