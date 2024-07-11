@@ -7,6 +7,8 @@ Origin has a continuous auditing agreement with [OpenZeppelin](https://openzeppe
 At launch, OETH utilized 95% of the same code as OUSD and has since been simplified with the removal of LST collateral and farming strategies. Changes were audited by [OpenZeppelin](https://www.openzeppelin.com/) and [Narya](https://narya.ai/) prior to launch. OUSD has also been thoroughly audited by multiple other top security firms, including [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/).
 
 * [OpenZeppelin, OETH Native Staking, June 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20SSV%20Native%20Staking%20-%20June%202024.pdf)
+* [OpenZeppelin, OGN/OGV Merge, May 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20OGV%20and%20OGN%20Merge%20-%20May%202024.pdf)
+* [Perimeter, OETH Vault Fuzzing, March 2024](https://github.com/OriginProtocol/security/blob/master/audits/Perimeter%20-%20OETHVault%20-%20March%202024%20-%20Fuzzing%20Report.pdf)
 * [OpenZeppelin, Origin Balancer MetaPool Strategy, Sept 2023](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Balancer%20MetaPool%20Strategy%20-%20Sept%202023.pdf)
 * [Narya, Origin OETH Report, May 2023, Initial Report](https://github.com/OriginProtocol/security/blob/master/audits/Narya%20-%20Origin%20OETH%20Report%20-%20May%202023%20-%20Initial%20Report.pdf)
 * [OpenZeppelin, Origin Dollar OETH Integration, May 2023](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20OETH%20Integration%20-%20May%202023.pdf)
