@@ -58,7 +58,7 @@ We regularly have our work [audited ](https://docs.oeth.com/security-and-risks/a
 
 In situations where collateral falls below the peg, [OIP-4 disables minting](https://github.com/OriginProtocol/origin-dollar/issues/1000) of additional OUSD/OETH tokens using the de-pegged asset.
 
-[DeFi insurance](https://docs.oeth.com/security-and-risks/insurance) is available to offer smart contract coverage as an optional add-on service for OUSD holders.
+DeFi insurance is available to offer smart contract coverage as an optional add-on service for OUSD holders through [Nexus Mutual](https://v2.nexusmutual.io/cover/buy-cover) and [UnoRe](https://app.unore.io/buy-cover).
 
 We have retained [Certora](https://www.certora.com/) to formally verify the various security properties of our contracts. They helped us establish automated verifications that will run anytime we update our contract code. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
