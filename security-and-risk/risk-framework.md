@@ -60,7 +60,7 @@ In situations where collateral falls below the peg, [OIP-4 disables minting](htt
 
 DeFi insurance is available to offer smart contract coverage as an optional add-on service for OUSD holders through [Nexus Mutual](https://v2.nexusmutual.io/cover/buy-cover) and [UnoRe](https://app.unore.io/buy-cover).
 
-We have retained [Certora](https://www.certora.com/) to formally verify the various security properties of our contracts. They helped us establish automated verifications that will run anytime we update our contract code. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
+We have recently retained [yAudit](https://yaudit.dev/) to look at our PRs as we code. [Certora](https://www.certora.com/) has helped us establish automated verifications that will run anytime we update our contracts. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
 Code reviews involving our smart contracts are incredibly rigorous. We require at least two engineers to review each change with a detailed checklist and we prioritize security reviews over new feature development.
 
