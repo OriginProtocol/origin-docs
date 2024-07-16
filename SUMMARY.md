@@ -20,6 +20,7 @@
     * [Rebasing & Smart Contracts](protocol/ousd/elastic-supply/rebasing-and-smart-contracts.md)
   * [Collateral](protocol/ousd/collateral.md)
   * [Flipper](protocol/ousd/flipper.md)
+* [AMO](protocol/amo.md)
 * [ARM](protocol/arm.md)
 * [Wrapping](protocol/wrapping.md)
 * [Bridging](protocol/bridging.md)
