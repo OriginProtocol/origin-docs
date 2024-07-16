@@ -24,7 +24,7 @@ OUSD uses the following high-level strategies for generating yield:
 [rewards.md](rewards.md)
 {% endcontent-ref %}
 
-The protocol is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OToken holders:
+The protocol is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD holders:
 
 * Exit fees are returned to the pool, rewarding long-term holders.
 * Price oracles favor the collective over the individual, again rewarding long-term holders.
@@ -32,6 +32,8 @@ The protocol is able to generate higher yields than competing protocols due to a
 * Yields tend to get compressed as more funds are deployed into a given strategy. By spreading capital across multiple strategies at once, OUSD is able to able to deploy more capital with less yield compression.
 * The gas costs of harvesting yield are amortized across the entire pool. This makes it economical to harvest more frequently, leading to faster compounding. The more frequent the compounding periods, the faster your money grows.
 * The [AMO](https://docs.oeth.com/core-concepts/supported-strategies/curve-metapools) allows the protocol to earn up to 2x the rewards using the same amount of capital.
-* The protocol invests in ensuring future rewards by using a portion of the performance fee to buy flywheel tokens such as CVX. The purchased CVX tokens are vote-locked and used to vote for the AMO pools which drive additional CRV incentives to the pools, creating a sustainable source of yield for OTokens.
+* The protocol invests in ensuring future rewards by using a portion of the performance fee to buy flywheel tokens such as CVX. The purchased CVX tokens are vote-locked and used to vote for the AMO pools which drive additional CRV incentives to the pools, creating a sustainable source of yield for OUSD and OETH.
 
-The net effect of these benefits is that **OTokens are able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.
+The net effect of these benefits is that **OUSD is able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.
+
+Like OETH, much of OUSD's yield is gradually distributed through a [Dripper](../../oeth/dripper.md) with the current duration configured to 7 days. Other sources of yield, such as lending interest and trading fees, accrue to OUSD immediately as they are earned.
