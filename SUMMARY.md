@@ -9,6 +9,7 @@
 * [OETH](protocol/oeth/README.md)
   * [Liquid Staking](protocol/oeth/liquid-staking.md)
   * [Redemption](protocol/oeth/redemption.md)
+  * [Dripper](protocol/oeth/dripper.md)
   * [Zapper](protocol/oeth/zapper.md)
 * [OUSD](protocol/ousd/README.md)
   * [Yield Generation](protocol/ousd/yield-generation/README.md)
