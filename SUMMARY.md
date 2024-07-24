@@ -11,6 +11,8 @@
   * [Redemption](protocol/oeth/redemption.md)
   * [Dripper](protocol/oeth/dripper.md)
   * [Zapper](protocol/oeth/zapper.md)
+  * [Elastic Supply](protocol/oeth/elastic-supply/README.md)
+    * [Rebasing & Smart Contracts](protocol/oeth/elastic-supply/rebasing-and-smart-contracts.md)
 * [OUSD](protocol/ousd/README.md)
   * [Yield Generation](protocol/ousd/yield-generation/README.md)
     * [Lending](protocol/ousd/yield-generation/lending.md)
