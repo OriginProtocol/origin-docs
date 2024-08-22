@@ -14,6 +14,7 @@
   * [Elastic Supply](protocol/oeth/elastic-supply/README.md)
     * [Rebasing & Smart Contracts](protocol/oeth/elastic-supply/rebasing-and-smart-contracts.md)
 * [Super OETH](protocol/super-oeth/README.md)
+  * [Layer 2 Solutions](protocol/super-oeth/layer-2-solutions.md)
   * [Flywheel](protocol/super-oeth/flywheel.md)
 * [OUSD](protocol/ousd/README.md)
   * [Yield Generation](protocol/ousd/yield-generation/README.md)
