@@ -13,6 +13,7 @@
   * [Zapper](protocol/oeth/zapper.md)
   * [Elastic Supply](protocol/oeth/elastic-supply/README.md)
     * [Rebasing & Smart Contracts](protocol/oeth/elastic-supply/rebasing-and-smart-contracts.md)
+* [Super OETH](protocol/super-oeth.md)
 * [OUSD](protocol/ousd/README.md)
   * [Yield Generation](protocol/ousd/yield-generation/README.md)
     * [Lending](protocol/ousd/yield-generation/lending.md)
