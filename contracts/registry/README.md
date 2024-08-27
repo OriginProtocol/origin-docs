@@ -22,7 +22,7 @@ description: Contracts for all Origin tokens and products
 
 #### Base
 
-<table><thead><tr><th width="252">Contract</th><th>Addres</th></tr></thead><tbody><tr><td>Admin (5 of 8 multi-sig)</td><td>0x92A19381444A001d62cE67BaFF066fA1111d7202</td></tr></tbody></table>
+<table><thead><tr><th width="252">Contract</th><th>Addres</th></tr></thead><tbody><tr><td>Admin (5 of 8 multi-sig)</td><td>0x92A19381444A001d62cE67BaFF066fA1111d7202</td></tr><tr><td>Guardian (2 of 8 multi-sig)</td><td>0x28bce2eE5775B652D92bB7c2891A89F036619703</td></tr></tbody></table>
 
 ## Products
 
