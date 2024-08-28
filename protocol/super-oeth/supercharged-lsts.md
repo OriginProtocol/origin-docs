@@ -1,6 +1,6 @@
 # Supercharged LSTs
 
-<figure><img src="../../.gitbook/assets/matrix (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../.gitbook/assets/matrix-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/matrix-light.svg" alt=""></picture><figcaption></figcaption></figure>
 
 Super OETH presents a unique combination of low risk and high yield to offer a superior ETH yield product.
 

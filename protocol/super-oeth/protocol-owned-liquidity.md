@@ -1,6 +1,6 @@
 # Protocol-Owned Liquidity
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-08-28 at 02.06.05.png" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../.gitbook/assets/chart-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/chart-light.svg" alt=""></picture><figcaption></figcaption></figure>
 
 Through its integration with Aerodrome, Super OETH is able to ensure a 1:1 peg with ETH at any scale. The Super OETH [AMO](../../introduction/core-concepts/amo.md) holds a portion of the protocol's underlying collateral in a concentrated liquidity pool with an extremely tight price range within a single tick above 1.0000 WETH. This allows anyone to sell superOETHb into the pool for at least 1 WETH (minus swap fees).
 
