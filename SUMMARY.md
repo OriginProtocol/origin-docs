@@ -18,7 +18,7 @@
   * [Dripper](protocol/oeth/dripper.md)
   * [Zapper](protocol/oeth/zapper.md)
 * [Super OETH](protocol/super-oeth/README.md)
-  * [Market Positioning](protocol/super-oeth/market-positioning.md)
+  * [Supercharged LSTs](protocol/super-oeth/supercharged-lsts.md)
   * [Protocol-Owned Liquidity](protocol/super-oeth/protocol-owned-liquidity.md)
   * [Layer 2 Roadmap](protocol/super-oeth/layer-2-roadmap.md)
   * [Flywheel](protocol/super-oeth/flywheel.md)
