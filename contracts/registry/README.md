@@ -30,6 +30,10 @@ description: Contracts for all Origin tokens and products
 [oeth-registry.md](oeth-registry.md)
 {% endcontent-ref %}
 
+{% content-ref url="super-oeth-registry.md" %}
+[super-oeth-registry.md](super-oeth-registry.md)
+{% endcontent-ref %}
+
 {% content-ref url="ousd-registry.md" %}
 [ousd-registry.md](ousd-registry.md)
 {% endcontent-ref %}
