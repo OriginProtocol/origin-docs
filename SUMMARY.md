@@ -8,6 +8,7 @@
   * [Rebasing & Smart Contracts](introduction/core-concepts/rebasing-and-smart-contracts.md)
   * [Wrapping](introduction/core-concepts/wrapping.md)
   * [Bridging](introduction/core-concepts/bridging.md)
+  * [AMO](introduction/core-concepts/amo.md)
 
 ## Protocol
 
@@ -26,7 +27,6 @@
     * [Rewards](protocol/ousd/yield-generation/rewards.md)
   * [Collateral](protocol/ousd/collateral.md)
   * [Flipper](protocol/ousd/flipper.md)
-* [AMO](protocol/amo.md)
 * [ARM](protocol/arm.md)
 
 ## Security & Risk
