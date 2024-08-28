@@ -4,13 +4,13 @@ description: Up-Only Supply. Stable Price.
 
 # Elastic Supply
 
-OTokens work differently than most tokens. Instead of the price increasing as the value of the assets under management increases (as with Compound cTokens or Yearn yTokens), the value of 1 OUSD remains constant at approximately $1. Similarly, the value of 1 OETH is worth approximately 1 ETH. The contracts constantly adjust the monetary supply to automatically update the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol.
+OETH and OUSD work differently than most tokens. Instead of the price increasing as the value of the assets under management increases (as with Compound cTokens or Yearn yTokens), the value of 1 OUSD remains constant at approximately $1. Similarly, the value of 1 OETH is worth approximately 1 ETH. The contracts constantly adjust the monetary supply to automatically update the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol.
 
 {% hint style="info" %}
 Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 This mechanism was inspired by the novel approach taken by [Ampleforth](https://www.ampleforth.org/), but there are some key differences that are worth highlighting:
 

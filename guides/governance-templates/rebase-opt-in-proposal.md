@@ -1,6 +1,6 @@
 # Rebase Opt-In Proposal
 
-Use this template as a guide to write a proposal for [opting a smart contract into OUSD or OETH yield](../../protocol/ousd/elastic-supply/rebasing-and-smart-contracts.md). Keep in mind that wOUSD and wOETH are alternate solutions for receiving yield and, as ERC-4626 vaults, do not need to be opted in.
+Use this template as a guide to write a proposal for [opting a smart contract into OUSD or OETH yield](broken-reference). Keep in mind that wOUSD and wOETH are alternate solutions for receiving yield and, as ERC-4626 vaults, do not need to be opted in.
 
 ## _**Title:**_
 

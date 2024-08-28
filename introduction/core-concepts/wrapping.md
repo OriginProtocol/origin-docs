@@ -14,7 +14,7 @@ Both OETH and wOETH earn at the same rate and can be transferred just like any o
 
 OETH and OUSD can be wrapped using their respective swap forms in the [Origin dapp](https://originprotocol.eth.limo).
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-05-25 at 23.19.09.png" alt=""><figcaption><p>Lossless token wrapping in the Origin dapp</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-25 at 23.19.09.png" alt=""><figcaption><p>Lossless token wrapping in the Origin dapp</p></figcaption></figure>
 
 wOETH is also a supported swap route in [1inch](https://app.1inch.io/), which enables onboarding directly to wOETH from ETH or any other token.
 

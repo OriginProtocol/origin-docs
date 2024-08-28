@@ -8,6 +8,6 @@ The [Origin dapp](https://originprotocol.eth.limo) supports zapping and minting 
 
 ### Withdrawing
 
-The Zapper contract currently only supports depositing, but any OETH minted via the Zapper is still fully liquid. OETH can be redeemed anytime via the Vault for WETH (subject to a fee of 0.1%). Most users find swapping OETH for ETH on Curve easier and more cost-effective. Redeeming and swapping are both supported by the [Origin dapp](https://originprotocol.eth.limo).
+The Zapper contract currently only supports depositing, but any OETH minted via the Zapper is still fully liquid. OETH can be redeemed 1:1 for ETH at any time (see [redemption.md](redemption.md "mention") for more details).
 
 \

@@ -3,6 +3,11 @@
 ## Introduction
 
 * [Overview](README.md)
+* [Core Concepts](introduction/core-concepts/README.md)
+  * [Elastic Supply](introduction/core-concepts/elastic-supply.md)
+  * [Rebasing & Smart Contracts](introduction/core-concepts/rebasing-and-smart-contracts.md)
+  * [Wrapping](introduction/core-concepts/wrapping.md)
+  * [Bridging](introduction/core-concepts/bridging.md)
 
 ## Protocol
 
@@ -11,8 +16,6 @@
   * [Redemption](protocol/oeth/redemption.md)
   * [Dripper](protocol/oeth/dripper.md)
   * [Zapper](protocol/oeth/zapper.md)
-  * [Elastic Supply](protocol/oeth/elastic-supply/README.md)
-    * [Rebasing & Smart Contracts](protocol/oeth/elastic-supply/rebasing-and-smart-contracts.md)
 * [Super OETH](protocol/super-oeth/README.md)
   * [Layer 2 Solutions](protocol/super-oeth/layer-2-solutions.md)
   * [Flywheel](protocol/super-oeth/flywheel.md)
@@ -21,14 +24,10 @@
     * [Lending](protocol/ousd/yield-generation/lending.md)
     * [Market Making](protocol/ousd/yield-generation/market-making.md)
     * [Rewards](protocol/ousd/yield-generation/rewards.md)
-  * [Elastic Supply](protocol/ousd/elastic-supply/README.md)
-    * [Rebasing & Smart Contracts](protocol/ousd/elastic-supply/rebasing-and-smart-contracts.md)
   * [Collateral](protocol/ousd/collateral.md)
   * [Flipper](protocol/ousd/flipper.md)
 * [AMO](protocol/amo.md)
 * [ARM](protocol/arm.md)
-* [Wrapping](protocol/wrapping.md)
-* [Bridging](protocol/bridging.md)
 
 ## Security & Risk
 
