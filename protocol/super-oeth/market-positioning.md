@@ -1,6 +1,6 @@
 # Market Positioning
 
-<figure><img src="../../.gitbook/assets/matrix.png" alt=""><figcaption><p>Supercharged LSTs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/matrix (1).svg" alt=""><figcaption><p>Supercharged LSTs</p></figcaption></figure>
 
 Super OETH presents a unique combination of low risk and high yield to offer a superior ETH yield product.
 
