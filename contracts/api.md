@@ -2,28 +2,29 @@
 
 Several data endpoints are used internally and by our partners. These have been created incrementally on an as-needed basis and are not intended for widespread use. This documentation has been added for convenience, but please do not rely on this API for mission-critical data. If you need additional data to use in your application, please [reach out on Discord](https://originprotocol.com/discord).
 
-The are two separate hostnames where different endpoints are hosted. The source code can be found in the [ousd-analytics](https://github.com/OriginProtocol/ousd-analytics/blob/2b16b3af85e90ed85c6375f2a6c0b41848dd8bd8/eagleproject/eagleproject/urls.py#L51-L64) and [origin-website](https://github.com/OriginProtocol/origin-website/blob/master/views/web\_views.py#L291-L324) GitHub repositories.
+Our wrapper API can be found on the `api.originprotocol.com` endpoint and the source code can be found in the [defi-analytics](https://github.com/oplabs/defi-analytics) GitHub repository. Most of the endpoints are wrapping access to our indexer [`origin-squid`](https://github.com/OriginProtocol/origin-squid).
 
 Some dates are displayed as timestamps or epochs, which can be converted to human-readable dates [here](https://www.epochconverter.com/).
 
-### OUSD/OETH Analytics <a href="#ousd-oeth-analytics" id="ousd-oeth-analytics"></a>
+## OUSD/OETH/superOETHb Analytics <a href="#ousd-oeth-superOETHb-analytics" id="ousd-oeth-superOETHb-analytics"></a>
 
-## Trailing yield <a href="#trailing-yield" id="trailing-yield"></a>
+### Trailing yield <a href="#trailing-yield" id="trailing-yield"></a>
+-----------------------------------------------------
 
-`GET` `https://analytics.ousd.com/api/v2/{symbol}/apr/trailing/{days}`
+`GET` `https://api.originprotocol.com/api/v2/{token}/apr/trailing/{days}`
 
-The annualized trailing yield for OUSD or OETH over a given number of days
+The annualized trailing yield for OUSD, OETH, superOETHb over a given number of days
 
-Numbers greater than 365 may produce unexpected results
+Number of days greater than 100 may produce unexpected results
 
 **Path Parameters**
 
 | Name     | Type   | Description    |
 | -------- | ------ | -------------- |
 | days     | Number | Number of days |
-| symbol\* | String | ousd or oeth   |
+| symbol\* | String | ousd, oeth, superoethb   |
 
-200: OKCopy
+200: OK
 
 ```
 {
@@ -32,9 +33,54 @@ Numbers greater than 365 may produce unexpected results
 }
 ```
 
-## Yield history <a href="#yield-history" id="yield-history"></a>
+### Stats <a href="#stats" id="stats"></a>
+-----------------------------------------------------
 
-`GET` `https://analytics.ousd.com/api/v2/{symbol}/apr/history`
+`GET` `https://api.originprotocol.com/api/v2/{token}/stats/{stat}`
+
+All available stats for OETH, OUSD and superOETHb
+
+**Path Parameters**
+
+| Name     | Type   | Description    |
+| -------- | ------ | -------------- |
+| symbol\* | String | ousd, oeth, superoethb   |
+| stat     | String | available stat |
+
+**Available stats**
+
+| Stat     | Description    |
+| -------- | -------------- |
+| totalSupply | total supply (default) |
+| apr |  average APR |
+| apy |  average APY |
+| apy14 | trailing apy 14 days |
+| apy30 | trailing apy 30 days |
+| apy7 |  trailing apy 7 days |
+| blockNumber | latest computed block |
+| fees |  fee perceived |
+| marketCapUSD | market cap |
+| amoSupply | AMO supply |
+| dripperWETH | WETH dripper |
+| nonRebasingSupply | total non rebasing supply  |
+| rateETH | ETH price |
+| rateUSD | USD price |
+| rebasingSupply | total rebasing |
+| wrappedSupply | total wrapped |
+| yield | total yield |
+
+200: OK
+
+// value of the stat, here totalSupply
+
+```
+6098790
+```
+
+### Yield history <a href="#yield-history" id="yield-history"></a>
+-----------------------------------------------------
+
+`GET` `https://api.originprotocol.com/api/v2/{symbol}/apr/history`
 
 The recent annualized historical yield for OUSD or OETH
 
@@ -44,7 +90,7 @@ The recent annualized historical yield for OUSD or OETH
 | -------- | ------ | ------------ |
 | symbol\* | String | ousd or oeth |
 
-200: OKCopy
+200: OK
 
 ```
 {
@@ -94,11 +140,10 @@ The recent annualized historical yield for OUSD or OETH
 }
 ```
 
-\
-Collateral <a href="#collateral" id="collateral"></a>
+### Collateral <a href="#collateral" id="collateral"></a>
 -----------------------------------------------------
 
-`GET` `https://analytics.ousd.com/api/v2/{symbol}/collateral`
+`GET` `https://api.originprotocol.com/api/v2/{symbol}/collateral`
 
 A list of backing assets and their balances held by OUSD
 
@@ -108,7 +153,7 @@ A list of backing assets and their balances held by OUSD
 | -------- | ------ | ----------- |
 | symbol\* | String | ousd        |
 
-200: OKCopy
+200: OK
 
 ```
 {
@@ -133,11 +178,11 @@ A list of backing assets and their balances held by OUSD
 }
 ```
 
-## Strategies <a href="#strategies" id="strategies"></a>
+### Strategies <a href="#strategies" id="strategies"></a>
 
-`GET` `https://analytics.ousd.com/api/v2/{symbol}/strategies{?structured}`
+`GET` `https://api.originprotocol.com/api/v2/{symbol}/strategies{?structured}`
 
-A list of OUSD's yield-earning strategies and its token balances
+A list of OETH or OUSD yield-earning strategies and its token balances
 
 **Path Parameters**
 
@@ -151,115 +196,200 @@ A list of OUSD's yield-earning strategies and its token balances
 | ---------- | ------ | ----------- |
 | structured | String |             |
 
-200: OK unstructured200: OK structuredCopy
+200: OK structured
 
 ```
 {
-  "strategies": [
-    {
-      "name": "Vault",
-      "total": 7448.884896,
-      "dai": 0,
-      "usdt": 7448.884896,
-      "usdc": 0,
-      "ousd": 0,
-      "comp": 0
+  "block_time": 1725289283,
+  "block_number": 20663645,
+  "strategies": {
+    "vault_holding": {
+      "name": "OETH Vault",
+      "address": "0x39254033945aa2e4809cc2977e7087bee48bd7ab",
+      "icon_file": "oeth-icon.svg",
+      "total": 82.639087904602,
+      "tvl": 82.639087904602,
+      "holdings": {
+        "WETH": 82.6390879045019,
+        "FRXETH": 0,
+        "STETH": 8e-18,
+        "RETH": 1.00114803e-10
+      },
+      "holdings_value": {
+        "WETH": 82.6390879045019,
+        "FRXETH": 0,
+        "STETH": 8e-18,
+        "RETH": 1.11635358e-10
+      }
     },
-    {
-      "name": "Compound Strategy",
-      "total": 17398875.172562208,
-      "dai": 7269054.303955209,
-      "usdt": 870672.787103,
-      "usdc": 9259148.081504,
-      "ousd": null,
-      "comp": 0
+    "frax_eth_strat": {
+      "name": "FraxETH",
+      "address": "0x3ff8654d633d4ea0fae24c52aec73b4a20d0d0e5",
+      "icon_file": "frxeth-icon.svg",
+      "total": 0,
+      "tvl": 0,
+      "holdings": {
+        "SFRXETH": 0
+      },
+      "holdings_value": {
+        "SFRXETH": 0
+      }
     },
-    {
-      "name": "Convex Strategy",
-      "total": 986822.3425206443,
-      "dai": 328940.78084064426,
-      "usdt": 328940.78084,
-      "usdc": 328940.78084,
-      "ousd": null,
-      "comp": null
+    "oeth_curve_amo": {
+      "name": "OETH/ETH Curve AMO",
+      "address": "0x1827f9ea98e0bf96550b2fc20f7233277fcd7e63",
+      "icon_file": "oeth-icon.svg",
+      "total": 7568.50216258337,
+      "tvl": 7568.50216258337,
+      "holdings": {
+        "ETH": 3562.3529068203,
+        "OETH": 4019.37421469013
+      },
+      "holdings_value": {
+        "ETH": 3562.3529068203,
+        "OETH": 4019.37421469013
+      }
     },
-    {
-      "name": "Aave Strategy",
-      "total": 9671353.458348105,
-      "dai": 5770579.280891105,
-      "usdt": 3900774.177457,
-      "usdc": 0,
-      "ousd": null,
-      "comp": null
+    "oeth_morpho_aave_strat": {
+      "name": "Morpho Aave",
+      "address": "0xc1fc9e5ec3058921ea5025d703cbe31764756319",
+      "icon_file": "morpho.png",
+      "total": 0,
+      "tvl": 0,
+      "holdings": {
+        "WETH": 0
+      },
+      "holdings_value": {
+        "WETH": 0
+      }
     },
-    {
-      "name": "Morpho Strategy",
-      "total": 300046.72524734936,
-      "dai": 100009.00572028894,
-      "usdt": 100030.335322,
-      "usdc": 100007.091334,
-      "ousd": null,
-      "comp": 0.29287106042538863
-    },
-    {
-      "name": "OUSD MetaStrategy",
-      "total": 16191392.352579273,
-      "dai": 2698565.3920966364,
-      "usdt": 2698565.3920965,
-      "usdc": 2698565.3920965,
-      "ousd": 8095696.176289637,
-      "comp": null
+    "oeth_balancer_reth_strat": {
+      "name": "Balancer rETH/WETH Pool Strategy",
+      "address": "0x49109629ac1deb03f2e9b2fe2ac4a623e0e7dfdc",
+      "icon_file": "buffer-icon.svg",
+      "total": 0,
+      "tvl": 0,
+      "holdings": {
+        "RETH": 0,
+        "WETH": 0
+      },
+      "holdings_value": {
+        "RETH": 0,
+        "WETH": 0
+      }
     }
-  ]
+  },
+  "total_value": 34759.5792065542,
+  "total_value_usd": 87581369.0353948,
+  "eth_price": 2519.632603,
+  "total_supply": 34759.5792065542,
+  "circulating_supply": 30740.2049918641,
+  "protocol_owned_supply": 4019.37421469013
 }
 ```
 
-## OGN circulating supply <a href="#ogn-circulating-supply" id="ogn-circulating-supply"></a>
+### OGN circulating supply <a href="#ogn-circulating-supply" id="ogn-circulating-supply"></a>
 
 `GET` `https://api.originprotocol.com/circulating-ogn`
 
 The number of Origin Tokens (OGN) in circulation
 
-200: OKCopy
+200: OK
 
 ```
 503712464
 ```
 
-
-
-## OGN total supply <a href="#ogn-total-supply" id="ogn-total-supply"></a>
+### OGN total supply <a href="#ogn-total-supply" id="ogn-total-supply"></a>
 
 `GET` `https://api.originprotocol.com/total-ogn`
 
 The total number of Origin Tokens (OGN) in existence
 
-200: OK OKCopy
+200: OK
 
 ```
 1000000000
 ```
 
-\
-OETH total supply <a href="#ogv-total-supply" id="ogv-total-supply"></a>
+### OETH total supply <a href="#oeth-total-supply" id="oeth-total-supply"></a>
 ------------------------------------------------------------------------
 
 `GET` `https://api.originprotocol.com/total-oeth`
 
 The total number of Origin Ether (OETH) tokens in existence
 
-
-
-```
 200: OK
+
+```
+34759
 ```
 
-## OGN protocol revenue <a href="#ogv-protocol-revenue" id="ogv-protocol-revenue"></a>
+### OUSD total supply <a href="#ousd-total-supply" id="ousd-total-supply"></a>
+------------------------------------------------------------------------
+
+`GET` `https://api.originprotocol.com/total-ousd`
+
+The total number of Origin Dollar (OUSD) tokens in existence
+
+200: OK
+
+```
+6098790
+```
+
+### superOETHb total supply <a href="#superOETHb-total-supply" id="superOETHb-total-supply"></a>
+------------------------------------------------------------------------
+
+`GET` `https://api.originprotocol.com/total-superoethb`
+
+The total number of Origin Dollar (OUSD) tokens in existence
+
+200: OK
+
+```
+831
+```
+
+### OGN protocol revenue <a href="#ogn-protocol-revenue" id="ogn-protocol-revenue"></a>
+------------------------------------------------------------------------
 
 `GET` `https://api.originprotocol.com/api/v2/protocol-fees`
 
 Protocol revenue derived from OETH and OUSD performance fees
 
-```
 200: OK
+
+```
+{
+  "revenue": {
+    "now": 1736391.64,
+    "oneDayAgo": 1733964.75,
+    "twoDaysAgo": 1731260.21,
+    "oneWeekAgo": 1721591.91,
+    "twoWeeksAgo": 1701508.32,
+    "thirtyDaysAgo": 1660510.44,
+    "sixtyDaysAgo": 1592424.46,
+    "ninetyDaysAgo": 1505980.6
+  },
+  "days": [
+    {
+      "date": 1725235200,
+      "revenue": 2426.88
+    },
+    {
+      "date": 1725148800,
+      "revenue": 2704.54
+    },
+    {
+      "date": 1725062400,
+      "revenue": 1426.15
+    },
+    {
+      "date": 1724976000,
+      "revenue": 3234.23
+    },
+    // all fee history
+  ]
+}
 ```
