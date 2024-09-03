@@ -6,7 +6,7 @@ description: Beyond liquid staking
 
 <figure><picture><source srcset="../../.gitbook/assets/diagram-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/diagram-light.svg" alt=""></picture><figcaption><p>Super OETH architecture</p></figcaption></figure>
 
-Super OETH is the first in a new class of yield product; supercharged LSTs. By combining liquid staking yield from Ethereum with compounded rewards on layer 2, supercharged LSTs offer materially higher APY compared to traditional LSTs without adding substantial risk of loss. Origin's first token to launch in this category is superOETHb, which derives Beacon Chain yield from bridged Wrapped [OETH](../oeth/) and rewards from Aerodrome through a protocol-owned, concentrated liquidity position on Base.
+Super OETH is the first in a new class of yield product; Supercharged LSTs. By combining liquid staking yield from Ethereum with compounded rewards on layer 2, Supercharged LSTs offer materially higher APY compared to traditional LSTs without adding substantial risk of loss. Origin's first token to launch in this category is superOETHb, which derives Beacon Chain yield from bridged Wrapped [OETH](../oeth/) and rewards from Aerodrome through a protocol-owned, concentrated liquidity position on Base.
 
 As a supercharged version of Origin's flagship liquid staking token, Super OETH inherits most of its code from [OETH](../oeth/) and benefits from its multi-year track record of safety and numerous [audits](../../security-and-risk/audits.md). Both products are rebasing ERC-20 tokens that grow automatically in your wallet every day as ETH yield is harvested and auto-compounded.
 
