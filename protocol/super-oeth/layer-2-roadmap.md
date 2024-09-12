@@ -8,7 +8,7 @@ By leveraging layer 2 solutions, Super OETH can offer compounded rewards and hig
 
 #### August 2024
 
-* Super OETH is deployed as superOETHb on Base with Beacon Chain yield bridged from Ethereum
+* Super OETH is deployed as superOETHb on Base with Beacon Chain yield bridged from Ethereum and an Aerodrome integration
 
 #### September 2024
 
@@ -17,7 +17,7 @@ By leveraging layer 2 solutions, Super OETH can offer compounded rewards and hig
 
 #### Q3-Q4 2024
 
-* Super OETH is deployed as superOETHo on Optimism with a Velodrome integration
+* Super OETH is deployed as superOETHo on Optimism with Beacon Chain yield bridged from Ethereum and a Velodrome integration
 * Additional L2 deployments are considered for Super OETH
 * Value from Super OETH accrues to OGN holders
 
