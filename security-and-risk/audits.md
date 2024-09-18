@@ -6,6 +6,7 @@ Origin has a continuous auditing agreement with [OpenZeppelin](https://openzeppe
 
 At launch, OETH utilized 95% of the same code as OUSD and has since been simplified with the removal of LST collateral and farming strategies. Changes were audited by [OpenZeppelin](https://www.openzeppelin.com/) and [Narya](https://narya.ai/) prior to launch. OUSD has also been thoroughly audited by multiple other top security firms, including [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/).
 
+* [OpenZeppelin, Super OETH Aerodrome AMO Strategy Audit - September 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Aerodrome%20AMO%20Strategy%20Audit%20-%20September%202024.pdf)
 * [OpenZeppelin, OETH Withdrawal Queue, August 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20OETH%20Withdrawal%20Queue%20Audit%20-%20August%202024.pdf)
 * [OpenZeppelin, OETH Native Staking, June 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20SSV%20Native%20Staking%20-%20June%202024.pdf)
 * [OpenZeppelin, OGN/OGV Merge, May 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20OGV%20and%20OGN%20Merge%20-%20May%202024.pdf)
