@@ -64,6 +64,7 @@
   * [General Proposal](guides/governance-templates/general-proposal.md)
   * [Yield Strategy Proposal](guides/governance-templates/yield-strategy-proposal.md)
   * [Collateral Proposal](guides/governance-templates/collateral-proposal.md)
+* [Incentivized Harvesting Guide](guides/incentivized-harvesting-guide.md)
 
 ## Links
 
