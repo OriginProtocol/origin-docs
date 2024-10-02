@@ -6,7 +6,7 @@ The ARM has the capability of playing a pivotal role in DeFi by providing the fo
 
 * **Zero Slippage:** The ARM offers zero-slippage swaps for redeemable assets saving traders a large amount on swaps in comparison to other options on the market.
 * **Market-Based Pricing**: The prices are based on the market rates at the time and the length of the redemption queue.&#x20;
-* I**nstant Liquidity**: Enables 1:2 swap prices between LSTs and ETH.
+* I**nstant Liquidity**: Enables 1:1 swap prices between LSTs and ETH.
 * **Low Fees**: The ARM is gas-optimized and provides modest trading fees.
 * **Revenue Generation**: The ARM will play a pivotal role in generating protocol revenue that accrues to OGN.
 
