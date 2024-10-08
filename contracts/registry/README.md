@@ -28,6 +28,10 @@ description: Contracts for all Origin tokens and products
 
 <table><thead><tr><th width="252">Contract</th><th>Addres</th></tr></thead><tbody><tr><td>Admin (5 of 8 multi-sig)</td><td>0x92A19381444A001d62cE67BaFF066fA1111d7202</td></tr><tr><td>Guardian (2 of 8 multi-sig)</td><td>0x28bce2eE5775B652D92bB7c2891A89F036619703</td></tr><tr><td>Reservoir (2 of 8 multi-sig)</td><td>0xb6D85Ce798660076152d6FD3a484129668839c95</td></tr><tr><td>Timelock</td><td><a href="https://basescan.org/address/0xf817cb3092179083c48c014688d98b72fb61464f">0xf817cb3092179083c48c014688D98B72fB61464f</a></td></tr></tbody></table>
 
+#### Optimism
+
+<table><thead><tr><th width="253">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 multi-sig)</td><td>0x0306a36DdC7586cef2387FB596f4f360fbcb850C</td></tr><tr><td>Guardian (2 of 8 multi-sig)</td><td>0xE8947F06351bDa440e4e8ae9bf48437f25B41538</td></tr></tbody></table>
+
 ## Products
 
 {% content-ref url="oeth-registry.md" %}
