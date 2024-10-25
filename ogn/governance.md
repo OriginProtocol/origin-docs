@@ -40,7 +40,7 @@ Here are the step-by-step instructions to vote and create a proposal:
     _(Set the voting period for 1 week for new yield strategies, or 2 weeks for new collateral)_
 5. Vote for the implementation to be executed&#x20;
 
-Feel free to use one of the [templates](https://docs.oeth.com/guides/governance-templates) as a guide for writing governance proposals
+Feel free to use one of the [templates](../guides/governance-templates/) as a guide for writing governance proposals
 
 #### Here are the parameters currently configured on the governance contract: <a href="#strategists" id="strategists"></a>
 
