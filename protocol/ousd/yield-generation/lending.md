@@ -4,8 +4,10 @@ description: Unbanking the banked
 
 # Lending
 
-DeFi money markets let users lend and borrow crypto assets without any middlemen. Both lenders and borrowers get more value from their crypto. Lenders earn interest, while borrowers deposit crypto as collateral to gain access to credit without traditional banking headaches. These platforms can provide far superior returns for lenders than are generally available in traditional markets.
+DeFi money markets enable users to lend and borrow crypto assets without intermediaries, offering greater value for both parties. Lenders earn interest, while borrowers use crypto as collateral to access credit without traditional banking hurdles. These platforms often provide better returns for lenders than traditional markets.
 
-OUSD and OETH lend to borrowers who have over-collateralized loans. Over-collateralization, combined with smart rules around liquidations, provides a reasonable level of security for lenders. Aave also additionally secures its lending pools with AAVE tokens respectively, further lowering risk.
+OUSD lends to borrowers with over-collateralized loans, ensuring security through strict liquidation rules. Additionally, platforms like Aave secure lending pools with AAVE tokens to reduce risk further.&#x20;
 
-OUSD and OETH only utilize the following top money markets which have a proven track record, audited smart contracts, and have successfully lent hundreds of millions of dollars without issue:
+OUSD exclusively uses top-tier money markets with audited smart contracts and a proven track record of handling hundreds of millions of dollars safely.
+
+One such platform is Morpho Vault, which offers permissionless lending vaults tailored to different risk profiles. OUSD currently lends to the Steakhouse USDC vault, known for its strong yield and institutional-grade risk management.
