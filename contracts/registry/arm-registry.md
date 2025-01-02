@@ -18,3 +18,6 @@ Third Party Contracts
 
 <table><thead><tr><th width="223">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Lido Withdrawal Queue</td><td><a href="https://etherscan.io/address/0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1">0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1</a></td></tr></tbody></table>
 
+Operational Accounts
+
+<table><thead><tr><th width="223">Account</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899">0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x39878253374355DBcc15C86458F084fb6f2d6DE7">0x39878253374355DBcc15C86458F084fb6f2d6DE7</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a></td></tr></tbody></table>
