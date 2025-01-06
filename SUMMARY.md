@@ -68,7 +68,9 @@
 
 ## Links
 
+* [Website](https://originprotocol.com)
+* [Dapp](https://app.originprotocol.com/)
 * [GitHub](https://github.com/OriginProtocol)
 * [Discord](https://originprotocol.com/discord)
-* [Website](https://originprotocol.com)
-* [Dapp](https://originprotocol.eth.limo)
+* [Telegram](https://t.me/originprotocol)
+* [Governance Forum](https://governance.originprotocol.com/)

@@ -32,7 +32,7 @@ Yield Forwarding gives OGN governance the ability to forward yield during a reba
 Yield Forwarding does not have an impact on any existing or ongoing balances of OUSD or OETH held by a target address. This means that a target address could receive a rebase on existing balances, along with receiving forwarded yield from a source address.
 {% endhint %}
 
-If you'd like to propose an idea for a target contract or discuss a Yield Forwarding proposal, feel free to start a conversation in our [Discord](https://discord.gg/jyxpUSe). Proposals to enable Yield Forwarding for a source address can be made using the [rebase-opt-in-proposal.md](../../guides/governance-templates/rebase-opt-in-proposal.md "mention").
+If you'd like to propose an idea for a target contract or discuss a Yield Forwarding proposal, feel free to start a conversation in our [Discord](https://discord.gg/jyxpUSe) or [official Governance Forum](https://governance.originprotocol.com/). Proposals to enable Yield Forwarding for a source address can be made using the [rebase-opt-in-proposal.md](../../guides/governance-templates/rebase-opt-in-proposal.md "mention").
 
 #### Checking rebase status
 

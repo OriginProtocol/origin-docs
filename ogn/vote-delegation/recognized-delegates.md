@@ -1,6 +1,6 @@
 # Recognized Delegates
 
-As the Origin community grows in members and in TVL, there will likely be an overwhelming amount of proposals submitted to Origin's Discord forum and Snapshot. Below is a list of delegates who hold significant voting power in the Origin DAO who you may wish to delegate voting power to:
+As the Origin community grows in members and in TVL, there will likely be an overwhelming amount of proposals submitted to Origin's governance forum and Snapshot. Below is a list of delegates who hold significant voting power in the Origin DAO who you may wish to delegate voting power to:
 
 * [originteam.eth](https://etherscan.io/address/0x449e0b5564e0d141b3bc3829e74ffa0ea8c08ad5) — Origin’s team account
 * [joshfraser.eth](https://etherscan.io/address/0x57b0dd7967955c92b6e34a038b47fee63e1efd1a) — Origin’s cofounder overseeing Origin development
