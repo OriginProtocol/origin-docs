@@ -13,4 +13,4 @@ You may choose to delegate your voting power for off-chain proposals on the [Ori
 
 After completing these steps, the xOGN voting power is successfully delegated to the address specified.
 
-xOGN can be delegated to any address, though you may want to consider delegating to one of the [Recognized Delegates](https://docs.oeth.com/governance/vote-delegation/recognized-delegates).
+xOGN can be delegated to any address, though you may want to consider delegating to one of the [Recognized Delegates](recognized-delegates.md).

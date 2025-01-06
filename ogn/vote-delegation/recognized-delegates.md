@@ -20,3 +20,5 @@ University blockchain clubs participating in the [university-governance-program.
 * [0x123...3b9DE](https://etherscan.io/address/0x1237B1b6EDC76b1aBC3614e6c9b5f75C4e13b9DE) — UC Santa Barbara
 * [0xDcc...7277e7](https://etherscan.io/address/0xdcc57edf7ff5c0336e5577b2c677867d6c7277e7) — Cal Poly San Luis Obispo
 
+Learn more about your delegates on the [Meet Your Delegates](https://governance.originprotocol.com/c/proposals/meet-your-delegates/12) forum page.
+
