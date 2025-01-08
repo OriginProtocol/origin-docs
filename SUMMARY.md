@@ -53,6 +53,7 @@
   * [Super OETH Registry](contracts/registry/super-oeth-registry.md)
   * [OUSD Registry](contracts/registry/ousd-registry.md)
   * [ARM Registry](contracts/registry/arm-registry.md)
+* [Dapp](contracts/dapp.md)
 * [API](contracts/api.md)
 
 ## Guides
