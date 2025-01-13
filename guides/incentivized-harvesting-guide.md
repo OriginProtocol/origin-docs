@@ -20,7 +20,7 @@ When you call the harvest, **you will want to use some form of MEV protection** 
 
 To harvest, you call `harvester.harvestAndSwap(strategyAddress, rewardTo)`.
 
-The harvester address and strategyAddresses can be found in the [contract registry](broken-reference). The `rewardTo` address is the account that will receive the USDT funds as a reward for calling the function - use your own address for it.
+The harvester address and strategyAddresses can be found in the [contract registry](../registry/contracts/). The `rewardTo` address is the account that will receive the USDT funds as a reward for calling the function - use your own address for it.
 
 Below is the harvestAndSwap ABI:
 
