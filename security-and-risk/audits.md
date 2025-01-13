@@ -6,6 +6,7 @@ Origin has a continuous auditing agreement with [OpenZeppelin](https://openzeppe
 
 At launch, OETH utilized 95% of the same code as OUSD and has since been simplified with the removal of LST collateral and farming strategies. Changes were audited by [OpenZeppelin](https://www.openzeppelin.com/) and [Narya](https://narya.ai/) prior to launch. OUSD has also been thoroughly audited by multiple other top security firms, including [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/).
 
+* [Certora, Formal verification - December 2024](https://github.com/OriginProtocol/security/blob/1e0adf97ee4c148f1a0e19a3556849987776c703/audits/Certora%20-%20Formal%20verification%20-%20December%202024.pdf)
 * [OpenZeppelin, Origin OUSD - December 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20OUSD%20-%20December%202024.pdf)
 * [OpenZeppelin, Origin Arm Audit - November 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Arm%20Audit%20-%20November%202024.pdf)
 * [OpenZeppelin, Super OETH Aerodrome AMO Strategy Audit - September 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Aerodrome%20AMO%20Strategy%20Audit%20-%20September%202024.pdf)
