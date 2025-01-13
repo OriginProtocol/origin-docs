@@ -5,7 +5,6 @@ As the Origin community grows in members and in TVL, there will likely be an ove
 * [originteam.eth](https://etherscan.io/address/0x449e0b5564e0d141b3bc3829e74ffa0ea8c08ad5) — Origin’s team account
 * [joshfraser.eth](https://etherscan.io/address/0x57b0dd7967955c92b6e34a038b47fee63e1efd1a) — Origin’s cofounder overseeing Origin development
 * [micahalcorn.eth](https://etherscan.io/address/0x96feb7b6f808dd2bbd09c9e5ccde77cabd58d019) — Origin VP of Product
-* [danielvf.eth](https://etherscan.io/address/0x17768cfd6030e2b65eb5086e34a512fde5dc1f1f) — Origin smart contract engineer
 * [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — Origin smart contract engineer
 * [0x50fb…AEE1](https://etherscan.io/address/0x50fb9F9C069721FC4EF7Ea74cfe0680dc28eAEE1) — active community member “Orion” handle on Discord
 
