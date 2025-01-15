@@ -49,6 +49,7 @@
 ## Registry
 
 * [Contracts](registry/contracts/README.md)
+  * [OS Registry](registry/contracts/os-registry.md)
   * [OETH Registry](registry/contracts/oeth-registry.md)
   * [Super OETH Registry](registry/contracts/super-oeth-registry.md)
   * [OUSD Registry](registry/contracts/ousd-registry.md)
