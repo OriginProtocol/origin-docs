@@ -22,7 +22,7 @@ OS is designed to unlock the full potential of staking on Sonic while maximizing
 
 **Why OS?**
 
-* **4x Sonic Points Multiplier**: As an LST, OS benefits from Sonic’s priority rewards system, granting a **4x multiplier** on Sonic Points compared to non-LST assets.
+* **4x Sonic Points Multiplier**: As an LST, OS benefits from Sonic’s priority rewards system, granting a 4x multiplier on Sonic Points compared to non-LST assets.
 * **Earn Active and Passive Points**: Use OS in DeFi protocols to accumulate **active points** or simply hold it to generate **passive points**—both count toward maximizing your rewards.
 * **Battle-tested Code:** OS leverages the OUSD and OETH codebase, with over 14 audits and 4+ years in operation.
 * **Deep Liquidity**: OS is integrated with Sonic’s top DEXs, starting with a flagship pool on SwapX.
