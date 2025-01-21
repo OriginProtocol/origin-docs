@@ -6,18 +6,3 @@ Prominent layer 2 solutions, such as rollups (both optimistic and zero-knowledge
 
 By leveraging layer 2 solutions, Super OETH can offer compounded rewards and higher yields while maintaining the robust security and decentralization that Ethereum is known for.
 
-#### August 2024
-
-* Super OETH is deployed as superOETHb on Base with Beacon Chain yield bridged from Ethereum and an Aerodrome integration
-
-#### September 2024
-
-* Super OETH begins harvesting incentives from Base to generate higher yield for superOETHb
-* Top tier money markets begin integrating Super OETH to enable optional leveraged staking
-
-#### Q3-Q4 2024
-
-* Super OETH is deployed as superOETHo on Optimism with Beacon Chain yield bridged from Ethereum and a Velodrome integration
-* Additional L2 deployments are considered for Super OETH
-* Value from Super OETH accrues to OGN holders
-
