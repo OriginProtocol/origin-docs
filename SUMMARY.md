@@ -17,6 +17,8 @@
   * [Redemption](protocol/oeth/redemption.md)
   * [Dripper](protocol/oeth/dripper.md)
   * [Zapper](protocol/oeth/zapper.md)
+* [OS](protocol/os/README.md)
+  * [Redemption](protocol/os/redemption.md)
 * [Super OETH](protocol/super-oeth/README.md)
   * [Supercharged LSTs](protocol/super-oeth/supercharged-lsts.md)
   * [Protocol-Owned Liquidity](protocol/super-oeth/protocol-owned-liquidity.md)
