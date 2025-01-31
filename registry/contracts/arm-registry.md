@@ -12,7 +12,7 @@ description: Contracts related to the Automated Redemption Manager (ARM)
 
 Supporting Contracts
 
-<table><thead><tr><th width="223">Contract</th><th>Address</th></tr></thead><tbody><tr><td>ARM Buyback</td><td><a href="https://etherscan.io/address/0xBa0E6d6ea72cDc0D6f9fCdcc04147c671BA83dB5">0xBa0E6d6ea72cDc0D6f9fCdcc04147c671BA83dB5</a></td></tr><tr><td>Cap Manager</td><td><a href="https://etherscan.io/address/0xf54ebff575f699d281645c6F14Fe427dFFE629CF">0xf54ebff575f699d281645c6F14Fe427dFFE629CF</a></td></tr><tr><td>Lido ARM Zapper</td><td><a href="https://etherscan.io/address/0x01F30B7358Ba51f637d1aa05D9b4A60f76DAD680">0x01F30B7358Ba51f637d1aa05D9b4A60f76DAD680</a></td></tr></tbody></table>
+<table><thead><tr><th width="223">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Cap Manager</td><td><a href="https://etherscan.io/address/0xf54ebff575f699d281645c6F14Fe427dFFE629CF">0xf54ebff575f699d281645c6F14Fe427dFFE629CF</a></td></tr><tr><td>Lido ARM Zapper</td><td><a href="https://etherscan.io/address/0x01F30B7358Ba51f637d1aa05D9b4A60f76DAD680">0x01F30B7358Ba51f637d1aa05D9b4A60f76DAD680</a></td></tr></tbody></table>
 
 Third Party Contracts
 
@@ -20,4 +20,4 @@ Third Party Contracts
 
 Operational Accounts
 
-<table><thead><tr><th width="223">Account</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899">0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x39878253374355DBcc15C86458F084fb6f2d6DE7">0x39878253374355DBcc15C86458F084fb6f2d6DE7</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a></td></tr></tbody></table>
+<table><thead><tr><th width="223">Account</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F">0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x39878253374355DBcc15C86458F084fb6f2d6DE7">0x39878253374355DBcc15C86458F084fb6f2d6DE7</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0x4ff1b9d9ba8558f5eafcec096318ea0d8b541971">0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971</a></td></tr></tbody></table>
