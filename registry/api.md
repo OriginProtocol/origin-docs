@@ -6,7 +6,7 @@ Our wrapper API can be found on the `api.originprotocol.com` endpoint. Most of t
 
 Some dates are displayed as timestamps or epochs, which can be converted to human-readable dates [here](https://www.epochconverter.com/).
 
-## OUSD/OETH Analytics <a href="#ousd-oeth-analytics" id="ousd-oeth-analytics"></a>
+## Analytics <a href="#ousd-oeth-analytics" id="ousd-oeth-analytics"></a>
 
 ### Trailing yield <a href="#trailing-yield" id="trailing-yield"></a>
 
@@ -20,10 +20,10 @@ Number of days greater than 100 may produce unexpected results
 
 **Path Parameters**
 
-| Name     | Type   | Description            |
-| -------- | ------ | ---------------------- |
-| symbol\* | String | ousd, oeth, superoethb |
-| days     | Number | Number of days         |
+| Name     | Type   | Description                |
+| -------- | ------ | -------------------------- |
+| symbol\* | String | ousd, oeth, superoethb, os |
+| days     | Number | Number of days             |
 
 **Query Parameters**
 
@@ -44,14 +44,14 @@ Number of days greater than 100 may produce unexpected results
 
 `GET` `https://api.originprotocol.com/api/v2/{token}/stats/{stat}{?chainId}`
 
-All available stats for OETH, OUSD and superOETHb
+All available stats for OETH, OUSD, OS and superOETHb
 
 **Path Parameters**
 
-| Name     | Type   | Description            |
-| -------- | ------ | ---------------------- |
-| symbol\* | String | ousd, oeth, superoethb |
-| stat     | String | available Stat         |
+| Name     | Type   | Description                |
+| -------- | ------ | -------------------------- |
+| symbol\* | String | ousd, oeth, superoethb, os |
+| stat     | String | available Stat             |
 
 **Query Parameters**
 
@@ -95,9 +95,9 @@ The current credits per token
 
 **Path Parameters**
 
-| Name     | Type   | Description            |
-| -------- | ------ | ---------------------- |
-| symbol\* | String | ousd, oeth, superoethb |
+| Name     | Type   | Description                |
+| -------- | ------ | -------------------------- |
+| symbol\* | String | ousd, oeth, superoethb, os |
 
 **Query Parameters**
 
@@ -122,9 +122,9 @@ The recent annualized historical yield for OUSD or OETH
 
 **Path Parameters**
 
-| Name     | Type   | Description  |
-| -------- | ------ | ------------ |
-| symbol\* | String | ousd or oeth |
+| Name     | Type   | Description    |
+| -------- | ------ | -------------- |
+| symbol\* | String | ousd, oeth, os |
 
 200: OK
 
@@ -379,6 +379,20 @@ The total number of Origin Dollar (OUSD) tokens in existence
 
 ```json
 831
+```
+
+### OS total supply <a href="#superoethb-total-supply" id="superoethb-total-supply"></a>
+
+***
+
+`GET` `https://api.originprotocol.com/total-os`
+
+The total number of Origin Sonic (OS) tokens in existence
+
+200: OK
+
+```json
+6251631.229314405979348434
 ```
 
 ### OGN protocol revenue <a href="#ogv-protocol-revenue" id="ogv-protocol-revenue"></a>
