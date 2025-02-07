@@ -18,6 +18,7 @@
   * [Dripper](protocol/oeth/dripper.md)
   * [Zapper](protocol/oeth/zapper.md)
 * [OS](protocol/os/README.md)
+  * [Staking on Sonic](protocol/os/staking-on-sonic.md)
   * [Redemption](protocol/os/redemption.md)
 * [Super OETH](protocol/super-oeth/README.md)
   * [Supercharged LSTs](protocol/super-oeth/supercharged-lsts.md)

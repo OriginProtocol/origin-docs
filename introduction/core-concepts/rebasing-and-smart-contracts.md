@@ -1,12 +1,12 @@
 # Rebasing & Smart Contracts
 
-If you are using a multi-sig wallet or another smart contract wishing to participate in the rebasing aspect of OUSD or OETH you must call the `rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
+If you are using a multi-sig wallet or another smart contract wishing to participate in the rebasing aspect of OUSD, OETH, OS, or Super OETH you must call the `rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
 
 {% hint style="info" %}
 Multi-sig wallets or other smart contracts must call `rebaseOptIn()` to earn yield.
 {% endhint %}
 
-By default, OUSD and OETH held on smart contracts will not participate in the rebasing nature of the token and will forfeit any yield unless the smart contract explicitly opts in. This increases the composability of these coins within DeFi as many protocols weren't designed with the expectation that balances might change without an account-specific event being emitted. To other DeFi protocols, OUSD and OETH work just like any other normal, well-behaved ERC-20 until you ask it to change. This is a particularly useful attribute for automated market makers (AMMs) like Uniswap, which break when the number of tokens held changes unexpectedly.
+By default, OUSD, OETH, OS and Super OETH held on smart contracts will not participate in the rebasing nature of the token and will forfeit any yield unless the smart contract explicitly opts in. This increases the composability of these coins within DeFi as many protocols weren't designed with the expectation that balances might change without an account-specific event being emitted. To other DeFi protocols, OUSD and OETH work just like any other normal, well-behaved ERC-20 until you ask it to change. This is a particularly useful attribute for automated market makers (AMMs) like Uniswap, which break when the number of tokens held changes unexpectedly.
 
 Smart contracts must explicitly opt-in to receive yield via the rebasing mechanism. This fixes the issue with the expanding supply on AMMs while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.&#x20;
 
@@ -24,7 +24,7 @@ OGN governance is able to whitelist specific addresses to receive yield. Based o
 
 This allows for integrations with other DeFi protocols that have immutable contracts or are otherwise unable to opt-in to yield themselves.
 
-#### Yield Forwarding (Coming Soon)
+#### Yield Forwarding
 
 Yield Forwarding gives OGN governance the ability to forward yield during a rebase from a source address to a target address. Yield forwarding represents a one-to-one relationship between the source and target address. This means that a source address is unable to forward yield to more than one address and a target address is unable to receive forwarded yield from more than one source. The typical use case of Yield Forwarding is to forward yield earned from deposited assets in AMMs or other DeFi protocols to smart contracts that unlock new functionality for that earned yield.
 
