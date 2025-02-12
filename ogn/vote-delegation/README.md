@@ -6,7 +6,7 @@ You may choose to delegate your voting power for off-chain proposals on the [Ori
 
 **How to Delegate** (off-chain)
 
-* Go to: [https://snapshot.org/#/delegate](https://snapshot.org/#/delegate).
+* Go to: [https://snapshot.org/#/delegate](https://v1.snapshot.box/#/delegate).
 * Type in the address or ENS name you want to delegate to.
 * There is an option to limit the delegation power to only Origin by selecting "Limit delegation to a specific space" and typing in “origingov.eth”.
 * Click confirm to save your delegation. Delegating your voting power only for the ousdgov.eth Snapshot space
