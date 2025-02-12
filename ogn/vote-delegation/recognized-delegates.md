@@ -3,7 +3,6 @@
 As the Origin community grows in members and in TVL, there will likely be an overwhelming amount of proposals submitted to Origin's governance forum and Snapshot. Below is a list of delegates who hold significant voting power in the Origin DAO who you may wish to delegate voting power to:
 
 * [originteam.eth](https://etherscan.io/address/0x449e0b5564e0d141b3bc3829e74ffa0ea8c08ad5) — Origin’s team account
-* [joshfraser.eth](https://etherscan.io/address/0x57b0dd7967955c92b6e34a038b47fee63e1efd1a) — Origin’s cofounder overseeing Origin development
 * [micahalcorn.eth](https://etherscan.io/address/0x96feb7b6f808dd2bbd09c9e5ccde77cabd58d019) — Origin VP of Product
 * [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — Origin smart contract engineer
 * [0x50fb…AEE1](https://etherscan.io/address/0x50fb9F9C069721FC4EF7Ea74cfe0680dc28eAEE1) — active community member “Orion” handle on Discord
