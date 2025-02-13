@@ -5,7 +5,7 @@ As the Origin community grows in members and in TVL, there will likely be an ove
 * [originteam.eth](https://etherscan.io/address/0x449e0b5564e0d141b3bc3829e74ffa0ea8c08ad5) — Origin’s team account
 * [micahalcorn.eth](https://etherscan.io/address/0x96feb7b6f808dd2bbd09c9e5ccde77cabd58d019) — Origin VP of Product
 * [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — Origin smart contract engineer
-* [0x50fb…AEE1](https://etherscan.io/address/0x50fb9F9C069721FC4EF7Ea74cfe0680dc28eAEE1) — active community member “Orion” handle on Discord
+* [0x50fb…AEE1](https://etherscan.io/address/0x50fb9F9C069721FC4EF7Ea74cfe0680dc28eAEE1) — active community member “chiefdegen” on Discord
 
 University blockchain clubs participating in the [university-governance-program.md](../university-governance-program.md "mention") also hold significant voting power in the Origin DAO:
 
