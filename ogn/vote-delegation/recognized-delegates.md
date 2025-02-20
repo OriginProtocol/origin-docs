@@ -9,7 +9,7 @@ As the Origin community grows in members and in TVL, there will likely be an ove
 
 University blockchain clubs participating in the [university-governance-program.md](../university-governance-program.md "mention") also hold significant voting power in the Origin DAO:
 
-* [franklindao.eth](https://etherscan.io/address/0xcc878369b26127bd4bc1b0b465bc8be9b92a4c62) — UPenn/FranklinDAO
+* [franklindao.eth](https://etherscan.io/address/0xcc878369b26127bd4bc1b0b465bc8be9b92a4c62) — UPenn / FranklinDAO
 * [calblockchain.eth](https://etherscan.io/address/0x7ae109a63ff4dc852e063a673b40bed85d22e585) — Berkeley / CalBlockchain&#x20;
 * [michiganblockchain.eth](https://etherscan.io/address/0x13bdae8c5f0fc40231f0e6a4ad70196f59138548) — University of Michigan
 * [boilerblockchain.eth](https://etherscan.io/address/0x2345F4E0CdF00D427D773413Dd4617d0156c29A9) — Purdue University
