@@ -4,6 +4,7 @@ As the Origin community grows in members and in TVL, there will likely be an ove
 
 * [originteam.eth](https://etherscan.io/address/0x449e0b5564e0d141b3bc3829e74ffa0ea8c08ad5) — Origin’s team account
 * [micahalcorn.eth](https://etherscan.io/address/0x96feb7b6f808dd2bbd09c9e5ccde77cabd58d019) — Origin VP of Product
+* [peteorigin.eth](https://etherscan.io/address/0xcC4Fd6e348009710404641a01b29f15703b90aed) — Origin BD Manager
 * [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — Origin smart contract engineer
 * [massadoption.eth](https://etherscan.io/address/0x9FfD0a5b5438B95861167422E745D34d151bcc3b) — active community member “guzman\_massadoption” on Discord
 
