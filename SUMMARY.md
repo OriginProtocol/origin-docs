@@ -57,6 +57,7 @@
   * [Super OETH Registry](registry/contracts/super-oeth-registry.md)
   * [OUSD Registry](registry/contracts/ousd-registry.md)
   * [ARM Registry](registry/contracts/arm-registry.md)
+  * [Pool Booster](registry/contracts/pool-booster.md)
 * [Dapp](registry/dapp.md)
 * [API](registry/api.md)
 
