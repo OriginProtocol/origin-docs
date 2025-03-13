@@ -14,13 +14,17 @@ description: Contracts for all Origin tokens and products
 
 <table><thead><tr><th width="230">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Origin Token (ERC-20)</td><td><a href="https://basescan.org/token/0x7002458B1DF59EccB57387bC79fFc7C29E22e6f7">0x7002458B1DF59EccB57387bC79fFc7C29E22e6f7</a></td></tr></tbody></table>
 
+#### Sonic
+
+<table data-full-width="true"><thead><tr><th width="235.64453125">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Origin Token (ERC-20)</td><td><a href="https://sonicscan.org/token/0x61647882acf21792e577a963d320d51e2c8f6194">0x61647882acf21792e577a963d320d51e2c8f6194</a></td></tr></tbody></table>
+
+
+
 ## Governance
 
 #### Multichain
 
 <table><thead><tr><th width="251">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Guardian (2 of 8 Safe)</td><td>0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971</td></tr></tbody></table>
-
-
 
 #### Ethereum
 
