@@ -52,7 +52,3 @@ This [function](https://github.com/OriginProtocol/origin-dollar/blob/master/cont
 | 3 - YieldDelegationSource | **Does not** receive yield | **Does not** receive yield |
 | 4 - YieldDelegationTarget | Receives yield             | Receives yield             |
 
-{% hint style="warning" %}
-The Yield Forwarding features that will enable the YieldDelegation options for rebaseState are pending contract upgrades and will be available soon.
-{% endhint %}
-
