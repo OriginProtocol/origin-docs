@@ -19,6 +19,7 @@ At launch, OETH utilized 95% of the same code as OUSD and has since been simplif
 * [Narya, Origin OETH Report, May 2023, Initial Report](https://github.com/OriginProtocol/security/blob/master/audits/Narya%20-%20Origin%20OETH%20Report%20-%20May%202023%20-%20Initial%20Report.pdf)
 * [OpenZeppelin, Origin Dollar OETH Integration, May 2023](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20OETH%20Integration%20-%20May%202023.pdf)
 * [OpenZeppelin, OUSD Dripper & Uniswap Strategy Audit, April 2023](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20Dripper%20%26%20Uniswap%20strategy%20-%20April%202023.pdf)
+* [CyberScope, OGN Staking Audit, December 2022](https://github.com/OriginProtocol/security/blob/master/audits/community/CyberScope%20-%20OGN%20Staking%20-%20Dec%202022.pdf)
 * [OpenZeppelin, OUSD Convex Strategies Audit, October 2022](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20Convex%20-%20October%202022.pdf)
 * [Solidified, wOUSD, ERC721a, Governance, Harvester & Dripper Audit, May 2022](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGV%2C%20wOUSD%2C%20and%20ERC721a%20-%20May%202022.pdf)
 * [OpenZeppelin, OUSD Audit, August 2021](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20-%20October%202021.pdf)
