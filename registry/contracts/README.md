@@ -16,7 +16,7 @@ description: Contracts for all Origin tokens and products
 
 #### Sonic
 
-<table data-full-width="true"><thead><tr><th width="235.64453125">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Origin Token (ERC-20)</td><td><a href="https://sonicscan.org/token/0x61647882acf21792e577a963d320d51e2c8f6194">0x61647882acf21792e577a963d320d51e2c8f6194</a></td></tr></tbody></table>
+<table><thead><tr><th width="229.953125">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Origin Token (ERC-20)</td><td><a href="https://sonicscan.org/token/0x61647882acf21792e577a963d320d51e2c8f6194">0x61647882acf21792e577a963d320d51e2c8f6194</a></td></tr></tbody></table>
 
 
 
