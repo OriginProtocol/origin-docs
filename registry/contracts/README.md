@@ -42,9 +42,13 @@ description: Contracts for all Origin tokens and products
 
 <table><thead><tr><th width="253">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 Safe)</td><td>0x0306a36DdC7586cef2387FB596f4f360fbcb850C</td></tr><tr><td>Guardian (2 of 8 Safe)</td><td>0xE8947F06351bDa440e4e8ae9bf48437f25B41538</td></tr></tbody></table>
 
+#### Plume
+
+<table><thead><tr><th width="255.33203125">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 Safe)</td><td>0x92A19381444A001d62cE67BaFF066fA1111d7202</td></tr></tbody></table>
+
 #### Sonic
 
-<table><thead><tr><th width="292">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 Safe)</td><td>0xAdDEA7933Db7d83855786EB43a238111C69B00b6</td></tr><tr><td>Guardian (2 of 8 Safe)</td><td>0x63cdd3072F25664eeC6FAEFf6dAeB668Ea4de94a</td></tr></tbody></table>
+<table><thead><tr><th width="255.27734375">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 Safe)</td><td>0xAdDEA7933Db7d83855786EB43a238111C69B00b6</td></tr><tr><td>Guardian (2 of 8 Safe)</td><td>0x63cdd3072F25664eeC6FAEFf6dAeB668Ea4de94a</td></tr></tbody></table>
 
 
 
