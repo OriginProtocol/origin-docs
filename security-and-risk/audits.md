@@ -35,9 +35,13 @@ The governance token (OGN) and all associated governance contracts have been aud
 * [Solidified, OGV Audit, May 2022](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGV%2C%20wOUSD%2C%20and%20ERC721a%20-%20May%202022.pdf)
 * [OpenZeppelin, OUSD Governance Audit, June 2022](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20Governance%20-%20June%202022.pdf)
 
-We're also grateful for the in-depth risk assessment of OETH from [LlamaRisk](https://llamarisk.substack.com/):&#x20;
+We're also grateful for the in-depth risk assessments of OETH from [LlamaRisk](https://llamarisk.substack.com/):&#x20;
 
 > [Asset Risk Assessment: Origin Ether (OETH)](https://llamarisk.substack.com/p/asset-risk-assessment-origin-ether)
+>
+> [Collateral Risk Assessment - Wrapped Origin ETH (wOETH)](https://hackmd.io/@PrismaRisk/wOETH#Collateral-Risk-Assessment---Wrapped-Origin-ETH-wOETH)
+>
+> [Addendum to Collateral Risk Assessment - Wrapped Origin ETH (wOETH)](https://www.llamarisk.com/research/collateral-risk-woeth-addendum1)
 
 In addition, the underlying strategies and dependencies that OUSD utilizes have been thoroughly audited by various firms.
 
