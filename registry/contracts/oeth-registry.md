@@ -30,7 +30,7 @@ The AURA/ETH price comes from Origin's `AuraWETHPriceFeed` contract, which uses 
 
 #### Plume
 
-<table><thead><tr><th width="294">Contract</th><th>Address</th></tr></thead><tbody><tr><td>wOETH (ERC-20)</td><td><a href="https://phoenix-explorer.plumenetwork.xyz/address/0xD8724322f44E5c58D7A815F542036fb17DbbF839">0xD8724322f44E5c58D7A815F542036fb17DbbF839</a></td></tr><tr><td>OETH / wOETH Exchange Rate (Chainlink Oracle)</td><td>To be deployed</td></tr><tr><td>wOETH LayerZero Adapter</td><td><a href="https://phoenix-explorer.plumenetwork.xyz/address/0x592CB6A596E7919930bF49a27AdAeCA7C055e4DB">0x592CB6A596E7919930bF49a27AdAeCA7C055e4DB</a></td></tr></tbody></table>
+<table><thead><tr><th width="294">Contract</th><th>Address</th></tr></thead><tbody><tr><td>wOETH (ERC-20)</td><td><a href="https://phoenix-explorer.plumenetwork.xyz/address/0xD8724322f44E5c58D7A815F542036fb17DbbF839">0xD8724322f44E5c58D7A815F542036fb17DbbF839</a></td></tr><tr><td>OETH / wOETH Exchange Rate (eOracle)</td><td><a href="https://phoenix-explorer.plumenetwork.xyz/address/0x4915600Ed7d85De62011433eEf0BD5399f677e9b?tab=contract">0x4915600Ed7d85De62011433eEf0BD5399f677e9b</a></td></tr><tr><td>wOETH LayerZero Adapter</td><td><a href="https://phoenix-explorer.plumenetwork.xyz/address/0x592CB6A596E7919930bF49a27AdAeCA7C055e4DB">0x592CB6A596E7919930bF49a27AdAeCA7C055e4DB</a></td></tr></tbody></table>
 
 #### Optimism
 
