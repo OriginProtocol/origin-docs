@@ -14,7 +14,7 @@ University blockchain clubs participating in the [university-governance-program.
 * [calblockchain.eth](https://etherscan.io/address/0x7ae109a63ff4dc852e063a673b40bed85d22e585) — Berkeley / CalBlockchain&#x20;
 * [michiganblockchain.eth](https://etherscan.io/address/0x13bdae8c5f0fc40231f0e6a4ad70196f59138548) — University of Michigan
 * [boilerblockchain.eth](https://etherscan.io/address/0x2345F4E0CdF00D427D773413Dd4617d0156c29A9) — Purdue University
-* [emoryblockchain.eth](http://emoryblockchain.eth/) — Emory University
+* [emoryblockchain.eth](https://etherscan.io/address/0xda8894b8761E3a876E4311265826599DC84b82D5) — Emory University
 * [0x330...4b368](https://etherscan.io/address/0x33067db928e7ED73Ddb761bF7a118b586564b368) — Vanderbilt / Anchor DAO&#x20;
 * [0x93...3f1d7](https://etherscan.io/address/0x933EB459569836D53ad6647a29748Bb096b3f1d7) — Queens College
 * [0x07E...e741F](https://etherscan.io/address/0x07E3bFA4c952Bc58c2c30Ae20B0B7E9ACE9e741F) — NYU
