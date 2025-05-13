@@ -59,7 +59,7 @@ Aave has been audited by [Trail of Bits](https://www.trailofbits.com), [OpenZepp
 
 **Curve Strategy**
 
-Curve has been audited by [Trail of Bits](https://www.trailofbits.com) and [Quantstamp](https://quantstamp.com/). Visit the Curve documentation for [their full list of audits](https://www.curve.fi/audits).
+Curve has been audited by [Trail of Bits](https://www.trailofbits.com) and [Quantstamp](https://quantstamp.com/). Visit the Curve documentation for [their full list of audits](https://docs.curve.finance/security/security/#security-audits).
 
 **Convex Strategy**
 
