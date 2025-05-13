@@ -20,7 +20,7 @@ Over time, the effective power of old stakes is diluted by newer stakes having l
 
 ## **Comparing xOGN to veCRV**
 
-If you're familiar with [Curve Finance](https://curve.fi/)'s governance token model, you'll notice that ours is similar in many ways. When designing the xOGN model, we were initially inspired by veCRV and borrowed the general concept of rewarding longer-term stakers with significantly more power. However, we introduced several improvements that drastically reduce the code complexity and gas costs for stakers of OGN. Here are a few differences between the two implementations:
+If you're familiar with [Curve Finance](https://curve.finance)'s governance token model, you'll notice that ours is similar in many ways. When designing the xOGN model, we were initially inspired by veCRV and borrowed the general concept of rewarding longer-term stakers with significantly more power. However, we introduced several improvements that drastically reduce the code complexity and gas costs for stakers of OGN. Here are a few differences between the two implementations:
 
 * OGN holders can stake for multiple periods from the same Ethereum account.
 * OGN stakers can delegate their votes, allowing for users to participate in governance from a hot wallet while holding a large amount of OGN in a cold wallet or with an insured custodian.
