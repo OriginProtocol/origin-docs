@@ -66,8 +66,8 @@ description: Contracts for all Origin tokens and products
 [ousd-registry.md](ousd-registry.md)
 {% endcontent-ref %}
 
-{% content-ref url="arm-registry.md" %}
-[arm-registry.md](arm-registry.md)
+{% content-ref url="arm-registry/ethereum-arms.md" %}
+[ethereum-arms.md](arm-registry/ethereum-arms.md)
 {% endcontent-ref %}
 
 ## Miscellaneous
