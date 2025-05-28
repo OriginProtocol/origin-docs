@@ -8,7 +8,7 @@ title: Sonic ARMs
 
 ### Supporting Contracts
 
-<table><thead><tr><th width="223">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Cap Manager</td><td><a href="https://sonicscan.org/address/0x38B654d7859dab79935c9CF99267392c06D254cF#code">0x38B654d7859dab79935c9CF99267392c06D254cF</a></td></tr><tr><td>Sonic ARM Zapper</td><td><a href="https://sonicscan.org/address/0xcb8199AB7F8b7D97885FBDfb1f0ABc044f403C18#code">0xcb8199AB7F8b7D97885FBDfb1f0ABc044f403C18</a></td></tr></tbody></table>
+<table><thead><tr><th width="223">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Origin Silo Market</td><td><a href="https://sonicscan.org/address/0x248Dbbc31F2D7675775DB4A9308a98444DaBaECf#code">0x248Dbbc31F2D7675775DB4A9308a98444DaBaECf</a></td></tr><tr><td>Origin Cap Manager</td><td><a href="https://sonicscan.org/address/0x38B654d7859dab79935c9CF99267392c06D254cF#code">0x38B654d7859dab79935c9CF99267392c06D254cF</a></td></tr><tr><td>Sonic ARM Zapper</td><td><a href="https://sonicscan.org/address/0xcb8199AB7F8b7D97885FBDfb1f0ABc044f403C18#code">0xcb8199AB7F8b7D97885FBDfb1f0ABc044f403C18</a></td></tr></tbody></table>
 
 ### Operational Accounts
 
