@@ -24,7 +24,7 @@ description: Contracts for all Origin tokens and products
 
 #### Multichain
 
-<table><thead><tr><th width="251">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Guardian (2 of 8 Safe)</td><td>0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971</td></tr></tbody></table>
+<table><thead><tr><th width="251">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Guardian (2 of 8 Safe)</td><td>0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971</td></tr><tr><td>Buyback Operator (2 of 8 Safe)</td><td>0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c</td></tr></tbody></table>
 
 #### Ethereum
 
