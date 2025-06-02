@@ -58,7 +58,7 @@ We regularly have our work [audited ](https://docs.oeth.com/security-and-risks/a
 
 In situations where collateral falls below the peg, [OIP-4 disables minting](https://github.com/OriginProtocol/origin-dollar/issues/1000) of additional OUSD/OETH tokens using the de-pegged asset.
 
-DeFi insurance is available to offer smart contract coverage as an optional add-on service for OUSD holders through [Nexus Mutual](https://v2.nexusmutual.io/cover/buy-cover), [UnoRe](https://app.unore.io/buy-cover), and [OpenCover](https://opencover.com/app/?invite=ousd\&cover=198). Super OETH depeg insurance is also available through [OpenCover](https://opencover.com/app/?invite=superoethdepeg\&cover=266).
+DeFi insurance is available to offer smart contract coverage as an optional add-on service for OUSD holders through [Nexus Mutual](https://v2.nexusmutual.io/cover/buy-cover), [UnoRe](https://app.unore.io/buy-cover), and [OpenCover](https://opencover.com/app/?invite=ousd\&cover=198). Super OETH depeg insurance is available through [OpenCover](https://opencover.com/app/?invite=superoethdepeg\&cover=266). OS exploit or oracle manipulation insurance is available through [Safura](https://app.safura.io/products/2).&#x20;
 
 We have recently retained [yAudit](https://yaudit.dev/) to look at our PRs as we code. [Certora](https://www.certora.com/) has helped us establish automated verifications that will run anytime we update our contracts. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
