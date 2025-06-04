@@ -7,8 +7,7 @@ description: >-
 
 # Dapp
 
-**IPFS**: bafybeifh6uo43gdr55ij5z2ououtnctqbbtz2nxcpp3443khn3ibk2yk2m\
-**IPNS**: k51qzi5uqu5dkhpivy9ooibobfvdbk6lv7uotbal5adk2y6nturpu4hubxri79
+**IPNS**: k2k4r8m1jdufn64q2xygsabntzcwmbgkya3w3j7izkn477s27vaoii0r
 
-<table><thead><tr><th width="160">Host</th><th>Link</th></tr></thead><tbody><tr><td>Limo</td><td><a href="https://originprotocol.eth.limo/">originprotocol.eth.limo</a></td></tr><tr><td>IPFS</td><td><a href="https://k51qzi5uqu5dkhpivy9ooibobfvdbk6lv7uotbal5adk2y6nturpu4hubxri79.ipns.dweb.link/">dweb.link</a></td></tr><tr><td>AWS</td><td><a href="https://app.originprotocol.com/">app.originprotocol.com</a></td></tr></tbody></table>
+<table><thead><tr><th width="211.99993896484375">Host</th><th>Link</th></tr></thead><tbody><tr><td>Cloudflare gateway</td><td><a href="https://ipfs.originprotocol.com/">ipfs.originprotocol.com</a></td></tr><tr><td>Limo</td><td><a href="https://originprotocol.eth.limo/">originprotocol.eth.limo</a></td></tr><tr><td>IPFS</td><td><a href="https://k2k4r8m1jdufn64q2xygsabntzcwmbgkya3w3j7izkn477s27vaoii0r.ipns.dweb.link/">dweb.link</a></td></tr><tr><td>AWS</td><td><a href="https://app.originprotocol.com/">app.originprotocol.com</a></td></tr></tbody></table>
 
