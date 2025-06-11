@@ -1,8 +1,8 @@
 # FAQ
 
-**Where can I acquire OETH and OUSD?**
+**Where can I acquire Origin's yield-bearing tokens?**
 
-OETH and OUSD can be acquired in the [Origin dapp](https://originprotocol.eth.limo).
+OETH, OUSD, Super OETH, and OS can be acquired in the [Origin dapp](https://originprotocol.eth.limo).
 
 
 
@@ -14,18 +14,18 @@ DVT (Distributed Validator Technology) enhances liquid staking of Ethereum by in
 
 **What is an AMO?**
 
-Algorithmic Market Operations (AMO) are smart contracts that automatically execute monetary policies within specific protocols. These policies can be applied to internal systems or external platforms like Curve. AMO controllers can mint new stablecoins and add them to liquidity pools or lend them to money markets when certain conditions are met or when approved by governance. This flexibility allows the protocol to adjust its stability mechanisms without changing its core structure.
+Algorithmic Market Operations (AMO) are smart contracts that automatically execute monetary policies within specific protocols. These policies can be applied to internal systems or external platforms like Curve. AMOs can mint new tokens and add them to liquidity pools or lend them to money markets when certain conditions are met. See [more here](../introduction/core-concepts/amo.md).
 
 \
-**How soon will my OUSD or OETH balance increase?**
+**How soon will my OUSD, OETH, Super OETH or OS balance increase?**
 
-Your balance of OUSD or OETH will increase with each positive rebase event. These rebases occur several times a day and are linked to the minting and redeeming activity. For more details, refer to the Elastic Supply documentation.
+Your balance of OUSD, OETH, Super OETH, or OS will increase with each positive rebase event. These rebases occur several times a day and are linked to the minting and redeeming activity. For more details, refer to the Elastic Supply documentation.
 
 
 
 **How is it possible for the APY to be so high?**
 
-You can read about our various strategies in [Yield Generation](../protocol/ousd/yield-generation/). We currently get most of the yield from harvesting rewards tokens. Additionally, the yield increases as more OUSD and OETH are held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the remaining holders.
+You can read about our various strategies in [Yield Generation](../protocol/ousd/yield-generation/). We currently get most of the yield from harvesting rewards tokens. Additionally, the yield increases as more OUSD, OETH, Super OETH, and OS are held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the remaining holders.
 
 
 
