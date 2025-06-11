@@ -9,6 +9,7 @@
   * [Wrapping](introduction/core-concepts/wrapping.md)
   * [Bridging](introduction/core-concepts/bridging.md)
   * [AMO](introduction/core-concepts/amo.md)
+  * [Yield Forwarding](introduction/core-concepts/yield-forwarding.md)
 
 ## Protocol
 
