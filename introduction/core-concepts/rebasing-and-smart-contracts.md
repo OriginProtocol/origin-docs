@@ -20,7 +20,7 @@ If you are deploying a contract and intend to call `rebaseOptIn()`to earn yield,
 
 #### Governance opt-in
 
-OGN governance is able to whitelist specific addresses to receive yield. Based on the on-chain [proposal executed on 12/26/23](https://governance.oeth.com/#/71383011691589635543710677825410966722324428905533481831290224502800746995692), OGN governance now has the ability to remotely opt-in third-party smart contracts for integration purposes, with a [rebase-opt-in-proposal.md](../../guides/governance-templates/rebase-opt-in-proposal.md "mention"). More information can be found on the proposal [Snapshot](https://snapshot.org/#/ousdgov.eth/proposal/0x90d94adfcdd5f2dd5ba4e694cf1a215874f39bc867394e25a292c11dd3356fcb) and [Discord forum discussion](https://discord.com/channels/404673842007506945/1187525253740646441/1187525528211701770).&#x20;
+OGN governance is able to whitelist specific addresses to receive yield. Based on the on-chain [proposal executed on 12/26/23](https://governance.oeth.com/#/71383011691589635543710677825410966722324428905533481831290224502800746995692), OGN governance now has the ability to remotely opt-in third-party smart contracts for integration purposes, with a [rebase-opt-in-proposal.md](../../guides/governance-templates/rebase-opt-in-proposal.md "mention"). More information can be found on the proposal [Snapshot](https://snapshot.org/#/ousdgov.eth/proposal/0x90d94adfcdd5f2dd5ba4e694cf1a215874f39bc867394e25a292c11dd3356fcb).
 
 This allows for integrations with other DeFi protocols that have immutable contracts or are otherwise unable to opt-in to yield themselves.
 
