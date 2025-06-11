@@ -26,9 +26,9 @@ The OUSD, OETH, OS, and Super OETH held by the AMO never enter circulation witho
 
 Let's look at an example to understand how this is possible:
 
-* 1,000 OETH/ETH has been deployed into the Curve pool by the AMO. (This means the protocol owns 500 ETH and 500 unbacked OETH.)
-* A user comes along and swaps 100 ETH for 99.9 OETH. (They receive slightly fewer units of OETH because of trading fees and slippage.)&#x20;
-* At the end of this transaction, the user is holding 99.9 OETH and the protocol is holding 600.1 ETH and 400 unbacked OETH. (The extra .1 ETH is owned by the the protocol) and is distributed to holders as extra profit.)
+* Let's say 1,000 OETH/ETH has been deployed into the Curve pool by the AMO. This means the protocol owns 500 ETH and 500 unbacked OETH.
+* A user comes along and swaps 100 ETH for 99.9 OETH. They receive slightly fewer units of OETH because of trading fees and slippage.
+* At the end of this transaction, the user is holding 99.9 OETH and the protocol is holding 600.1 ETH and 400 unbacked OETH. (The extra .1 ETH is owned by the the protocol and is distributed to holders as extra profit.)
 
 {% hint style="info" %}
 Since the user must transfer their ETH to the Curve pool in order to withdraw OETH, the previously unbacked OETH immediately becomes backed as part of the transaction. You can think of it as the vault pre-minting some OETH for Curve to sell on its behalf with those tokens become 100% backed the minute they enter circulation.&#x20;
