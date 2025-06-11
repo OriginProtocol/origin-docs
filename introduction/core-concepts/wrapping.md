@@ -6,9 +6,13 @@ Wrapped versions of OETH, OUSD, Super OETH, and OS are available as non-rebasing
 
 ### How wrapped tokens work
 
-When you wrap OETH, you get a fixed number of wOETH tokens in return. This number will not go up - you will have the same number of wOETH tokens tomorrow as you have today. However, the number of OETH tokens you can unwrap will increase over time. For example, if you wrap 10,000 OETH, you might receive 9,423 wOETH. If you hold for a while, you will still have 9,423 wOETH. But when you unwrap the wOETH, you receive 11,500 OETH.
+{% hint style="info" %}
+wOUSD, wOETH, wOS, and wsuperOETH use the same smart contract code.
+{% endhint %}
 
-Both OETH and wOETH earn at the same rate and can be transferred just like any other ERC-20 token. wOUSD was one of the first implementations of [ERC-4626](https://eips.ethereum.org/EIPS/eip-4626), which is an extension of ERC-20 that provides basic functionality for depositing and withdrawing tokens and reading balances on a tokenized vault. wOUSD was independently [audited by Solidified](https://github.com/OriginProtocol/security/blob/3dc8c1dec2f6fbf4f7d0bdf92408f79262624647/audits/Solidified%20-%20OGV,%20wOUSD,%20and%20ERC721a%20-%20May%202022.pdf) in May 2022. wOETH, wOS, and wsuperOETH use the same smart contract code.
+When you wrap an OToken, you get a fixed number of wrapped tokens in return. This number will not go up. If you wrap OETH, for example, you will hold the same number of wOETH tokens in the future as you have today. However, the number of OETH tokens you can unwrap will increase over time. For example, if you wrap 10,000 OETH, you might receive 9,423 wOETH. If you hold for a while, you will still have 9,423 wOETH. But when you unwrap the wOETH, you receive 11,500 OETH.
+
+Both OETH and wOETH earn at the same rate and can be transferred just like any other ERC-20 token. wOUSD was one of the first implementations of [ERC-4626](https://eips.ethereum.org/EIPS/eip-4626), which is an extension of ERC-20 that provides basic functionality for depositing and withdrawing tokens and reading balances on a tokenized vault. wOUSD was independently [audited by Solidified](https://github.com/OriginProtocol/security/blob/3dc8c1dec2f6fbf4f7d0bdf92408f79262624647/audits/Solidified%20-%20OGV,%20wOUSD,%20and%20ERC721a%20-%20May%202022.pdf) in May 2022.&#x20;
 
 ### Wrapping
 
@@ -20,4 +24,4 @@ wOETH is also a supported swap route in [1inch](https://app.1inch.io/), which en
 
 ### Unwrapping
 
-Converting back to the underlying yield-bearing tokens does not require any ERC-20 approvals. There's also no minimum term or lockup period. You can use the same swap form in the [Origin dapp](https://originprotocol.eth.limo) to unwrap OETH or OUSD or use Etherscan to call the `withdraw` function if you prefer to specify the amount of [OETH](https://etherscan.io/address/0xdcee70654261af21c44c093c300ed3bb97b78192#writeProxyContract#F13) or [OUSD](https://etherscan.io/address/0xd2af830e8cbdfed6cc11bab697bb25496ed6fa62#writeProxyContract#F13) to be taken out.
+Converting back to the underlying yield-bearing tokens does not require any ERC-20 approvals. There's also no minimum term or lockup period. You can use the same swap form in the [Origin dapp](https://originprotocol.eth.limo) to unwrap any of the OTokens or to call contract's `withdraw` function.&#x20;
