@@ -14,3 +14,7 @@ Protocols can increase the capital efficiency of their liquidity pools by pairin
 
 Note that Yield Forwarding has many other potential applications including funding a protocol’s treasury, funding staking rewards, DCA'ing into tokens, and beyond. Protocols can earn substantial yield on their ETH and stablecoin holdings by implementing Yield Forwarding, allowing them to extend their runway and fund future initiatives.
 
+### Yield Forwarding Proposals&#x20;
+
+If you'd like to propose an idea for a target contract or discuss a Yield Forwarding proposal, feel free to start a conversation in our [Discord](https://discord.gg/jyxpUSe) or [official Governance Forum](https://governance.originprotocol.com/). Proposals to enable Yield Forwarding for a source address can be made using the [rebase-opt-in-proposal.md](../../guides/governance-templates/rebase-opt-in-proposal.md "mention").
+
