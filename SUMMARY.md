@@ -13,19 +13,6 @@
   * [Bridging](yield-bearing-tokens/core-concepts/bridging.md)
   * [AMO](yield-bearing-tokens/core-concepts/amo.md)
   * [Yield Forwarding](yield-bearing-tokens/core-concepts/yield-forwarding.md)
-* [OETH](yield-bearing-tokens/oeth/README.md)
-  * [Liquid Staking](yield-bearing-tokens/oeth/liquid-staking.md)
-  * [Redemption](yield-bearing-tokens/oeth/redemption.md)
-  * [Dripper](yield-bearing-tokens/oeth/dripper.md)
-  * [Zapper](yield-bearing-tokens/oeth/zapper.md)
-* [OS](yield-bearing-tokens/os/README.md)
-  * [Staking on Sonic](yield-bearing-tokens/os/staking-on-sonic.md)
-  * [Redemption](yield-bearing-tokens/os/redemption.md)
-* [Super OETH](yield-bearing-tokens/super-oeth/README.md)
-  * [Supercharged LSTs](yield-bearing-tokens/super-oeth/supercharged-lsts.md)
-  * [Protocol-Owned Liquidity](yield-bearing-tokens/super-oeth/protocol-owned-liquidity.md)
-  * [Layer 2 Roadmap](yield-bearing-tokens/super-oeth/layer-2-roadmap.md)
-  * [Flywheel](yield-bearing-tokens/super-oeth/flywheel.md)
 * [OUSD](yield-bearing-tokens/ousd/README.md)
   * [Yield Generation](yield-bearing-tokens/ousd/yield-generation/README.md)
     * [Lending](yield-bearing-tokens/ousd/yield-generation/lending.md)
@@ -33,10 +20,23 @@
     * [Rewards](yield-bearing-tokens/ousd/yield-generation/rewards.md)
   * [Collateral](yield-bearing-tokens/ousd/collateral.md)
   * [Flipper](yield-bearing-tokens/ousd/flipper.md)
+* [OETH](yield-bearing-tokens/oeth/README.md)
+  * [Liquid Staking](yield-bearing-tokens/oeth/liquid-staking.md)
+  * [Redemption](yield-bearing-tokens/oeth/redemption.md)
+  * [Dripper](yield-bearing-tokens/oeth/dripper.md)
+  * [Zapper](yield-bearing-tokens/oeth/zapper.md)
+* [Super OETH](yield-bearing-tokens/super-oeth/README.md)
+  * [Supercharged LSTs](yield-bearing-tokens/super-oeth/supercharged-lsts.md)
+  * [Protocol-Owned Liquidity](yield-bearing-tokens/super-oeth/protocol-owned-liquidity.md)
+  * [Layer 2 Roadmap](yield-bearing-tokens/super-oeth/layer-2-roadmap.md)
+  * [Flywheel](yield-bearing-tokens/super-oeth/flywheel.md)
+* [OS](yield-bearing-tokens/os/README.md)
+  * [Staking on Sonic](yield-bearing-tokens/os/staking-on-sonic.md)
+  * [Redemption](yield-bearing-tokens/os/redemption.md)
 
-## ARMs
+## ARM
 
-* [Ethereum ARM](arms/ethereum-arm.md)
+* [Ethereum ARM](arm/ethereum-arm.md)
 
 ***
 

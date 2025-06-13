@@ -13,6 +13,6 @@ Today, Origin consists primarily of five established products and OGN:
 * [os](yield-bearing-tokens/os/ "mention") - Sonic's S-Tier LST bringing OETH's superior staking model to the world's fastest EVM chain. OS allows users to multiply their Sonic points and maximize their airdrop potential through a variety of DeFi integrations.
 * [super-oeth](yield-bearing-tokens/super-oeth/ "mention") - The first Supercharged LST offering blended yield from Ethereum's Beacon Chain alongside liquidity incentives from other L2s/L1s. With substantially higher yield and a similar risk profile compared to LSTs, Super OETH provides a safe and sustainable alternative to speculative points games for users seeking to maximize yield on their ETH.
 * [ousd](yield-bearing-tokens/ousd/ "mention") - The self-custodial stablecoin that earns yield automatically while allowing you to remain fully liquid without the need to lock the funds in a smart contract. It uses sophisticated DeFi strategies to provide continuous and auto-compounded returns.
-* [ethereum-arm.md](arms/ethereum-arm.md "mention") - Facilitates zero-slippage swapping of redeemable assets by combining AMM features with isolated money markets.
+* [ethereum-arm.md](arm/ethereum-arm.md "mention") - Facilitates zero-slippage swapping of redeemable assets by combining AMM features with isolated money markets.
 
 The Origin core team is fully doxxed and radically transparent. You can contribute to the development of this decentralized protocol by joining the community in [Discord](https://originprotocol.com/discord).
