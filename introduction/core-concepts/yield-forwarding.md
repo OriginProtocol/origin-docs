@@ -1,6 +1,6 @@
 # Yield Forwarding
 
-With Yield Forwarding, protocols can route the yield from Origin’s rebasing tokens to approved smart contracts.
+Yield Forwarding is an upgraded feature that was added to all of Origin's yield-bearing tokens (OUSD, OETH, Super OETH, OS). With Yield Forwarding, protocols can now route the yield from Origin’s rebasing tokens to approved smart contracts.
 
 By default, Origin’s yield-bearing tokens held in smart contracts [do not rebase](rebasing-and-smart-contracts.md). With Yield Forwarding, protocols can submit proposals to the OGN DAO to direct yield from OS, OETH, Super OETH, and OUSD held in smart contracts to approved addresses. By doing so, yield earned on these tokens can be used for various purposes, offering a new source of revenue.&#x20;
 
