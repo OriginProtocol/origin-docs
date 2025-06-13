@@ -1,18 +1,16 @@
 # Incentivized Harvesting Guide
 
-The OToken Harvester contracts collect reward tokens earned by the strategies, sells them, and sends them on to increase protocol yield. **Anyone can call the harvest and earn 1-2% of the resulting USDT or WETH** for doing so. This creates a self-incentivizing system that operates at a known cost to the protocol.
+Origin yield-bearing tokens' Harvester contracts collect reward tokens earned by the strategies, sell them, and send them on to increase protocol yield. **Anyone can call the harvest and earn 1-2% of the resulting USDT, WETH, or wS** for doing so. This creates a self-incentivizing system that operates at a known cost to the protocol.
 
 ### When to call
 
-You'll want to call this contract when the reward returned is greater than the cost of gas to execute the function. The Harvester smart contract pays a 2% reward when harvesting CRV and 1% for everything else. The reward is paid in USDT for OUSD and WETH for OETH.
+You'll want to call this contract when the reward returned is greater than the cost of gas to execute the function. The Harvester smart contract pays a 2% reward when harvesting CRV and 1% for everything else.&#x20;
 
 The simplest way to calculate both of these is to simulate the transaction. You can then look at the resulting transfers to know the income received, and you can look at the gas amount used, the current gas prices, and the current cost of ETH, to find out the cost.
 
 Alternatively, you can precompute the gas used for a given strategy's harvest, look up the pending reward tokens using various online services, then do your calculations without using the blockchain.
 
 The amount of rewards increases at a fairly steady, predictable rate. The primary variation is in gas prices, which will make a much bigger minute-to-minute difference on when you should call this.
-
-When calculating profitability, you may also want to account for the cost to swap back to ETH from USDT or from WETH to ETH.
 
 ### How to call
 
