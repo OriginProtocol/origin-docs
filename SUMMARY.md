@@ -3,44 +3,44 @@
 ## Introduction
 
 * [Overview](README.md)
-* [Core Concepts](introduction/core-concepts/README.md)
-  * [Elastic Supply](introduction/core-concepts/elastic-supply.md)
-  * [Rebasing & Smart Contracts](introduction/core-concepts/rebasing-and-smart-contracts.md)
-  * [Wrapping](introduction/core-concepts/wrapping.md)
-  * [Bridging](introduction/core-concepts/bridging.md)
-  * [AMO](introduction/core-concepts/amo.md)
-  * [Yield Forwarding](introduction/core-concepts/yield-forwarding.md)
 
-## Products
+## Yield-bearing Tokens
 
-* [OETH](products/oeth/README.md)
-  * [Liquid Staking](products/oeth/liquid-staking.md)
-  * [Redemption](products/oeth/redemption.md)
-  * [Dripper](products/oeth/dripper.md)
-  * [Zapper](products/oeth/zapper.md)
-* [OS](products/os/README.md)
-  * [Staking on Sonic](products/os/staking-on-sonic.md)
-  * [Redemption](products/os/redemption.md)
-* [Super OETH](products/super-oeth/README.md)
-  * [Supercharged LSTs](products/super-oeth/supercharged-lsts.md)
-  * [Protocol-Owned Liquidity](products/super-oeth/protocol-owned-liquidity.md)
-  * [Layer 2 Roadmap](products/super-oeth/layer-2-roadmap.md)
-  * [Flywheel](products/super-oeth/flywheel.md)
-* [OUSD](products/ousd/README.md)
-  * [Yield Generation](products/ousd/yield-generation/README.md)
-    * [Lending](products/ousd/yield-generation/lending.md)
-    * [Market Making](products/ousd/yield-generation/market-making.md)
-    * [Rewards](products/ousd/yield-generation/rewards.md)
-  * [Collateral](products/ousd/collateral.md)
-  * [Flipper](products/ousd/flipper.md)
-* [ARM](products/arm.md)
+* [Core Concepts](yield-bearing-tokens/core-concepts/README.md)
+  * [Elastic Supply](yield-bearing-tokens/core-concepts/elastic-supply.md)
+  * [Rebasing & Smart Contracts](yield-bearing-tokens/core-concepts/rebasing-and-smart-contracts.md)
+  * [Wrapping](yield-bearing-tokens/core-concepts/wrapping.md)
+  * [Bridging](yield-bearing-tokens/core-concepts/bridging.md)
+  * [AMO](yield-bearing-tokens/core-concepts/amo.md)
+  * [Yield Forwarding](yield-bearing-tokens/core-concepts/yield-forwarding.md)
+* [OETH](yield-bearing-tokens/oeth/README.md)
+  * [Liquid Staking](yield-bearing-tokens/oeth/liquid-staking.md)
+  * [Redemption](yield-bearing-tokens/oeth/redemption.md)
+  * [Dripper](yield-bearing-tokens/oeth/dripper.md)
+  * [Zapper](yield-bearing-tokens/oeth/zapper.md)
+* [OS](yield-bearing-tokens/os/README.md)
+  * [Staking on Sonic](yield-bearing-tokens/os/staking-on-sonic.md)
+  * [Redemption](yield-bearing-tokens/os/redemption.md)
+* [Super OETH](yield-bearing-tokens/super-oeth/README.md)
+  * [Supercharged LSTs](yield-bearing-tokens/super-oeth/supercharged-lsts.md)
+  * [Protocol-Owned Liquidity](yield-bearing-tokens/super-oeth/protocol-owned-liquidity.md)
+  * [Layer 2 Roadmap](yield-bearing-tokens/super-oeth/layer-2-roadmap.md)
+  * [Flywheel](yield-bearing-tokens/super-oeth/flywheel.md)
+* [OUSD](yield-bearing-tokens/ousd/README.md)
+  * [Yield Generation](yield-bearing-tokens/ousd/yield-generation/README.md)
+    * [Lending](yield-bearing-tokens/ousd/yield-generation/lending.md)
+    * [Market Making](yield-bearing-tokens/ousd/yield-generation/market-making.md)
+    * [Rewards](yield-bearing-tokens/ousd/yield-generation/rewards.md)
+  * [Collateral](yield-bearing-tokens/ousd/collateral.md)
+  * [Flipper](yield-bearing-tokens/ousd/flipper.md)
 
-## Security & Risk
+## ARMs
 
-* [Audits](security-and-risk/audits.md)
-* [Risk Framework](security-and-risk/risk-framework.md)
-* [Bug Bounties](security-and-risk/bug-bounties.md)
-* [Price Oracles](security-and-risk/price-oracles.md)
+* [Ethereum ARM](arms/ethereum-arm.md)
+
+***
+
+* [Sonic ARM](sonic-arm.md)
 
 ## OGN
 
@@ -49,6 +49,13 @@
 * [Vote Delegation](ogn/vote-delegation/README.md)
   * [Recognized Delegates](ogn/vote-delegation/recognized-delegates.md)
 * [University Governance Program](ogn/university-governance-program.md)
+
+## Security & Risk
+
+* [Audits](security-and-risk/audits.md)
+* [Risk Framework](security-and-risk/risk-framework.md)
+* [Bug Bounties](security-and-risk/bug-bounties.md)
+* [Price Oracles](security-and-risk/price-oracles.md)
 
 ## Registry
 

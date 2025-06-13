@@ -16,8 +16,6 @@ layout:
 
 
 
-<figure><img src="../../.gitbook/assets/docs-image-os.png" alt=""><figcaption></figcaption></figure>
-
 Origin Sonic (OS) is a liquid staking token on the Sonic network designed to offer enhanced security, higher yield, and a tighter peg to S when compared to other Sonic LSTs.&#x20;
 
 OS was launched in January 2025 with 95% of its code forked from [ousd](../ousd/ "mention"), which has been the basis of our other yield-bearing tokens OETH and Super OETH as well. This allows OS to inherit years of top-tier audits and a proven track record of securing hundreds of millions of dollars worth of underlying collateral. \

@@ -14,7 +14,7 @@ DVT (Distributed Validator Technology) enhances liquid staking of Ethereum by in
 
 **What is an AMO?**
 
-Algorithmic Market Operations (AMO) are smart contracts that automatically execute monetary policies within specific protocols. These policies can be applied to internal systems or external platforms like Curve. AMOs can mint new tokens and add them to liquidity pools or lend them to money markets when certain conditions are met. See [more here](../introduction/core-concepts/amo.md).
+Algorithmic Market Operations (AMO) are smart contracts that automatically execute monetary policies within specific protocols. These policies can be applied to internal systems or external platforms like Curve. AMOs can mint new tokens and add them to liquidity pools or lend them to money markets when certain conditions are met. See [more here](../yield-bearing-tokens/core-concepts/amo.md).
 
 \
 **How soon will my OUSD, OETH, Super OETH or OS balance increase?**
@@ -25,7 +25,7 @@ Your balance of OUSD, OETH, Super OETH, or OS will increase with each positive r
 
 **How is it possible for the APY to be so high?**
 
-You can read about our various strategies in [Yield Generation](../products/ousd/yield-generation/). We currently get most of the yield from harvesting rewards tokens. Additionally, the yield increases as more OUSD, OETH, Super OETH, and OS are held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the remaining holders.
+You can read about our various strategies in [Yield Generation](../yield-bearing-tokens/ousd/yield-generation/). We currently get most of the yield from harvesting rewards tokens. Additionally, the yield increases as more OUSD, OETH, Super OETH, and OS are held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the remaining holders.
 
 
 
