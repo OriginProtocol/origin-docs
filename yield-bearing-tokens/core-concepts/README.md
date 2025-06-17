@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Core Concepts
 
 Origin's four yield-bearing token products ([OETH](../oeth/), [Super OETH](../super-oeth/), [OS](../os/), and [OUSD](../ousd.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite:

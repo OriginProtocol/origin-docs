@@ -1,6 +1,6 @@
 # Table of contents
 
-## Introduction
+## Intro to Origin
 
 * [Overview](README.md)
 
