@@ -26,11 +26,7 @@ This allows for integrations with other DeFi protocols that have immutable contr
 
 #### Yield Forwarding
 
-Yield Forwarding gives OGN governance the ability to forward yield during a rebase from a source address to a target address. Yield forwarding represents a one-to-one relationship between the source and target address. This means that a source address is unable to forward yield to more than one address and a target address is unable to receive forwarded yield from more than one source. The typical use case of Yield Forwarding is to forward yield earned from deposited assets in AMMs or other DeFi protocols to smart contracts that unlock new functionality for that earned yield.
-
-{% hint style="info" %}
-Yield Forwarding does not have an impact on any existing or ongoing balances of OUSD or OETH held by a target address. This means that a target address could receive a rebase on existing balances, along with receiving forwarded yield from a source address.
-{% endhint %}
+[Yield Forwarding](rebasing-and-smart-contracts.md#yield-forwarding) does not have an impact on any existing or ongoing balances of OS, OUSD, superOETH, OETH held by a target address. This means that a target address could receive a rebase on existing balances, along with receiving forwarded yield from a source address.&#x20;
 
 #### Checking rebase status
 
