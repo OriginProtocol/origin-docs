@@ -2,4 +2,4 @@
 title: Untitled
 ---
 
-{% embed url="https://llamarisk.substack.com/p/asset-risk-assessment-origin-ether?utm_source=publication-search" %}
+<figure><img src="../assets/image (4).png" alt=""><figcaption><p>Automated yield farming on the OUSD protocol</p></figcaption></figure>

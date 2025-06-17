@@ -12,7 +12,10 @@ Today, Origin consists primarily of five established products and OGN:
 * [oeth](yield-bearing-tokens/oeth/ "mention") - The ideal liquid staking token (LST) that offers a higher yield than its counterparts and a tighter peg to ETH. OETH uses distributed validator technology through SSV to support Ethereum's mission of remaining decentralized and secure.
 * [os](yield-bearing-tokens/os/ "mention") - Sonic's S-Tier LST bringing OETH's superior staking model to the world's fastest EVM chain. OS allows users to multiply their Sonic points and maximize their airdrop potential through a variety of DeFi integrations.
 * [super-oeth](yield-bearing-tokens/super-oeth/ "mention") - The first Supercharged LST offering blended yield from Ethereum's Beacon Chain alongside liquidity incentives from other L2s/L1s. With substantially higher yield and a similar risk profile compared to LSTs, Super OETH provides a safe and sustainable alternative to speculative points games for users seeking to maximize yield on their ETH.
-* [ousd](yield-bearing-tokens/ousd/ "mention") - The self-custodial stablecoin that earns yield automatically while allowing you to remain fully liquid without the need to lock the funds in a smart contract. It uses sophisticated DeFi strategies to provide continuous and auto-compounded returns.
+* [ousd.md](yield-bearing-tokens/ousd.md "mention") - The self-custodial stablecoin that earns yield automatically while allowing you to remain fully liquid without the need to lock the funds in a smart contract. It uses sophisticated DeFi strategies to provide continuous and auto-compounded returns.
 * [ethereum-arm.md](arm/ethereum-arm.md "mention") - Facilitates zero-slippage swapping of redeemable assets by combining AMM features with isolated money markets.
 
+Created by cryptocurrency and fintech veterans, Origin Protocol was founded by serial entrepreneurs, early cryptocurrency investors, early employees at YouTube, engineering managers at Google/Dropbox, and one of the Paypal co-founders, Yu Pan.
+
 The Origin core team is fully doxxed and radically transparent. You can contribute to the development of this decentralized protocol by joining the community in [Discord](https://originprotocol.com/discord).
+
