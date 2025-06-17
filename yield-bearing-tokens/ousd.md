@@ -1,21 +1,5 @@
 # OUSD
 
-> **Table of Contents**\
-> • Intro\
-> • Core Concepts\
-> \- Elastic Supply\
-> \- Rebasing & Smart Contracts\
-> \- Wrapping\
-> \- Bridging\
-> \- AMO\
-> \- Yield Forwarding\
-> • Yield Generation\
-> \- Lending\
-> \- AMMs\
-> \- Rewards\
-> \- Competitive Advantage\
-> • Collateral
-
 ### Intro to Origin Dollar&#x20;
 
 Since their introduction in 2014, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. One of the problems with existing stablecoins is that users must constantly choose between holding an easily spendable coin and earning yield by locking their tokens up in smart contracts.&#x20;
