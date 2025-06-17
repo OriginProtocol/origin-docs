@@ -1,20 +1,20 @@
 # OUSD
 
-> \*\*Table of Contents\*\*\
-> \[Intro]\(#intro)\
-> \[Core Concepts]\(#core-concepts)\
-> &#x20;  • \[Elastic Supply]\(#elastic-supply)\
-> &#x20;  • \[Rebasing & Smart Contracts]\(#rebasing--smart-contracts)\
-> &#x20;  • \[Wrapping]\(#wrapping)\
-> &#x20;  • \[Bridging]\(#bridging)\
-> &#x20;  • \[AMO]\(#amo)\
-> &#x20;  • \[Yield Forwarding]\(#yield-forwarding)\
-> \[Yield Generation]\(#yield-generation)\
-> &#x20;  • \[Lending]\(#lending)\
-> &#x20;  • \[AMMs]\(#amms)\
-> &#x20;  • \[Rewards]\(#rewards)\
-> &#x20;  • \[Competitive Advantage]\(#competitive-advantage)\
-> \[Collateral]\(#collateral)
+**Table of Contents**\
+Intro\
+Core Concepts\
+&#x20;  • Elastic Supply\
+&#x20;  • Rebasing & Smart Contracts\
+&#x20;  • Wrapping\
+&#x20;  • Bridging\
+&#x20;  • AMO\
+&#x20;  • Yield Forwarding\
+Yield Generation\
+&#x20;  • Lending\
+&#x20;  • AMMs\
+&#x20;  • Rewards\
+&#x20;  • Competitive Advantage\
+Collateral
 
 ### Intro to Origin Dollar&#x20;
 
