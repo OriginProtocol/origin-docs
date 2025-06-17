@@ -9,6 +9,7 @@
 * [Core Concepts](yield-bearing-tokens/core-concepts/README.md)
   * [Elastic Supply](yield-bearing-tokens/core-concepts/elastic-supply.md)
   * [Rebasing & Smart Contracts](yield-bearing-tokens/core-concepts/rebasing-and-smart-contracts.md)
+  * [Yield Boost](yield-bearing-tokens/core-concepts/yield-boost.md)
   * [Wrapping](yield-bearing-tokens/core-concepts/wrapping.md)
   * [Bridging](yield-bearing-tokens/core-concepts/bridging.md)
   * [AMO](yield-bearing-tokens/core-concepts/amo.md)
