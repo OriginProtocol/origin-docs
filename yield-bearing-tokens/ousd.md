@@ -2,8 +2,8 @@
 
 #### <sub>Table of Contents</sub>
 
-* <sub>Intro\<br></sub>
-* <sub>Core Concepts\<br></sub>
+* <sub>\[</sub>[<sub>Intro\]</sub>](ousd.md#intro-to-origin-dollar)<sub><</sub><sub>`br`</sub><sub>></sub>
+* [<sub>Core Concepts</sub>](ousd.md#core-concepts)<sub><</sub><sub>`br`</sub><sub>></sub>
   * <sub>Elastic Supply\<br></sub>
   * <sub>Rebasing & Smart Contracts\<br></sub>
   * <sub>Wrapping\<br></sub>
