@@ -26,12 +26,10 @@ OUSD also serves as an ideal unit of account. DeFi investors no longer need comp
 
 Origin's four yield-bearing token products ( [OUSD](ousd.md), [OETH](oeth/), [Super OETH](super-oeth/), and [OS](os/)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
-#### - [Elastic Supply](core-concepts/elastic-supply.md)
-
 #### Rebasing & Smart Contracts
 
-* #### [Elastic Supply](core-concepts/elastic-supply.md)
-* #### [Rebasing & Smart Contracts](core-concepts/rebasing-and-smart-contracts.md)
+* [Elastic Supply](core-concepts/elastic-supply.md)
+* [Rebasing & Smart Contracts](core-concepts/rebasing-and-smart-contracts.md)
 * [Wrapping](core-concepts/wrapping.md)
 * [Bridging](core-concepts/bridging.md)
 * [AMO](core-concepts/amo.md)
