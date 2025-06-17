@@ -37,6 +37,19 @@ Origin's four yield-bearing token products ( [OUSD](ousd.md), [OETH](oeth/), [Su
 
 ### Yield Generation
 
+The protocol is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD holders:
+
+* Exit fees are returned to the pool, rewarding long-term holders.
+* Price oracles favor the collective over the individual, again rewarding long-term holders.
+* Smart contracts must manually opt-in to earn yield. This allows the protocol to put more capital to work than would be otherwise possible. For example, the OUSD that is being held on Uniswap does not rebase, but the backing stablecoins are still deployed and earning yield on behalf of OUSD holders.
+* Yields tend to get compressed as more funds are deployed into a given strategy. By spreading capital across multiple strategies at once, OUSD is able to deploy more capital with less yield compression.
+* The gas costs of harvesting yield are amortized across the entire pool. This makes it economical to harvest more frequently, leading to faster compounding. The more frequent the compounding periods, the faster your money grows.
+* The [AMO](https://docs.oeth.com/core-concepts/supported-strategies/curve-metapools) allows the protocol to earn up to 2x the rewards using the same amount of capital.
+
+The net effect of these benefits is that **OUSD is able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.
+
+### Yield Sources&#x20;
+
 OUSD uses lending, market making and rewards to generate yield:
 
 #### Lending
@@ -63,18 +76,7 @@ In addition to collecting interest from lending and fees from market making, the
 
 The harvesting of these rewards is completely decentralized and open for anyone to participate. The protocol offers 1% of the claimed rewards as an incentive to whoever is willing to call the function first. You can think of it as a reverse auction, whereby the protocol finds whoever is willing to accept the lowest price for the work that is being performed. View the [Incentivized Harvesting Guide](../guides/incentivized-harvesting-guide.md) for details on how to participate.
 
-### Competitive Advantage
 
-The protocol is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD holders:
-
-* Exit fees are returned to the pool, rewarding long-term holders.
-* Price oracles favor the collective over the individual, again rewarding long-term holders.
-* Smart contracts must manually opt-in to earn yield. This allows the protocol to put more capital to work than would be otherwise possible. For example, the OUSD that is being held on Uniswap does not rebase, but the backing stablecoins are still deployed and earning yield on behalf of OUSD holders.
-* Yields tend to get compressed as more funds are deployed into a given strategy. By spreading capital across multiple strategies at once, OUSD is able to deploy more capital with less yield compression.
-* The gas costs of harvesting yield are amortized across the entire pool. This makes it economical to harvest more frequently, leading to faster compounding. The more frequent the compounding periods, the faster your money grows.
-* The [AMO](https://docs.oeth.com/core-concepts/supported-strategies/curve-metapools) allows the protocol to earn up to 2x the rewards using the same amount of capital.
-
-The net effect of these benefits is that **OUSD is able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
