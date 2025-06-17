@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Dripper
 
 Yield is managed by the Dripper contract and slowly distributed to OETH holders. This smooths out the otherwise choppy yield from the Beacon Chain and bonus reward tokens (e.g. SSV) to improve the user experience and prevent attackers from front-running large yield events.
