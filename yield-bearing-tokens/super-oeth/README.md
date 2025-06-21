@@ -60,7 +60,7 @@ Super OETH aims to offer the best of both worlds. With yield materially higher t
 
 ### Available Networks
 
-Super OETH is currently available on two networks: Base (superOETHb) and Plume (superOETHp). While the two tokens share the same design, it's important to note that they are unique tokens on different chains with separate collateral, yield, integration partners, etc.&#x20;
+Super OETH is currently available on two networks: Base (superOETHb) and Plume (superOETHp). While the two tokens share the same design, it's important to note that they are unique, chain-specific LSTs with separate collateral, yield, integration partners, etc.&#x20;
 
 {% hint style="info" %}
 Bridging superOETHb to Plume will **not** get you superOETHp (and vice versa).&#x20;
