@@ -6,19 +6,6 @@ Super OETH’s arrival on Plume brings a proven LST strategy to a new chain. Wit
 
 This is not a bridged version of Super OETH from another chain—it is a new, chain-specific LST with its own yield dynamics, integrated directly into Plume’s growing DeFi stack.
 
-### Core Concepts
-
-Origin's four yield-bearing token products ( [OUSD](../ousd.md), [OETH](../oeth/), [Super OETH](./), and [OS](../os/)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
-
-#### Rebasing & Smart Contracts
-
-* [Elastic Supply](../core-concepts/elastic-supply.md)
-* [Rebasing & Smart Contracts](../core-concepts/rebasing-and-smart-contracts.md)
-* [Wrapping](../core-concepts/wrapping.md)
-* [Bridging](../core-concepts/bridging.md)
-* [AMO](../core-concepts/amo.md)
-* [Yield Forwarding](../core-concepts/yield-forwarding.md)
-
 ### How superOETHp earns yield:
 
 Super OETH on Plume is built to maximize capital efficiency. It achieves this in three ways:
@@ -40,3 +27,14 @@ Super OETH (superOETHp) is now live on the Origin dapp and [Plume](https://porta
 {% hint style="info" %}
 If you’re bridging funds to Plume for the first time, visit the [Stargate bridge](https://stargate.finance/bridge) to get started.
 {% endhint %}
+
+### Core Concepts
+
+Origin's four yield-bearing token products ( [OUSD](../ousd.md), [OETH](../oeth/), [Super OETH](./), and [OS](../os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
+
+* [Elastic Supply](../core-concepts/elastic-supply.md)
+* [Rebasing & Smart Contracts](../core-concepts/rebasing-and-smart-contracts.md)
+* [Wrapping](../core-concepts/wrapping.md)
+* [Bridging](../core-concepts/bridging.md)
+* [AMO](../core-concepts/amo.md)
+* [Yield Forwarding](../core-concepts/yield-forwarding.md)

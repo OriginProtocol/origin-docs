@@ -23,9 +23,7 @@
 * [Super OETH](yield-bearing-tokens/super-oeth/README.md)
   * [superOETHb](yield-bearing-tokens/super-oeth/superoethb.md)
   * [superOETHp](yield-bearing-tokens/super-oeth/superoethp.md)
-* [OS](yield-bearing-tokens/os/README.md)
-  * [Staking on Sonic](yield-bearing-tokens/os/staking-on-sonic.md)
-  * [Redemption](yield-bearing-tokens/os/redemption.md)
+* [OS](yield-bearing-tokens/os.md)
 
 ## ARM
 
