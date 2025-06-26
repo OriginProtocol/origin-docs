@@ -1,6 +1,6 @@
 # Governance Templates
 
-Use these guides as a reference for writing governance proposals for OUSD, OETH, ARM, or OGN. Discuss the proposal in the Discord channel #defi-governance-forum before submitting it to Snapshot. It may be helpful to link to a Google Doc or Notion page from Discord or Snapshot for lengthy proposals.
+Use these guides as a reference for writing governance proposals for OUSD, OETH, OS, ARM, or OGN. Discuss the proposal on the official [governance forum](https://governance.originprotocol.com/) before submitting it to Snapshot for vote.&#x20;
 
 [rebase-opt-in-proposal.md](rebase-opt-in-proposal.md "mention")
 
