@@ -1,6 +1,6 @@
 # superOETHb
 
-Origin's first token to launch in this category was superOETHb, which derives Beacon Chain yield from bridged Wrapped [OETH](../oeth/) and rewards from Aerodrome through a protocol-owned, concentrated liquidity position on Base.
+Origin's first token to launch in this category was superOETHb, which derives Beacon Chain yield from bridged Wrapped [OETH](../oeth.md) and rewards from Aerodrome through a protocol-owned, concentrated liquidity position on Base.
 
 ### OETH vs. superOETHb
 
@@ -26,7 +26,7 @@ As a result of this large liquidity position, Super OETH earns incentive tokens 
 
 ### Core Concepts
 
-Origin's four yield-bearing token products ( [OUSD](../ousd.md), [OETH](../oeth/), [Super OETH](./), and [OS](../os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
+Origin's four yield-bearing token products ( [OUSD](../ousd.md), [OETH](../oeth.md), [Super OETH](./), and [OS](../os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
 * [Elastic Supply](../core-concepts/elastic-supply.md)
 * [Rebasing & Smart Contracts](../core-concepts/rebasing-and-smart-contracts.md)

@@ -1,9 +1,0 @@
-# Liquid Staking
-
-ETH staking requires technical expertise, setting up a validator node, and depositing a minimum of 32 ETH. Liquid staking tokens simplify this process by allowing users to stake any amount of ETH and earn yield without running a validator node or meeting the 32 ETH requirement. LSTs are becoming more liquid and stable, boosting their importance in DeFi. However, Lido's 75% market share creates a potential single point of failure, especially under regulatory scrutiny.
-
-OETH offers enhanced decentralization and security of ETH staking through its use of distributed validator technology (DVT) and the [SSV network](https://ssv.network/).
-
-* **Active-Active Redundancy & Fault Tolerance**: SSV's DVT allows OETH to split and distribute a validator key into multiple KeyShares, running the validator across multiple non-trusting nodes. This means if one node goes offline, others can take over, ensuring continuous operation and reducing the risk of slashing. This redundancy leads to a more reliable staking experience, thereby maximizing yield.
-* **Non-Custodial & Secure ETH Staking**: SSV technology enables the validator key to be securely generated, split into KeyShares, and stored offline. The distributed nodes then operate the validator without having direct access to the key, ensuring a highly secure staking process. This security attracts more users, increasing the overall staking pool and potential yields.
-* **Decentralization & Diversity**: Independent operators worldwide provide the infrastructure for SSV.network. Each operator chooses their validator client software and hardware, while stakers can select their operators. This decentralized approach eliminates single points of failure and risks, promoting a healthy and resilient Ethereum network. A decentralized and robust network enhances staking yields by reducing downtime and slashing incidents.

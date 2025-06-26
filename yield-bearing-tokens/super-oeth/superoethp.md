@@ -30,7 +30,7 @@ If you’re bridging funds to Plume for the first time, visit the [Stargate brid
 
 ### Core Concepts
 
-Origin's four yield-bearing token products ( [OUSD](../ousd.md), [OETH](../oeth/), [Super OETH](./), and [OS](../os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
+Origin's four yield-bearing token products ( [OUSD](../ousd.md), [OETH](../oeth.md), [Super OETH](./), and [OS](../os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
 * [Elastic Supply](../core-concepts/elastic-supply.md)
 * [Rebasing & Smart Contracts](../core-concepts/rebasing-and-smart-contracts.md)

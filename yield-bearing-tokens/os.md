@@ -14,7 +14,7 @@ layout:
 
 # OS
 
-**Intro to OS**&#x20;
+### **Intro to OS**&#x20;
 
 Origin Sonic (OS) is a liquid staking token on the Sonic network designed to offer enhanced security, higher yield, and a tighter peg to S when compared to other Sonic LSTs.&#x20;
 
@@ -34,7 +34,7 @@ Like OUSD, OETH, and Super OETH before it, OS is a rebasing token with an up-onl
 
 ### Core Concepts
 
-Given that Origin's four yield-bearing token products ( [OUSD](ousd.md), [OETH](oeth/), [Super OETH](super-oeth/), and [OS](os.md)) share most of the same battle-tested code, the same overall user experience applies across the product suite. Learn more about the core concepts here:
+Given that Origin's four yield-bearing token products ( [OUSD](ousd.md), [OETH](oeth.md), [Super OETH](super-oeth/), and [OS](os.md)) share most of the same battle-tested code, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
 * [Elastic Supply](core-concepts/elastic-supply.md)
 * [Rebasing & Smart Contracts](core-concepts/rebasing-and-smart-contracts.md)

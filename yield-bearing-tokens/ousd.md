@@ -24,7 +24,7 @@ OUSD also serves as an ideal unit of account. DeFi investors no longer need comp
 
 ### Core Concepts
 
-Origin's four yield-bearing token products ( [OUSD](ousd.md), [OETH](oeth/), [Super OETH](super-oeth/), and [OS](os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
+Origin's four yield-bearing token products ( [OUSD](ousd.md), [OETH](oeth.md), [Super OETH](super-oeth/), and [OS](os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
 
 

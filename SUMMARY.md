@@ -15,11 +15,7 @@
   * [AMO](yield-bearing-tokens/core-concepts/amo.md)
   * [Yield Forwarding](yield-bearing-tokens/core-concepts/yield-forwarding.md)
 * [OUSD](yield-bearing-tokens/ousd.md)
-* [OETH](yield-bearing-tokens/oeth/README.md)
-  * [Liquid Staking](yield-bearing-tokens/oeth/liquid-staking.md)
-  * [Redemption](yield-bearing-tokens/oeth/redemption.md)
-  * [Dripper](yield-bearing-tokens/oeth/dripper.md)
-  * [Zapper](yield-bearing-tokens/oeth/zapper.md)
+* [OETH](yield-bearing-tokens/oeth.md)
 * [Super OETH](yield-bearing-tokens/super-oeth/README.md)
   * [superOETHb](yield-bearing-tokens/super-oeth/superoethb.md)
   * [superOETHp](yield-bearing-tokens/super-oeth/superoethp.md)
@@ -27,11 +23,11 @@
 
 ## ARM
 
-* [Ethereum ARM](arm/ethereum-arm.md)
+* [stETH ARM](arm/steth-arm.md)
 
 ***
 
-* [Sonic ARM](sonic-arm.md)
+* [OS ARM](os-arm.md)
 
 ## OGN
 
