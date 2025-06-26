@@ -1,6 +1,6 @@
 # Yield Strategy Proposal
 
-Use this template as a guide to propose a new yield-generating strategy for OUSD.
+Use this template as a guide to propose a new yield-generating strategy for OUSD or ARM.
 
 ## _**Title:**_
 

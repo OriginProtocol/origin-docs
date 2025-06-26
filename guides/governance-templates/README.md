@@ -1,6 +1,6 @@
 # Governance Templates
 
-Use these guides as a reference for writing governance proposals for OUSD, OETH, OS, ARM, or OGN. Discuss the proposal on the official [governance forum](https://governance.originprotocol.com/) before submitting it to Snapshot for vote.&#x20;
+Use these guides as a reference for writing governance proposals for OUSD, OETH, OS, ARM, or OGN. Discuss the proposal on the official [Governance Forum](https://governance.originprotocol.com/) before submitting it to Snapshot for vote.&#x20;
 
 [rebase-opt-in-proposal.md](rebase-opt-in-proposal.md "mention")
 
