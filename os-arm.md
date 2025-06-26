@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # OS ARM
 
 ### Intro to OS ARM
