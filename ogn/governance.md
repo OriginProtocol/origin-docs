@@ -56,7 +56,7 @@ Feel free to use one of the [templates](../guides/governance-templates/) as a gu
 ## Guardians
 
 \
-Some functionality, such as rebalancing funds or pausing deposits, can be triggered without the timelock and with far fewer signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Guardians, have the ability to execute a limited number of functions with only 2 of 8 signers.
+Some functionality, such as rebalancing funds or pausing deposits, can be triggered without the timelock and with far fewer signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Guardians, have the ability to execute a limited number of functions with only 2 of 9 signers.
 
 The Guardian multi-sig can do the following actions on the vault:
 
