@@ -14,6 +14,7 @@
   * [Bridging](yield-bearing-tokens/core-concepts/bridging.md)
   * [AMO](yield-bearing-tokens/core-concepts/amo.md)
   * [Yield Forwarding](yield-bearing-tokens/core-concepts/yield-forwarding.md)
+  * [Yield Throttling](yield-bearing-tokens/core-concepts/yield-throttling.md)
 * [OUSD](yield-bearing-tokens/ousd.md)
 * [OETH](yield-bearing-tokens/oeth.md)
 * [Super OETH](yield-bearing-tokens/super-oeth/README.md)

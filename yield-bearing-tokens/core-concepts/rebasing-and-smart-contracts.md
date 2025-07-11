@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Rebasing & Smart Contracts
 
 If you are using a multi-sig wallet or another smart contract wishing to participate in the rebasing aspect of OUSD, OETH, OS, or Super OETH you must call the `rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
