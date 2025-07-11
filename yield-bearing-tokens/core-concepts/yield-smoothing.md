@@ -1,12 +1,12 @@
-# Yield Throttling
+# Yield Smoothing
 
 Origin's yield tokens share a common feature that throttles the distribution of yield over time. This design smooths out what would otherwise be a choppy experience for token holders. It also mitigates the impact of transient yield seekers who might try to front-run large yield events.
 
 <figure><img src="../../.gitbook/assets/dripper.jpeg" alt=""><figcaption></figcaption></figure>
 
-The image above depicts yield distribution before and after throttling was introduced. Rather than distribute yield immediately when it is generated, the vault normalizes this yield rate and rebases the token supply with less volatility.
+The image above depicts yield distribution before and after smoothing was introduced. Rather than distribute yield immediately when it is generated, the vault normalizes this yield rate and rebases the token supply with less volatility.
 
-This throttling feature is configured by two variables that are managed by the Guardian (2 of 9 Safe) for each yield token:
+This smoothing feature is configured by two variables that are managed by the Guardian (2 of 9 Safe) for each yield token:
 
 * `rebasePerSecondMax`&#x20;
   * A limit on the maximum APR per second that the vault can distribute
