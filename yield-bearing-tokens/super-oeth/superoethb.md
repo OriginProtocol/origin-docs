@@ -34,3 +34,4 @@ Origin's four yield-bearing token products ( [OUSD](../ousd.md), [OETH](../oeth.
 * [Bridging](../core-concepts/bridging.md)
 * [AMO](../core-concepts/amo.md)
 * [Yield Forwarding](../core-concepts/yield-forwarding.md)
+* [Yield Smoothing](../core-concepts/yield-smoothing.md)

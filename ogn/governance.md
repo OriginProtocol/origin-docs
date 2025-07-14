@@ -34,7 +34,7 @@ Here are the step-by-step instructions to vote and create a proposal:
 
 1. Obtain OGN from a centralized exchange like Coinbase or Binance, or a decentralized exchange such as Uniswap or Curve.
 2. Stake OGN using the [Origin App](https://app.originprotocol.com)
-3.  Submit and discuss the proposal on the [Origin Governance Forum](https://governance.originprotocol.com/) and share the link on the [Origin Protocol Discord server](https://originprotocol.com/discord) under the #defi-governance-forum channel for maximum visibility
+3.  Submit and discuss the proposal on the [Origin Governance Forum](https://governance.originprotocol.com/) and share the link on the [Origin Protocol Discord server](https://originprotocol.com/discord) under the #governance channel for maximum visibility
 
     _(1-4 weeks of discussion recommended)_
 4. Submit the proposal on Snapshot for a signaling vote
