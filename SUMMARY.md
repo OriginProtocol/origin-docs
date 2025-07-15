@@ -58,6 +58,7 @@
     * [Ethereum ARMs](registry/contracts/arm-registry/ethereum-arms.md)
     * [Sonic ARMs](registry/contracts/arm-registry/sonic-arms.md)
   * [Pool Booster](registry/contracts/pool-booster.md)
+  * [Safe Modules Registry](registry/contracts/safe-modules-registry.md)
 * [Dapp](registry/dapp.md)
 * [API](registry/api.md)
 
