@@ -4,7 +4,7 @@
 
 Origin Sonic (OS) is a liquid staking token on the Sonic network designed to offer enhanced security, higher yield, and a tighter peg to S when compared to other Sonic LSTs.&#x20;
 
-OS is designed to unlock the full potential of staking on Sonic while maximizing your ability to earn Sonic Points—the network’s rewards mechanism that will be used to distribute 190M S tokens. By holding and using OS in DeFi, you can earn a multiplier your Sonic Points, opening the door to future airdrops and exclusive incentives.
+OS is designed to unlock the full potential of staking on Sonic while maximizing your ability to earn Sonic Points—the network’s rewards mechanism that will be used to distribute 190M S tokens. By holding and using OS in DeFi, you can earn a multiplier on your Sonic Points, opening the door to future airdrops and exclusive incentives.
 
 **Why OS?**
 
