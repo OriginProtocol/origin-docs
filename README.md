@@ -15,7 +15,7 @@ Today, Origin consists primarily of five established products and OGN:
 * [ousd.md](yield-bearing-tokens/ousd.md "mention") - The self-custodial stablecoin that earns yield automatically while allowing you to remain fully liquid without the need to lock the funds in a smart contract. It uses sophisticated DeFi strategies to provide continuous and auto-compounded returns.
 * [steth-arm.md](arm/steth-arm.md "mention") - Facilitates zero-slippage swapping of redeemable assets by combining AMM features with isolated money markets.
 
-Created by cryptocurrency and fintech veterans, Origin Protocol was founded by serial entrepreneurs, early cryptocurrency investors, early employees at YouTube, engineering managers at Google/Dropbox, and one of the Paypal co-founders, Yu Pan.
+Created by cryptocurrency and fintech veterans, Origin Protocol was founded by serial entrepreneurs, early cryptocurrency investors, and diverse talent that contributed to the likes of YouTube, Google, Dropbox, Paypal, and Coinbase.
 
 The Origin core team is fully doxxed and radically transparent. You can contribute to the development of this decentralized protocol by joining the community in [Discord](https://originprotocol.com/discord).
 
