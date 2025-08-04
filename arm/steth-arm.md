@@ -1,6 +1,6 @@
 # stETH ARM
 
-The stETH (ARM) offers zero-slippage swapping of stETH. You can think of an ARM as a cross between an AMM and an isolated money market as it prices assets based on current market rates and redemption queues.&#x20;
+For traders, the stETH (ARM) offers zero-slippage swapping of stETH. You can think of an ARM as a cross between an AMM and an isolated money market as it prices assets based on current market rates and redemption queues.&#x20;
 
 The stETH ARM offers:
 
