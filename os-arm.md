@@ -17,12 +17,12 @@ The OS ARM increases its capital efficiency with lending market integrations. In
 #### Flow of Funds
 
 1. LP deposits S into the OS ARM vault [using the Origin dapp](https://app.originprotocol.com/#/arm/146:ARM-WS-OS)&#x20;
-2. S deposited in the vault goes to one of two places:
+2. S deposited in the vault is split between:
    * Vault buffer (up until the required liquidity threshold is met)
    * SILO (anything beyond the required vault liquidity goes here to earn lending market yield)
 3. S in the vault buffer is used by the ARM to acquire OS at a discount&#x20;
-4. OS is placed in the S unbonding/unstaking queue and redeemed 1:1 for S (the delta between the discounted price and the 1:1 price accrues as yield to the OS ARM)
-5. \[Back to Step 3] - Resulting S is available to acquire OS at a discount &#x20;
+4. OS is placed in the S unstaking queue and redeemed 1:1 for S (the delta between the discounted price and the 1:1 price accrues as yield to the OS ARM)
+5. \[Back to Step 2] Resulting S is split between the vault buffer and the lending market &#x20;
 
 ### Redemptions
 
