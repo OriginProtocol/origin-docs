@@ -10,7 +10,7 @@ As the Origin community grows in members and in TVL, there will likely be an ove
 
 University blockchain clubs participating in the [university-governance-program.md](../university-governance-program.md "mention") also hold significant voting power in the Origin DAO:
 
-* [franklindao.eth](https://etherscan.io/address/0xcc878369b26127bd4bc1b0b465bc8be9b92a4c62) — UPenn / FranklinDAO
+* [franklindao.eth](https://etherscan.io/address/https://etherscan.io/address/0x070341aa5ed571f0fb2c4a5641409b1a46b4961b) — UPenn / FranklinDAO
 * [calblockchain.eth](https://etherscan.io/address/0x7ae109a63ff4dc852e063a673b40bed85d22e585) — Berkeley / CalBlockchain&#x20;
 * [michiganblockchain.eth](https://etherscan.io/address/0x13bdae8c5f0fc40231f0e6a4ad70196f59138548) — University of Michigan
 * [boilerblockchain.eth](https://etherscan.io/address/0x2345F4E0CdF00D427D773413Dd4617d0156c29A9) — Purdue University
@@ -20,7 +20,7 @@ University blockchain clubs participating in the [university-governance-program.
 * [0x07E...e741F](https://etherscan.io/address/0x07E3bFA4c952Bc58c2c30Ae20B0B7E9ACE9e741F) — NYU
 * [0x253...C5EA](https://etherscan.io/address/0x2535Aa0d1058dd9336a7B22b60Eb7c0881EAC5EA) — Tulane University
 * [0x123...3b9DE](https://etherscan.io/address/0x1237B1b6EDC76b1aBC3614e6c9b5f75C4e13b9DE) — UC Santa Barbara
-* [0xDcc...7277e7](https://etherscan.io/address/0xdcc57edf7ff5c0336e5577b2c677867d6c7277e7) — Cal Poly San Luis Obispo
+* [0xE22...C90B7](https://etherscan.io/address/0xa12c0b50F1b81C3Ecbf56097e85e607eE22C90B7)— Cal Poly San Luis Obispo
 * [0xa5E...0dC13f](https://etherscan.io/address/0xa5E07bF7D16a9511C1801aa7f229Bad5ed0dC13f) — Dartmouth College
 
 Learn more about your delegates by reading their delegate statements on the [Meet Your Delegates](https://governance.originprotocol.com/c/proposals/meet-your-delegates/12) forum page.
