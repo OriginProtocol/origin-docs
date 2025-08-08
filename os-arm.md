@@ -30,5 +30,5 @@ Withdrawals from the ARM are processed on-demand when liquidity is available. Ho
 
 ## **DEX Aggregator Integrations**
 
-By offering the best rates for OS swaps, the ARM S Vault captures volume from DEX aggregators. The ARM S Vault is integrated with KyberSwap and OpenOcean at launch, two of the leading DEX aggregators on Sonic.Intro to OS ARM
+By offering the best rates for OS swaps, the ARM S Vault captures volume from DEX aggregators. The ARM S Vault is integrated with KyberSwap and OpenOcean at launch, two of the leading DEX aggregators on Sonic.
 
