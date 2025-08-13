@@ -32,3 +32,7 @@ Withdrawals from the ARM are processed on-demand when liquidity is available. Ho
 
 By offering the best rates for OS swaps, the ARM S Vault captures volume from DEX aggregators. The ARM S Vault is integrated with KyberSwap and OpenOcean at launch, two of the leading DEX aggregators on Sonic.
 
+## LP Token
+
+The OS ARM vault LP token is: ARM-WS-OS. Users who deposit into the OS ARM's S Vault receive ARM-WS-OS, representing their share of the vault. These tokens can now be used throughout DeFi, starting with lending and borrowing on Silo.
+

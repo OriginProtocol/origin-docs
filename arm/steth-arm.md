@@ -1,22 +1,30 @@
 # stETH ARM
 
-For traders, the stETH (ARM) offers zero-slippage swapping of stETH. You can think of an ARM as a cross between an AMM and an isolated money market as it prices assets based on current market rates and redemption queues.&#x20;
+Origin’s stETH ARM offers LPs a low-risk strategy to earn passive yield on their ETH. The ARM (Automated Redemption Manager) consists of an ETH vault (ETH in, ETH out) that is used to arbitrage the stETH redemption queue.&#x20;
 
-The stETH ARM offers:
+## **How it works**
 
-* **Zero Slippage:** The ARM offers zero-slippage swaps for redeemable assets saving traders a large amount on swaps in comparison to other options on the market.
-* **Market-Based Pricing**: The prices are based on the market rates at the time and the length of the redemption queue.&#x20;
-* I**nstant Liquidity**: Enables 1:1 swap prices between stETH and ETH.
-* **Low Fees**: The ARM is gas-optimized and provides modest trading fees.
-* **Revenue Generation**: The ARM plays a pivotal role in generating protocol revenue that accrues to OGN.
+The stETH ARM uses it's ETH liquidity to purchase stETH from the market at a discount and then redeems it 1:1 for ETH using Lido's withdrawal queue. The delta between the discounted price and the 1:1 price accrues as yield to the stETH ARM.
 
-The ARM is currently integrated into 1Inch and CowSwap and more integrations are on the way as the product continues to scale throughout DeFi.&#x20;
+#### **Lending Market Integrations**
 
-### How it works
+The stETH ARM increases its capital efficiency with lending market integrations. In addition to earning yield from arbitraging stETH redemptions, the stETH ARM routes its idle ETH liquidity to Morpho's lending markets to earn additional yield, unlocking additional upside for depositors even during low-volatility periods.
 
-Unlike a DEX that uses a bonding curve to price assets, ARM prices are determined by the current market rates of the underlying collateral and the length of the redemption queue.
+#### **Flow of Funds**
 
-As a concrete example, imagine that a user wants to swap out of stETH into ETH. That user can currently unstake from Lido and receive ETH 1:1, usually after several days. Or, they can swap stETH instantly for ETH on Curve or Uniswap, incurring transaction fees and slippage. For larger swaps, the slippage can be considerable, penalizing the trader for wanting to get out of a large position.
+1. LP deposits ETH into the stETH ARM vault [using the Origin dapp](https://app.originprotocol.com/#/arm/146:ARM-WS-OS)
+2. ETH deposited in the vault is split between:
+   * Vault buffer (up until the required liquidity threshold is met)
+   * Morpho (anything beyond the required vault liquidity goes here to earn lending market yield)
+3. ETH in the vault buffer is used by the ARM to acquire stETH at a discount
+4. stETH is redeemed 1:1 for ETH via Lido's withdrawal queue&#x20;
+5. \[Back to Step 2] Resulting ETH is split between the vault buffer and the lending market
 
-With the ARM, traders will get a far more competitive price at virtually **1:1 between stETH and ETH.** The ARM can quote these prices based on the cost of “loaning” out ETH to the trader at a very low interest rate. In practice, this almost always beats the pricing of AMMs like Uniswap, Curve, etc. Further, gas optimizations and an intentionally modest trading fee in the ARM ensure the best possible prices for traders looking for instant exit liquidity.
+## **DEX Aggregator Integrations**
+
+The stETH captures volume from DEX aggregators by offering the best rates for stETH swaps. The stETH ARM is integrated leading DEX aggregators including 1inch and CoWSwap.
+
+## LP Token
+
+The stETH ARM vault LP token is: ARM-WETH-stETH. Users who deposit into the stETH ARM's ETH Vault receive ARM-WETH-stETH, representing their share of the vault. These tokens can now be used throughout DeFi, starting with lending and borrowing on Morpho.
 
