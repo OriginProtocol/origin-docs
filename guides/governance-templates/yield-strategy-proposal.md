@@ -57,7 +57,7 @@ _What is the relationship between the author of this proposal and the proposed y
 
 #### Base APY
 
-_What level of yield can OUSD collateral earn without including liquidity mining incentives? How does it compare to the current OUSD yield strategies? Keep in mind that new strategies often have investment caps of 100k USDC/USDT/DAI._
+_What level of yield can OUSD collateral earn without including liquidity mining incentives? How does it compare to the current OUSD yield strategies? Keep in mind that new strategies often have investment caps of 100k USDC/USDT/USDS._
 
 #### Liquidity Incentives
 
