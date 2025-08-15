@@ -71,7 +71,7 @@ _USDC: XXX% + YYY% in ZZZ_
 
 _USDT: XXX% + YYY% in ZZZ_
 
-_DAI: XXX% + YYY% in ZZZ_
+_USDS: XXX% + YYY% in ZZZ_
 
 ### TVL & Liquidity
 
