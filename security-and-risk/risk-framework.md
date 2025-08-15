@@ -19,7 +19,7 @@ OUSD is built on top of other DeFi platforms like Aave and Compound, while both 
 
 It is important to understand that OUSD and OETH are only as strong as the backing collateral. Any loss of value to underlying stablecoin assets or ETH will cause a similar loss to the value of OUSD or OETH. While OUSD is designed to maintain a 1:1 relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins.
 
-It is important to note that each of the supported stablecoins introduces non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
+It is important to note that each of the supported stablecoins introduces non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets.&#x20;
 
 If any of the node operators that are backing OETH are slashed, you can expect that OETH holders will similarly lose money. In the case of a minor slashing like we've seen to date, the result will be that OETH holders will earn slightly less yield. In the event of a major slashing, you can expect that OETH will drop in value proportional to the percentage of the backing LST that was impacted. However, we are mitigating this by using DVT (Distributed Validator Technology) which distributes transaction validation across multiple nodes, enhancing security and reliability. This reduces the risk of single points of failure and ensures a more decentralized, robust staking process, protecting against validator downtime or malicious activity.
 
@@ -44,7 +44,7 @@ In essence, slashing ensures validators have a financial reason to do their job 
 
 On Feb. 21, 2023, a judge in the High Court of England and Wales ordered Oasis, a gateway for the DeFi lender MakerDAO, to "take all necessary steps" to retrieve assets that were stolen as part of a $320M heist last year. Unfortunately as a result, no risk assessment would be complete without mentioning the risk of antagonistic regulators trying to meddle in the affairs of the protocol.
 
-There are **no back doors** into OUSD or OETH. There is no function the Origin devs can call to freeze or steal your money. The protocol is fully decentralized and the contracts can not be upgraded without the coordination and permission of thousands of OGV stakers around the world.
+There are **no back doors** into OUSD or OETH. There is no function the Origin devs can call to freeze or steal your money. The protocol is fully decentralized and the contracts can not be upgraded without the coordination and permission of thousands of OGN stakers around the world.
 
 In the extreme case where core devs are compelled to submit or vote for proposals to upgrade the contracts against their wishes, the timelock acts as the final line of defense, giving those who are paying attention time to withdraw their money before the upgrades can go into effect.
 
