@@ -4,6 +4,6 @@ description: Contracts related to the Automated Redemption Managers (ARM) on Eth
 
 # Ethereum ARMs
 
-<figure><img src="../../../.gitbook/assets/lidoContracts.png" alt=""><figcaption><p>Contract Dependencies</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 {% include "../../../.gitbook/includes/ethereum-arms.md" %}
