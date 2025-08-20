@@ -10,8 +10,6 @@ OTokens (OUSD, OETH, Super OETH, and OS) work differently than most tokens. Inst
 Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
 This mechanism was inspired by the novel approach taken by [Ampleforth](https://www.ampleforth.org/), but there are some key differences that are worth highlighting:
 
 1. OTokens can be redeemed for their underlying collateral at any time. Given the ease of minting and redeeming them, we can count on arbitrageurs to ensure the peg is maintained.
