@@ -7,7 +7,7 @@ As the Origin community grows in members and in TVL, there will likely be an ove
 * [peteorigin.eth](https://etherscan.io/address/0xcC4Fd6e348009710404641a01b29f15703b90aed) — Origin BD Manager
 * [grabec.eth](https://etherscan.io/address/0x5e687f547d26732a3f1213e1c31432c3ef6810bc) — Origin smart contract engineer
 * [massadoption.eth](https://etherscan.io/address/0x9FfD0a5b5438B95861167422E745D34d151bcc3b) — active community member “guzman\_massadoption” on Discord
-* pgov.eth
+* [pgov.eth](https://etherscan.io/address/0x3fb19771947072629c8eee7995a2ef23b72d4c8a) — professional delegation group that has supported Origin Protocol proposals over the years across various DAOs
 
 University blockchain clubs participating in the [university-governance-program.md](../university-governance-program.md "mention") also hold significant voting power in the Origin DAO:
 
