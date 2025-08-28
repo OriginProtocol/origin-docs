@@ -18,7 +18,6 @@ University blockchain clubs participating in the [university-governance-program.
 * [emoryblockchain.eth](https://etherscan.io/address/0xda8894b8761E3a876E4311265826599DC84b82D5) — Emory University
 * [0x330...4b368](https://etherscan.io/address/0x33067db928e7ED73Ddb761bF7a118b586564b368) — Vanderbilt / Anchor DAO&#x20;
 * [0x93...3f1d7](https://etherscan.io/address/0x933EB459569836D53ad6647a29748Bb096b3f1d7) — Queens College
-* [0x07E...e741F](https://etherscan.io/address/0x07E3bFA4c952Bc58c2c30Ae20B0B7E9ACE9e741F) — NYU
 * [0x253...C5EA](https://etherscan.io/address/0x2535Aa0d1058dd9336a7B22b60Eb7c0881EAC5EA) — Tulane University
 * [0x123...3b9DE](https://etherscan.io/address/0x1237B1b6EDC76b1aBC3614e6c9b5f75C4e13b9DE) — UC Santa Barbara
 * [0xE22...C90B7](https://etherscan.io/address/0xa12c0b50F1b81C3Ecbf56097e85e607eE22C90B7)— Cal Poly San Luis Obispo
