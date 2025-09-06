@@ -26,5 +26,5 @@ The stETH captures volume from DEX aggregators by offering the best rates for st
 
 ## LP Token
 
-The stETH ARM vault LP token is: ARM-WETH-stETH. Users who deposit into the stETH ARM's ETH Vault receive ARM-WETH-stETH, representing their share of the vault. These tokens can now be used throughout DeFi, starting with lending and borrowing on Morpho.
+The stETH ARM vault LP token is: ARM-WETH-stETH. Users who deposit into the stETH ARM's ETH Vault receive ARM-WETH-stETH, representing their share of the vault. These tokens can now be used throughout DeFi, starting with Pendle.
 
