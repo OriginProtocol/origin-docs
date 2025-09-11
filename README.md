@@ -1,4 +1,4 @@
-# Introduction
+# Introduction to Origin
 
 Origin Protocol is a suite of complimentary DeFi products designed to increase economic opportunity for all. Our permissionless and composable smart contracts provide superior user experiences across DeFi.&#x20;
 

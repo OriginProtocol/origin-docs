@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introduction to Origin](README.md)
 
 ## Yield-bearing Tokens
 
