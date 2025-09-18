@@ -22,6 +22,16 @@ Protocols can increase the capital efficiency of their liquidity pools by pairin
 
 <figure><img src="../../.gitbook/assets/Pool Booster Graphic (2).jpg" alt=""><figcaption></figcaption></figure>
 
+### Borrow Booster
+
+Borrow Booster applies the same principle to lending markets. Borrow Booster directs yield from Origin’s yield-bearing tokens to incentivize borrowing rates on lending markets. This lowers the APR paid by borrowers, making leverage strategies more efficient. The result is a lending market with an automated and sustainable incentive system for borrowers.
+
+Take the [superOETHb/USDC](https://app.morpho.org/base/market/0x67a66cbacb2fe48ec4326932d4528215ad11656a86135f2795f5b90e501eb538/superoethb-usdc) market on Morpho, for example:
+
+In this market, Super OETH yield is forwarded to Merkl and used to incentivize the borrow rate of USDC. For borrowers, this means lower effective APRs and more efficient leverage opportunities. For lenders, it translates into stronger demand for credit and healthier utilization of capital.
+
+<figure><img src="../../.gitbook/assets/Borrowing Booster (rug).png" alt=""><figcaption></figcaption></figure>
+
 ### Other Use Cases
 
 Note that Yield Forwarding has many other potential applications including funding a protocol’s treasury, funding staking rewards, DCA'ing into tokens, and beyond. Protocols can earn substantial yield on their ETH and stablecoin holdings by implementing Yield Forwarding, allowing them to extend their runway and fund future initiatives.
