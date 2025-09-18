@@ -24,7 +24,7 @@ Protocols can increase the capital efficiency of their liquidity pools by pairin
 
 ### Borrow Booster
 
-Borrow Booster applies the same principle to lending markets. Borrow Booster directs yield from Origin’s yield-bearing tokens to incentivize borrowing rates on lending markets. This lowers the APR paid by borrowers, making leverage strategies more efficient. The result is a lending market with an automated and sustainable incentive system for borrowers.
+Borrow Booster applies the same principle to lending markets. Borrow Booster directs yield from Origin’s yield-bearing tokens to incentivize borrowing rates on lending markets. This lowers the APR paid by borrowers, resulting in a lending market with an automated and sustainable incentive system for borrowers.
 
 Take the [superOETHb/USDC](https://app.morpho.org/base/market/0x67a66cbacb2fe48ec4326932d4528215ad11656a86135f2795f5b90e501eb538/superoethb-usdc) market on Morpho, for example:
 
