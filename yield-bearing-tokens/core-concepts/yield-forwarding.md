@@ -10,7 +10,7 @@ Yield Forwarding gives OGN governance the ability to forward yield during a reba
 
 Yield forwarding represents a one-to-one relationship between the source and target address. This means that a source address is unable to forward yield to more than one address and a target address is unable to receive forwarded yield from more than one source. See an illustration below.
 
-<figure><img src="../../.gitbook/assets/Frame 8 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Yield Forwarding.png" alt=""><figcaption></figcaption></figure>
 
 ### Pool Booster
 
