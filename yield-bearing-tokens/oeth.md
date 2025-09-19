@@ -41,7 +41,7 @@ OETH offers enhanced decentralization and security of ETH staking through its us
 
 ### Redemption
 
-As a permissionless protocol with no gatekeepers, OETH supports redemption by anyone at any time. While there are four different ways to exit OETH, users can go through the [Origin dapp](https://originprotocol.eth.limo) to get the best outcome without needing to consider every option.
+As a permissionless protocol with no gatekeepers, OETH supports redemption by anyone at any time. While there are four different ways to exit OETH, users can go through the [Origin dapp](https://app.originprotocol.com/) to get the best outcome without needing to consider every option.
 
 1. **Instant 1:1 ARM swap** - OETH is the first LST to offer lossless 1:1 WETH exchange through Origin's Automated Redemption Manager (similar to the[steth-arm.md](../arm/steth-arm.md "mention")). This mechanism allows anyone to enter and exit OETH instantly with no slippage or price impact. The OETH ARM has recently been deployed to support OETH redemptions at a small scale and will be scaled up with additional liquidity in the coming weeks.
 2. **Async withdrawal** - As with most other top tier LSTs, OETH offers the ability to request and claim the underlying ETH from the Beacon Chain at any time through a withdrawal queue. This feature provides a fallback in the event that the OETH ARM has insufficient liquidity to support a large scale instant 1:1 swap. Holders of OETH can be assured that 100% of the protocol's staked ETH can be accessed within a matter of hours or days in any market conditions.
