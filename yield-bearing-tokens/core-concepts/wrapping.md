@@ -16,7 +16,7 @@ Both OETH and wOETH earn at the same rate and can be transferred just like any o
 
 ### Wrapping
 
-OS, Super OETH, OETH and OUSD can be wrapped using their respective swap forms in the [Origin dapp](https://originprotocol.eth.limo).
+OS, Super OETH, OETH and OUSD can be wrapped using their respective swap forms in the [Origin dapp.](https://app.originprotocol.com/)
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-25 at 23.19.09.png" alt=""><figcaption><p>Lossless token wrapping in the Origin dapp</p></figcaption></figure>
 
@@ -24,4 +24,4 @@ wOETH is also a supported swap route in [1inch](https://app.1inch.io/), which en
 
 ### Unwrapping
 
-Converting back to the underlying yield-bearing tokens does not require any ERC-20 approvals. There's also no minimum term or lockup period. You can use the same swap form in the [Origin dapp](https://originprotocol.eth.limo) to unwrap any of the OTokens or to call contract's `withdraw` function.&#x20;
+Converting back to the underlying yield-bearing tokens does not require any ERC-20 approvals. There's also no minimum term or lockup period. You can use the same swap form in the [Origin dapp](https://app.originprotocol.com/) to unwrap any of the OTokens or to call contract's `withdraw` function.&#x20;

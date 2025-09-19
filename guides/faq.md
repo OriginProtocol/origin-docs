@@ -2,7 +2,7 @@
 
 **Where can I acquire Origin's yield-bearing tokens?**
 
-OETH, OUSD, Super OETH, and OS can be acquired in the [Origin dapp](https://originprotocol.eth.limo).
+OETH, OUSD, Super OETH, and OS can be acquired in the [Origin dapp](https://app.originprotocol.com/).
 
 
 
