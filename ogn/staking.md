@@ -27,4 +27,4 @@ If you're familiar with [Curve Finance](https://curve.finance)'s governance toke
 * xOGN uses an exponential decay function as opposed to veCRV's linear equation.
 * veCRV holders see their balances go down as time passes, ending at 0 when their lock-up periods expire. xOGN holders see their balances remain the same throughout their lock-up periods. Instead of their balances falling, their share becomes a lower percentage of the overall vote-escrowed token supply.\
   \
-  To stake your OGN, visit the [Origin dapp](https://originprotocol.eth.limo) at app.originprotocol.com/#/OGN/staking&#x20;
+  To stake your OGN, visit the [Origin dapp](https://app.originprotocol.com/#/ogn/staking).&#x20;

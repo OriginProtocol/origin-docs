@@ -33,7 +33,7 @@ Hold sufficient xOGN tokens (Staked Origin Tokens)
 Here are the step-by-step instructions to vote and create a proposal:
 
 1. Obtain OGN from a centralized exchange like Coinbase or Binance, or a decentralized exchange such as Uniswap or Curve.
-2. Stake OGN using the [Origin App](https://app.originprotocol.com)
+2. Stake OGN using the [Origin App](https://app.originprotocol.com/#/ogn/staking)
 3.  Submit and discuss the proposal on the [Origin Governance Forum](https://governance.originprotocol.com/) and share the link on the [Origin Protocol Discord server](https://originprotocol.com/discord) under the #governance channel for maximum visibility
 
     _(1-4 weeks of discussion recommended)_

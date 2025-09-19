@@ -61,12 +61,6 @@ The OUSD protocol routes USDT, USDC, and USDS to highly-performing liquidity poo
 
 In addition to collecting interest from lending and fees from market making, the protocol automatically claims and converts the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens and Curve gives away CRV tokens. These bonus rewards are regularly converted into OUSD and distributed to holders in the form of additional yield. Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns.&#x20;
 
-The harvesting of these rewards is completely decentralized and open for anyone to participate. The protocol offers 1% of the claimed rewards as an incentive to whoever is willing to call the function first. You can think of it as a reverse auction, whereby the protocol finds whoever is willing to accept the lowest price for the work that is being performed. View the [Incentivized Harvesting Guide](broken-reference) for details on how to participate.
-
-
-
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 ### Collateral
 
 It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD. Because of this, the protocol goes to great lengths to evaluate each stablecoin before adding as a backing asset, including running each through an in-depth Stablecoin Evaluation Framework.
