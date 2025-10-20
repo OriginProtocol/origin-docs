@@ -6,6 +6,9 @@ Origin has a continuous auditing agreement with [OpenZeppelin](https://openzeppe
 
 At launch, OETH utilized 95% of the same code as OUSD and has since been simplified with the removal of LST collateral and farming strategies. Changes were audited by [OpenZeppelin](https://www.openzeppelin.com/) and [Narya](https://narya.ai/) prior to launch. OUSD has also been thoroughly audited by multiple other top security firms, including [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/).
 
+* [Nethermind, Origin Compounding Staking Strategy - October 2025](https://github.com/OriginProtocol/security/blob/master/audits/Nethermind%20-%20Origin%20Compounding%20Straking%20Strategy%20%20Audit%20-%20October%202025.pdf)
+* [OpenZeppelin, Origin Compounding Staking Strategy - September 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Compounding%20Staking%20Strategy%20Audit%20-%20September%202025.pdf)
+* [SigmaPrime, Origin Compounding Staking Strategy - September 2025](https://github.com/OriginProtocol/security/blob/master/audits/Sigma%20Prime%20-%20Origin%20Compounding%20Staking%20Strategy%20Audit%20-%20September%202025.pdf)
 * [OpenZeppelin, Origin Plume Rooster AMO - July 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Plume%20Rooster%20AMO%20-%20July%202025.pdf)
 * [OpenZeppelin, Origin ARM - June 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20ARM%20-%20June%202025.pdf)
 * [OpenZeppelin, Wrapped and Vault updates - April 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20WOETH%20and%20Vault%20Update%20-%20April%202025.pdf)
