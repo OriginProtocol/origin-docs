@@ -373,7 +373,7 @@ The total number of Origin Ether (OETH) tokens in existence
 
 `GET` `https://api.originprotocol.com/total-superoethb`
 
-The total number of Origin Dollar (OUSD) tokens in existence
+The total number of Super OETH (superOETHb) tokens in existence
 
 200: OK
 
