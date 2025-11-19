@@ -401,7 +401,7 @@ The total number of Origin Sonic (OS) tokens in existence
 
 `GET` `https://api.originprotocol.com/api/v2/protocol/protocol-fees`
 
-Protocol revenue derived from OETH and OUSD performance fees
+Protocol revenue derived from OETH, OUSD, OS, and ARM performance fees
 
 200: OK
 
