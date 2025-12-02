@@ -25,7 +25,7 @@ Your balance of OUSD, OETH, Super OETH, or OS will increase with each positive r
 
 **How is it possible for the APY to be so high?**
 
-You can read about our various strategies in [Yield Generation](broken-reference). We currently get most of the yield from harvesting rewards tokens. Additionally, the yield increases as more OUSD, OETH, Super OETH, and OS are held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the remaining holders.
+You can read about our various strategies in [Yield Generation](/broken/pages/21VD2AtjUIyd0vy5EOd6). We currently get most of the yield from harvesting rewards tokens. Additionally, the yield increases as more OUSD, OETH, Super OETH, and OS are held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the remaining holders.
 
 
 

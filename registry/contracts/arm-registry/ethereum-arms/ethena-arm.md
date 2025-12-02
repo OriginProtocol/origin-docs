@@ -1,10 +1,10 @@
 # Ethena ARM
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### ARMs Contracts
 
-<table><thead><tr><th width="230.2109375">Contract</th><th>Address</th></tr></thead><tbody><tr><td>EtherFi ARM </td><td><a href="https://etherscan.io/address/0xCEDa2d856238aA0D12f6329de20B9115f07C366d">0xCEDa2d856238aA0D12f6329de20B9115f07C366d</a></td></tr><tr><td>AAVE Strategy</td><td><a href="https://etherscan.io/address/0x0DC20109Ea012f050BeDA184844c1eD5ec6dA33A#readProxyContract">0x0DC20109Ea012f050BeDA184844c1eD5ec6dA33A</a></td></tr><tr><td>Cap Manager</td><td><a href="https://etherscan.io/address/0x687AFB5A52A15122fD5FC54A8B52cfd58346fb0C">0x687AFB5A52A15122fD5FC54A8B52cfd58346fb0C</a></td></tr><tr><td>Zapper</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="230.2109375">Contract</th><th>Address</th></tr></thead><tbody><tr><td>EtherFi ARM </td><td><a href="https://etherscan.io/address/0xCEDa2d856238aA0D12f6329de20B9115f07C366d">0xCEDa2d856238aA0D12f6329de20B9115f07C366d</a></td></tr><tr><td>AAVE Strategy</td><td><a href="https://etherscan.io/address/0x0DC20109Ea012f050BeDA184844c1eD5ec6dA33A#readProxyContract">0x0DC20109Ea012f050BeDA184844c1eD5ec6dA33A</a></td></tr><tr><td>Cap Manager</td><td><a href="https://etherscan.io/address/0x687AFB5A52A15122fD5FC54A8B52cfd58346fb0C">0x687AFB5A52A15122fD5FC54A8B52cfd58346fb0C</a></td></tr><tr><td>Zapper</td><td></td></tr><tr><td>Unstaker (example)</td><td><a href="https://etherscan.io/address/0x77789BB87eAdfC429440209F7d28ED55aC15f17a">0x77789BB87eAdfC429440209F7d28ED55aC15f17a</a></td></tr></tbody></table>
 
 #### Third Party Contracts
 
