@@ -56,6 +56,7 @@
     * [Ethereum ARMs](registry/contracts/arm-registry/ethereum-arms.md)
       * [Lido ARM](registry/contracts/arm-registry/ethereum-arms/lido-arm.md)
       * [EtherFi ARM](registry/contracts/arm-registry/ethereum-arms/etherfi-arm.md)
+      * [Ethena ARM](registry/contracts/arm-registry/ethereum-arms/ethena-arm.md)
       * [Origin ARM](registry/contracts/arm-registry/ethereum-arms/origin-arm.md)
     * [Sonic ARMs](registry/contracts/arm-registry/sonic-arms.md)
   * [Pool Booster](registry/contracts/pool-booster.md)
