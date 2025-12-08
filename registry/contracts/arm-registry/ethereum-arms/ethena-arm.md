@@ -1,6 +1,6 @@
 # Ethena ARM
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/EthenaContracts.png" alt="Ethena ARM contract dependencies"><figcaption></figcaption></figure>
 
 #### ARMs Contracts
 
