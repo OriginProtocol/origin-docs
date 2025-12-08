@@ -1,34 +1,38 @@
 # Rebasing & Smart Contracts
 
-If you are using a multi-sig wallet or another smart contract wishing to participate in the rebasing aspect of OUSD, OETH, OS, or Super OETH you must call the `rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
+OTokens (OETH, Super OETH, OUSD, and OS) use a **rebasing supply** design where yield is reflected by increasing each holder’s token balance rather than by increasing the token’s price. The unit of account remains stable: 1 OUSD = $1 and 1 OETH = 1 ETH, while balances rise as underlying assets earn yield. Functionally, this works like interest in a bank account: the value stays constant, the quantity grows.
+
+Yield is realized through **rebases**, which expand token supply proportionally across eligible addresses. Key properties:
+
+* **Up-only supply changes:** Balances increase as yield is earned; they only decline if the protocol takes a loss on underlying assets.
+* **Continuous updates:** Rebases are automatically triggered through normal user interactions and by Chainlink Keepers at least once per day. Anyone can also call the `rebase()` function directly on the vault contract.
+* **Wrapped counterparts:** Each yield-bearing token has a wrapped version (wOETH, wOUSD, etc.) that operates as a ERC-4626 vault.
+
+### Account Behavior: EOAs vs. Smart Contracts
+
+By default, **externally owned accounts (EOAs)** automatically participate in rebasing. Their balances increase whenever a rebase occurs.
+
+**Smart contracts**, including multi-sigs, do **not** rebase automatically. To avoid breaking assumptions in DeFi protocols that expect balances to remain stable unless explicitly updated, OTokens held in contracts default to non-rebasing. This preserves composability with AMMs, lending markets, and other systems.
 
 {% hint style="info" %}
 Multi-sig wallets or other smart contracts must call `rebaseOptIn()` to earn yield.
 {% endhint %}
 
-By default, OUSD, OETH, OS and Super OETH held on smart contracts will not participate in the rebasing nature of the token and will forfeit any yield unless the smart contract explicitly opts in. This increases the composability of these coins within DeFi as many protocols weren't designed with the expectation that balances might change without an account-specific event being emitted. To other DeFi protocols, OUSD, OETH, superOETH and OS work just like any other normal, well-behaved ERC-20 until you ask it to change. This is a particularly useful attribute for automated market makers (AMMs) like Uniswap, which break when the number of tokens held changes unexpectedly.
+Developer notes:
 
-Smart contracts must explicitly opt-in to receive yield via the rebasing mechanism. This fixes the issue with the expanding supply on AMMs while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.&#x20;
+* `rebaseOptIn()` cannot be called within a constructor; the contract must be deployed first.
+* Governance can whitelist or remotely opt in contracts via onchain proposal (see the Rebase Opt-In Proposal).
+* Rebase status for any address can be checked using the `rebaseState(address)` view.
 
 {% hint style="warning" %}
 If you are deploying a contract and intend to call `rebaseOptIn()`to earn yield, you cannot call it from the contract's constructor. The contract must be deployed before it can be called.
 {% endhint %}
 
-#### Safe users
+#### Safe Users
 
-[Safe](https://gnosis-safe.io/) users are encouraged to use the [Origin dapp](https://app.originprotocol.com/) which will prompt you to opt-in to receiving yield. If you are using the "Old" [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) or another contract-based wallet, you will need the [proxy contract address](../../registry/contracts/) and the corresponding [ABI](https://api.etherscan.io/api?module=contract\&action=getabi\&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or `rebaseOptOut()` to turn it off again.
+[Safe](https://gnosis-safe.io/) users are encouraged to use the [Origin dapp](https://app.originprotocol.com/) which will prompt you to opt-in to receiving yield. If you are using the "old" [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) or another contract-based wallet, you will need the [proxy contract address](../../registry/contracts/) and the corresponding [ABI](https://api.etherscan.io/api?module=contract\&action=getabi\&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or `rebaseOptOut()` to turn it off again.
 
-#### Governance opt-in
-
-OGN governance is able to whitelist specific addresses to receive yield. Based on the on-chain [proposal executed on 12/26/23](https://governance.oeth.com/#/71383011691589635543710677825410966722324428905533481831290224502800746995692), OGN governance now has the ability to remotely opt-in third-party smart contracts for integration purposes, with a [rebase-opt-in-proposal.md](../../guides/governance-templates/rebase-opt-in-proposal.md "mention"). More information can be found on the proposal [Snapshot](https://snapshot.org/#/ousdgov.eth/proposal/0x90d94adfcdd5f2dd5ba4e694cf1a215874f39bc867394e25a292c11dd3356fcb).
-
-This allows for integrations with other DeFi protocols that have immutable contracts or are otherwise unable to opt-in to yield themselves.
-
-#### Yield Forwarding
-
-[Yield Forwarding](rebasing-and-smart-contracts.md#yield-forwarding) does not have an impact on any existing or ongoing balances of OS, OUSD, superOETH, OETH held by a target address. This means that a target address could receive a rebase on existing balances, along with receiving forwarded yield from a source address.&#x20;
-
-#### Checking rebase status
+### Checking Rebase Status
 
 If you are unsure whether or not a particular address will receive yield, you can use a public getter function on the OUSD or OETH contract to check its status.
 

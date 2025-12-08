@@ -5,19 +5,14 @@
 ## Yield-bearing Tokens
 
 * [Core Concepts](yield-bearing-tokens/core-concepts/README.md)
-  * [Elastic Supply](yield-bearing-tokens/core-concepts/elastic-supply.md)
   * [Rebasing & Smart Contracts](yield-bearing-tokens/core-concepts/rebasing-and-smart-contracts.md)
-  * [Yield Boost](yield-bearing-tokens/core-concepts/yield-boost.md)
   * [Wrapping](yield-bearing-tokens/core-concepts/wrapping.md)
-  * [Bridging](yield-bearing-tokens/core-concepts/bridging.md)
   * [AMO](yield-bearing-tokens/core-concepts/amo.md)
   * [Yield Forwarding](yield-bearing-tokens/core-concepts/yield-forwarding.md)
   * [Yield Smoothing](yield-bearing-tokens/core-concepts/yield-smoothing.md)
-* [OUSD](yield-bearing-tokens/ousd.md)
-* [OETH](yield-bearing-tokens/oeth.md)
-* [Super OETH](yield-bearing-tokens/super-oeth/README.md)
-  * [superOETHb](yield-bearing-tokens/super-oeth/superoethb.md)
-  * [superOETHp](yield-bearing-tokens/super-oeth/superoethp.md)
+* [Origin Ether (OETH)](yield-bearing-tokens/origin-ether-oeth.md)
+* [Super OETH](yield-bearing-tokens/super-oeth.md)
+* [Origin Dollar (OUSD)](yield-bearing-tokens/origin-dollar-ousd.md)
 * [OS](yield-bearing-tokens/os.md)
 
 ## ARM

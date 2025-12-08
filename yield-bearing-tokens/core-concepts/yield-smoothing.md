@@ -8,9 +8,9 @@ The image above depicts yield distribution before and after smoothing was introd
 
 This smoothing feature is configured by two variables that are managed by the Guardian (2 of 9 Safe) for each yield token:
 
-* `rebasePerSecondMax`&#x20;
-  * A limit on the maximum APR per second that the vault can distribute
-* `dripDuration`&#x20;
-  * The number of seconds over which yield is gradually distributed, assuming that the vault's surplus is replenished at the same rate
+* `rebasePerSecondMax`
+  * A limit on the maximum APR per second that the vault can distribute.
+* `dripDuration`
+  * The number of seconds over which yield is gradually distributed, assuming that the vault's surplus is replenished at the same rate.
 
 The end result is a yield management system that ensures a fairly consistent distribution of yield during times when yield is abundant and times when it's scarce.
