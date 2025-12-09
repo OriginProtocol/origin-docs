@@ -1,5 +1,7 @@
 # Staking
 
+<figure><img src="../.gitbook/assets/origin governance (29).png" alt=""><figcaption></figcaption></figure>
+
 ## Why Staking <a href="#why-staking" id="why-staking"></a>
 
 The goal of OGN Staking is to transfer both economic and governance power to those most committed to the long-term success of the protocol.
