@@ -28,4 +28,4 @@ wOETH is also a supported swap route in [1inch](https://app.1inch.io/), which en
 
 ### Unwrapping
 
-Converting back to the underlying yield-bearing tokens does not require any ERC-20 approvals. There's also no minimum term or lockup period. You can use the same swap form in the [Origin dapp](https://app.originprotocol.com/) to unwrap any of the OTokens or to call contract'swithdrawfunction.
+Converting back to the underlying yield-bearing tokens does not require any ERC-20 approvals. There's also no minimum term or lockup period. You can use the same swap form in the [Origin dapp](https://app.originprotocol.com/) to unwrap any of the OTokens or to call contract's withdraw function.

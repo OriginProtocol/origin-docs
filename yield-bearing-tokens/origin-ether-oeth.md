@@ -6,7 +6,7 @@
 
 Origin Ether (OETH) is an Ethereum liquid staking token designed to offer enhanced security, higher yield, and a tighter peg to ETH when compared to other LSTs. This is accomplished through rigorous audits, decentralized validator technology (DVT), and a permissionless redemption mechanism paired with deep exit liquidity.
 
-OETH was launched in May 2023 with 95% of its code forked from [OUSD](https://docs.originprotocol.com/yield-bearing-tokens/ousd). This allowed OETH to inherit years of top-tier audits and a proven track record of securing hundreds of millions of dollars worth of underlying collateral. Since growing to over $100 million of TVL itself and being integrated into top protocols such as Morpho, EigenLayer, and Pendle, OETH has become a widely adopted liquid staking token on Ethereum.
+OETH was launched in May 2023 with 95% of its code forked from [OUSD](https://docs.originprotocol.com/yield-bearing-tokens/ousd). This allowed OETH to inherit years of top-tier audits and a proven track record of securing hundreds of millions of dollars of underlying collateral. Since growing to over $100 million of TVL itself and being integrated into top protocols such as Morpho, EigenLayer, and Pendle, OETH has become a widely adopted liquid staking token on Ethereum.
 
 In a sea of commoditized liquid staking tokens, OETH stands out with four clear advantages:
 
@@ -17,9 +17,9 @@ In a sea of commoditized liquid staking tokens, OETH stands out with four clear 
 
 These four core pillars of OETH make it the ideal building block for DeFi integrations. By generating the best risk-adjusted yield and maintaining the tightest peg to ETH, OETH allows other protocols to confidently plug into a secure and scalable yield source for their products to leverage.
 
-## Core Concepts
+### Core Concepts
 
-Origin's four yield-bearing token products ( [OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth-superoethb.md), and [OS](os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
+Origin's four yield-bearing token products ([OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth-superoethb.md), and [OS](os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
 * [Rebasing & Smart Contracts](core-concepts/rebasing-and-smart-contracts.md)
 * [Wrapping](core-concepts/wrapping.md)
@@ -27,9 +27,9 @@ Origin's four yield-bearing token products ( [OUSD](origin-dollar-ousd.md), [OET
 * [Yield Forwarding](core-concepts/yield-forwarding.md)
 * [Yield Smoothing](core-concepts/yield-smoothing.md)
 
-## **Redemptions**
+### **Redemptions**
 
-As a permissionless protocol with no gatekeepers, OETH supports redemption by anyone at any time. While there are three different ways to exit OETH, users can go through the [Origin dapp](https://app.originprotocol.com/) to get the best outcome without needing to consider every option.
+As a permissionless protocol with no gatekeepers, OETH supports redemption by anyone at any time. While there are three different ways to exit OETH, users can go through the [Origin dapp](https://app.originprotocol.com/) to get the best outcome without needing to consider every option independently.
 
 1. **Async withdrawals** - As with most leading LSTs, OETH offers the ability to request and claim the underlying ETH from the Beacon Chain at any time through a withdrawal queue. This feature provides a fallback in the event that onchain liquidity is insufficient to support a large scale swap with low slippage. Direct redemptions ensure that all of the protocol’s staked ETH is redeemable, with timing determined by Ethereum’s Beacon Chain withdrawal queue.
 2. **DEX swap** - The OETH/ETH Curve pool features deep exit liquidity allowing anyone to swap OETH for ETH at the current spot price. This rate fluctuates based on market demand but is often arbitraged back to near 1:1 anytime it falls due to users’ ability to redeem OETH 1:1 via the Origin dapp.
@@ -37,9 +37,9 @@ As a permissionless protocol with no gatekeepers, OETH supports redemption by an
 
 Redemption is a critical feature for any LST and is paramount for OETH to remain the optimal building block for DeFi protocols. Allowing users to confidently hold OETH knowing they can exit at virtually 1:1 for ETH anytime will always be OETH's top priority.
 
-## **Zapper**
+### **Zapper**
 
-The OETH Zapper is a convenience contract enabling depositors to use Ether (ETH) to mint OETH or wOETH. The OETH _Vault_ supports WETH but does not allow direct minting with ETH. This design decision increases security and also reduces the gas costs associated with minting.
+The OETH Zapper is a convenience contract enabling depositors to use Ether (ETH) to mint OETH or wOETH. The OETH Vault supports WETH but does not allow direct minting with ETH. This design decision increases security and also reduces the gas costs associated with minting.
 
 #### **Zapping**
 

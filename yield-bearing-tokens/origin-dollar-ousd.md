@@ -10,7 +10,7 @@ OUSD is 100% backed by USDC. The protocol deploys USDC collateral into conservat
 
 You can hold OUSD, spend it, or transfer it without unwinding positions. OUSD behaves like a normal stablecoin in your wallet while continuously earning onchain yield in the background.
 
-## Core Concepts
+### Core Concepts
 
 Origin's four yield-bearing token products ( [OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth-superoethb.md), and [OS](os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
@@ -20,7 +20,7 @@ Origin's four yield-bearing token products ( [OUSD](origin-dollar-ousd.md), [OET
 * [Yield Forwarding](core-concepts/yield-forwarding.md)
 * [Yield Smoothing](core-concepts/yield-smoothing.md)
 
-## **Yield Generation**
+### **Yield Generation**
 
 The protocol is able to generate higher yields than direct deposits to underlying protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD holders:
 
@@ -32,7 +32,7 @@ The protocol is able to generate higher yields than direct deposits to underlyin
 
 The net effect of these benefits is that **OUSD is able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.
 
-## Yield Sources
+### Yield Sources
 
 OUSD uses lending on Morpho and liquidity provision on Curve to generate yield:
 

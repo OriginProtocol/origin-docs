@@ -44,7 +44,7 @@ While Origin has carefully selected and monitored validators, there exists a ris
 
 Upon withdrawing from a validator there is a 14 day waiting period to be able to claim the funds from the validators. When the OS vault has available S liquidity, users can initiate withdrawals from the Origin Dapp without waiting for validator exits. When S withdrawals require validator exits, there is a 14-day queue before liquidity is available.
 
-## **OS Redemptions**
+### **OS Redemptions**
 
 As a permissionless protocol with no gatekeepers, OS supports redemption by anyone at any time. As of launch, there will be two ways to exit OS:
 
