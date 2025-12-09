@@ -11,9 +11,9 @@
   * [Yield Forwarding](yield-bearing-tokens/core-concepts/yield-forwarding.md)
   * [Yield Smoothing](yield-bearing-tokens/core-concepts/yield-smoothing.md)
 * [Origin Ether (OETH)](yield-bearing-tokens/origin-ether-oeth.md)
-* [Super OETH](yield-bearing-tokens/super-oeth.md)
+* [Super OETH (superOETHb)](yield-bearing-tokens/super-oeth-superoethb.md)
 * [Origin Dollar (OUSD)](yield-bearing-tokens/origin-dollar-ousd.md)
-* [Origin Sonic (OS)](yield-bearing-tokens/origin-sonic-os.md)
+* [Origin Sonic (OS)](yield-bearing-tokens/os.md)
 
 ## ARM
 

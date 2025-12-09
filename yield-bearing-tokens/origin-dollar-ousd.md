@@ -12,7 +12,7 @@ You can hold OUSD, spend it, or transfer it without unwinding positions. OUSD be
 
 ## Core Concepts
 
-Origin's four yield-bearing token products ( [OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth.md), and [OS](origin-sonic-os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
+Origin's four yield-bearing token products ( [OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth-superoethb.md), and [OS](os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
 * [Rebasing & Smart Contracts](core-concepts/rebasing-and-smart-contracts.md)
 * [Wrapping](core-concepts/wrapping.md)
