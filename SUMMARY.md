@@ -13,7 +13,7 @@
 * [Origin Ether (OETH)](yield-bearing-tokens/origin-ether-oeth.md)
 * [Super OETH](yield-bearing-tokens/super-oeth.md)
 * [Origin Dollar (OUSD)](yield-bearing-tokens/origin-dollar-ousd.md)
-* [OS](yield-bearing-tokens/os.md)
+* [Origin Sonic (OS)](yield-bearing-tokens/origin-sonic-os.md)
 
 ## ARM
 

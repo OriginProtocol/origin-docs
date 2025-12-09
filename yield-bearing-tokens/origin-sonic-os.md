@@ -1,4 +1,4 @@
-# OS
+# Origin Sonic (OS)
 
 <figure><img src="../.gitbook/assets/origin sonic (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +20,7 @@ Like OUSD, OETH, and Super OETH before it, OS is a rebasing token with an up-onl
 
 ### Core Concepts
 
-Given that Origin's four yield-bearing token products ([OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth.md), and [OS](os.md)) share most of the same battle-tested code, the same overall user experience applies across the product suite. Learn more about the core concepts here:
+Given that Origin's four yield-bearing token products ([OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth.md), and [OS](origin-sonic-os.md)) share most of the same battle-tested code, the same overall user experience applies across the product suite. Learn more about the core concepts here:
 
 * [Rebasing & Smart Contracts](core-concepts/rebasing-and-smart-contracts.md)
 * [Wrapping](core-concepts/wrapping.md)
