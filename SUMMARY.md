@@ -15,13 +15,12 @@
 * [Origin Dollar (OUSD)](yield-bearing-tokens/origin-dollar-ousd.md)
 * [Origin Sonic (OS)](yield-bearing-tokens/os.md)
 
-## ARM
+## Automated Redemption Manager (ARM)
 
-* [stETH ARM](arm/steth-arm.md)
-
-***
-
-* [OS ARM](os-arm.md)
+* [Introduction to ARM](automated-redemption-manager-arm/introduction-to-arm.md)
+* [stETH ARM](automated-redemption-manager-arm/steth-arm.md)
+* [eETH ARM](automated-redemption-manager-arm/eeth-arm.md)
+* [OS ARM](automated-redemption-manager-arm/os-arm.md)
 
 ## OGN
 
