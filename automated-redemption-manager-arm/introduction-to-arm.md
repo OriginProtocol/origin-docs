@@ -14,6 +14,8 @@ When a liquid staking token trades below its redemption value, the ARM buys it o
 
 When market spreads tighten and lending yields are more attractive, the ARM dynamically routes capital to external protocols like Morpho (on Ethereum deployments) and Silo (on Sonic deployments) to earn additional yield.
 
-\[ARM Flow of Funds Diagram]
+**ARM Flow of Funds**
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-16 at 12.42.46 PM.png" alt=""><figcaption></figcaption></figure>
 
 This creates a self-balancing mechanism that narrows peg spreads, restores market efficiency, and keeps liquidity productive in all market conditions. The ARM effectively transforms volatility into opportunity, capturing price spreads between LSTs and their backing collateral.
