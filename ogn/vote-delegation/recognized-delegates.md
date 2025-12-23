@@ -22,6 +22,7 @@ University blockchain clubs participating in the [university-governance-program.
 * [0x123...3b9DE](https://etherscan.io/address/0x1237B1b6EDC76b1aBC3614e6c9b5f75C4e13b9DE) — UC Santa Barbara
 * [0xE22...C90B7](https://etherscan.io/address/0xa12c0b50F1b81C3Ecbf56097e85e607eE22C90B7)— Cal Poly San Luis Obispo
 * [0xa5E...0dC13f](https://etherscan.io/address/0xa5E07bF7D16a9511C1801aa7f229Bad5ed0dC13f) — Dartmouth College
+* [0x481...71449e](https://etherscan.io/address/0x481e6a9C263B9855c1C410180a7e69C66371449e) — University of Washington
 
 Learn more about your delegates by reading their delegate statements on the [Meet Your Delegates](https://governance.originprotocol.com/c/proposals/meet-your-delegates/12) forum page.
 
