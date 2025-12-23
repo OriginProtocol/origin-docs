@@ -1,6 +1,16 @@
-# Lido ARM
+---
+description: >-
+  Lido ARM on Ethereum with stETH as the base asset and WETH as the liquidity
+  asset.
+---
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+# Lido: stETH/WETH
+
+{% hint style="info" %}
+Docs: [https://docs.originprotocol.com/automated-redemption-manager-arm/steth-arm](https://docs.originprotocol.com/automated-redemption-manager-arm/steth-arm)
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 #### ARMs Contracts
 

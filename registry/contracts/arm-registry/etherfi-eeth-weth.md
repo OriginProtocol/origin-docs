@@ -1,6 +1,16 @@
-# EtherFi ARM
+---
+description: >-
+  EtherFi ARM on Ethereum with eETH as the base asset and WETH as the liquidity
+  asset.
+---
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+# EtherFi: eETH/WETH
+
+{% hint style="info" %}
+Docs: [https://docs.originprotocol.com/automated-redemption-manager-arm/eeth-arm](https://docs.originprotocol.com/automated-redemption-manager-arm/eeth-arm)
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 #### ARMs Contracts
 

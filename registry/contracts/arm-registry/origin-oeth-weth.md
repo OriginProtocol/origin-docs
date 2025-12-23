@@ -1,6 +1,14 @@
-# Origin ARM
+---
+description: >-
+  Lido ARM on Ethereum with OETH as the base asset and WETH as the liquidity
+  asset.
+---
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+# Origin: OETH/WETH
+
+
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 #### ARMs Contracts
 

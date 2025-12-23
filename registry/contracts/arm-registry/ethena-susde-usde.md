@@ -1,6 +1,12 @@
-# Ethena ARM
+---
+description: >-
+  Ethena ARM on Ethereum with sUSDe as the base asset and USDe as the liquidity
+  asset.
+---
 
-<figure><img src="../../../../.gitbook/assets/EthenaContracts.png" alt="Ethena ARM contract dependencies"><figcaption></figcaption></figure>
+# Ethena: sUSDe/USDe
+
+<figure><img src="../../../.gitbook/assets/EthenaContracts.png" alt="Ethena ARM contract dependencies"><figcaption></figcaption></figure>
 
 #### ARMs Contracts
 
