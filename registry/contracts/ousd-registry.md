@@ -6,7 +6,7 @@ description: Contracts related to Origin Dollar
 
 Most of Origin's contracts are upgradable via a well-known proxy wrapper and an implementation contract. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum.
 
-<figure><img src="../../.gitbook/assets/ousdContracts (1).png" alt=""><figcaption><p>Contract dependencies</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### Ethereum
 
