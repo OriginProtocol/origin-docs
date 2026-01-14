@@ -33,4 +33,5 @@ description: List of all Safe Modules that Origin uses on Safe multisigs
 
 | Module Contract                                                                                                       | Safe                                                                                                                  |
 | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [0xb000833E7C140a5359BeF8B92BecBcAE9AaBF64E](https://etherscan.io/address/0xb000833E7C140a5359BeF8B92BecBcAE9AaBF64E) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
+| [0x94aE28576cBD702305F009B70eE6e15De04B0434](https://etherscan.io/address/0x94aE28576cBD702305F009B70eE6e15De04B0434) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
+
