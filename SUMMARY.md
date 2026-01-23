@@ -55,16 +55,18 @@
 * [Dapp](registry/dapp.md)
 * [API](registry/api.md)
 
-## Guides
+## Resources
 
-* [FAQ](guides/faq.md)
-* [Governance Templates](guides/governance-templates/README.md)
-  * [Rebase Opt-In Proposal](guides/governance-templates/rebase-opt-in-proposal.md)
-  * [Integration Proposal](guides/governance-templates/integration-proposal.md)
-  * [General Proposal](guides/governance-templates/general-proposal.md)
-  * [Yield Strategy Proposal](guides/governance-templates/yield-strategy-proposal.md)
-  * [Collateral Proposal](guides/governance-templates/collateral-proposal.md)
-* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+* [FAQ](resources/faq.md)
+* [Governance Templates](resources/governance-templates/README.md)
+  * [Rebase Opt-In Proposal](resources/governance-templates/rebase-opt-in-proposal.md)
+  * [Integration Proposal](resources/governance-templates/integration-proposal.md)
+  * [General Proposal](resources/governance-templates/general-proposal.md)
+  * [Yield Strategy Proposal](resources/governance-templates/yield-strategy-proposal.md)
+  * [Collateral Proposal](resources/governance-templates/collateral-proposal.md)
+* [Guides](resources/guides/README.md)
+  * [Integration Guide For Exchanges](resources/guides/integration-guide-for-exchanges.md)
+  * [Redeeming superOETHp](resources/guides/redeeming-superoethp.md)
 
 ## Links
 
