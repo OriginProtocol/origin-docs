@@ -10,28 +10,18 @@
 
 To unwrap Wrapped Super OETH (wsuperOETHp), visit the [Plume explorer](https://explorer.plume.org/token/0x2dE8A403f7A5c6C5161D4a129918Ec9f0b653918?tab=read_write_proxy) and locate the contracts tab under wsuperOETHp. Select "Read/Write proxy" and scroll down to the redeem() function. Enter the amount of wsuperOETHp you wish to unwrap, and click "$$x10^{18}$$." Then, enter the address to receive superOETHp and the owner address currently holding wsuperOETHp. Click "write" and execute the transaction from your wallet to complete the withdrawal request.
 
-**Plume explorer contracts page:**
+### Video Guide
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-23 at 2.27.13 PM.png" alt=""><figcaption></figcaption></figure>
-
-**redeem() function:**
-
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-23 at 2.27.47 PM.png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://drive.google.com/file/d/1KAXxJ5MR7qjGX66COSpqr3kEWyncqMrN/view?usp=sharing" %}
 
 ### How to Redeem Super OETH on Plume (superOETHp)
 
 To redeem Super OETH (superOETHp), visit the Plume explorer and find the [Plume Vault contract.](https://explorer.plume.org/address/0xc8c8F8bEA5631A8AF26440AF32a55002138cB76a?tab=read_write_proxy) From here, click "Read/Write proxy" and scroll down to the requestWithdrawal() function. Enter the amount of superOETHp you'd like to withdrawal, and click "$$x 10^{18}$$" before clicking "write" to request your withdrawal.&#x20;
 
-Once your withdrawal request is submitted, there is a one-day delay before being able to claim your withdrawal request. Once your withdrawal is claimable, head back to the same contracts tab, and find the claimWithdrawal() function. You will need to input your requestWithdrawal ID which can be found under "logs" in your requestWithdrawal transaction details. Once inputted, you can claim your withdrawal by clicking "write" and executing the transaction through your wallet.&#x20;
+Once your withdrawal request is submitted, there is a 10 minute delay before being able to claim your withdrawal request. Once your withdrawal is claimable, head back to the same contracts tab, and find the claimWithdrawal() function. You will need to input your requestWithdrawal ID which can be found under "logs" in your requestWithdrawal transaction details. Once inputted, you can claim your withdrawal by clicking "write" and executing the transaction through your wallet.&#x20;
 
-**Plume Vault contracts page:**&#x20;
+### Video Guide
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-23 at 2.29.31 PM.png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://drive.google.com/file/d/1G-5DJ_diW9N04xjsDuNBAgkNxZqgL2MQ/view?usp=sharing" %}
 
-**requestWithdrawal() function:**
-
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-23 at 2.30.15 PM.png" alt=""><figcaption></figcaption></figure>
-
-**claimWithdrawal() function:**
-
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-23 at 2.29.54 PM.png" alt=""><figcaption></figcaption></figure>
+_Note: WithdrawalRequest delay has been reduced from 24 hours to 10 minutes._
