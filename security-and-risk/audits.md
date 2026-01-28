@@ -1,10 +1,12 @@
 # Audits
 
-**Continuously audited**
+### **Continuously Audited**
 
-Origin has a continuous auditing agreement with [OpenZeppelin](https://openzeppelin.com) to review 100% of the OETH and OUSD smart contract changes. OpenZeppelin has audited Coinbase, Ethereum, Aave, Compound, and other leading projects. They are one of the most trusted auditing firms in the industry and we are thrilled to count them as part of our extended team.
+Origin has a continuous auditing agreement with [OpenZeppelin](https://openzeppelin.com/) to review 100% of the OETH and OUSD smart contract changes. OpenZeppelin has audited Coinbase, Ethereum, Aave, Compound, and other leading projects. They are one of the most trusted auditing firms in the industry and we are thrilled to count them as part of our extended team.
 
-At launch, OETH utilized 95% of the same code as OUSD and has since been simplified with the removal of LST collateral and farming strategies. Changes were audited by [OpenZeppelin](https://www.openzeppelin.com/) and [Narya](https://narya.ai/) prior to launch. OUSD has also been thoroughly audited by multiple other top security firms, including [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/).
+OETH utilized 95% of the same code as OUSD and has been simplified with the removal of LST collateral and farming strategies. Changes were audited by [OpenZeppelin](https://www.openzeppelin.com/) and [Narya](https://narya.ai/) prior to launch. The ARM, OUSD, and Origin’s other yield-bearing tokens have also been thoroughly audited by multiple top security firms listed below.
+
+All of Origin’s products are audited extensively before opening up to external deposits. As of 2026, Origin Protocol works with OpenZeppelin, yAudit, NetherMind, and Sigma Prime to review smart contract deployments.
 
 * [Nethermind, Origin Compounding Staking Strategy - October 2025](https://github.com/OriginProtocol/security/blob/master/audits/Nethermind%20-%20Origin%20Compounding%20Straking%20Strategy%20%20Audit%20-%20October%202025.pdf)
 * [OpenZeppelin, Origin Compounding Staking Strategy - September 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Compounding%20Staking%20Strategy%20Audit%20-%20September%202025.pdf)

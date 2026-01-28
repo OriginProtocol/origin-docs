@@ -1,22 +1,24 @@
 # Governance
 
-## **Principles**
+### Principals
 
-Origin products are decentralized protocols governed by multiple stakeholders around the world. Everything from yield generation to fee collection and distribution is managed by a set of smart contracts. These contracts are upgradeable with a timelock and controlled by hundreds of governance token holders.&#x20;
+Origin products operate as decentralized protocols governed by a distributed set of stakeholders. Yield generation, fee collection, and fee distribution are executed entirely through smart contracts. Upgrades to these contracts pass through a timelock and can only be initiated through governance controlled by xOGN holders.
 
-While the initial contracts and yield-earning strategies were developed by the Origin team, anyone can shape the future of the protocol by creating or voting on proposals, submitting new strategies, or contributing code improvements. We intend for all important decisions to be made through community governance and for limited powers to be delegated to trusted contributors who are more actively involved in the day-to-day management of the protocol. &#x20;
+Although the initial contracts and strategies were developed by the Origin team, protocol evolution is open to the broader community. Governance participants can propose parameter changes, introduce new strategies, contribute code, or vote on active proposals. The expectation is that major decisions are made collectively, while limited day-to-day responsibilities may be delegated to trusted contributors who maintain the protocol’s operations.
 
-A minimum of 20% of the xOGN supply is required to reach quorum. There is no minimum to vote on existing proposals. All passing proposals are subject to a timelock before being executed. Time-delayed admin actions give users a chance to exit if any malicious proposals are passed or the protocol is changing in a way that users do not like.
+Governance proposals require participation from at least 20% of the xOGN supply to reach quorum. There is no minimum requirement to cast a vote on existing proposals. All approved proposals are executed only after passing through a timelock, ensuring a delay between approval and implementation. This delay provides transparency and allows users to exit positions if a proposal introduces changes they deem unfavorable.
 
-## **Proposal lifecycle**
+### **Proposal lifecycle**
 
-Changes to the product contracts and the movement of funds require on-chain proposals to be created, approved, and executed by governance token holders. All pending and historical on-chain proposals are visible on the governance page of the [Origin Dapp](https://app.originprotocol.com/).&#x20;
+Changes to Origin’s smart contracts require onchain proposals to be created, approved, and executed by governance token holders. All pending and historical onchain proposals are visible on the governance page of the [Origin Dapp](https://app.originprotocol.com/).
 
-Initiating this type of formal, binding proposal requires technical skills and knowledge of the protocol’s code. On-chain proposals also involve transaction costs (gas fees) necessary to update the state of the blockchain. As a result, most proposals go through an informal, off-chain process occurring on the [Origin Protocol Snapshot Space](https://snapshot.org/#/origingov.eth). Snapshot enables any eligible governance token holder to create a proposal or vote at no cost. This also reduces the complexity and expense required to make a proposal and allows for the community to signal its approval or opposition to a given change. We encourage everyone to propose improvements at any time.&#x20;
+Initiating this type of formal, binding proposal requires technical skills and knowledge of the protocol’s code. Onchain proposals also involve transaction costs (gas fees) necessary to update the state of the blockchain. As a result, most proposals go through an informal, off-chain process occurring on the [Origin Protocol Snapshot Space](https://snapshot.org/#/origingov.eth).
 
-To help stay up to date on Snapshot proposals, you can enable email notifications by visiting [Snapshot V1](https://v1.snapshot.box/#/), clicking on your username, and adding an email.&#x20;
+Snapshot enables any eligible governance token holder to create a proposal or vote at no cost. This also reduces the complexity and expense required to make a proposal and allows for the community to signal its approval or opposition to a given change. We encourage everyone to propose improvements at any time.
 
-It’s natural for proposals to be accompanied by healthy debate or discussion regarding implementation, reasoning, methodology, etc. Discussions regarding new proposals now start in the [Origin Governance Forum](https://governance.originprotocol.com/) and are cross-posted to [Origin's Discord server](https://originprotocol.com/discord) .
+To help stay up to date on Snapshot proposals, you can enable email notifications by visiting [Snapshot V1](https://v1.snapshot.box/#/), clicking on your username, and adding an email.
+
+It’s natural for proposals to be accompanied by healthy debate or discussion regarding implementation, reasoning, methodology, etc. Discussions regarding new proposals now start in the [Origin Governance Forum](https://governance.originprotocol.com/) and are cross-posted to [Origin's Discord server](https://originprotocol.com/discord).
 
 ## **Participating**
 

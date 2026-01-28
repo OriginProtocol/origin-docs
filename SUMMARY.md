@@ -24,7 +24,8 @@
 
 ## OGN
 
-* [Staking](ogn/staking.md)
+* [Introduction to OGN](ogn/introduction-to-ogn.md)
+* [Staking (xOGN)](ogn/staking-xogn.md)
 * [Governance](ogn/governance.md)
 * [Vote Delegation](ogn/vote-delegation/README.md)
   * [Recognized Delegates](ogn/vote-delegation/recognized-delegates.md)
@@ -35,7 +36,7 @@
 * [Audits](security-and-risk/audits.md)
 * [Risk Framework](security-and-risk/risk-framework.md)
 * [Bug Bounties](security-and-risk/bug-bounties.md)
-* [Price Oracles](security-and-risk/price-oracles.md)
+* [Pricing and Peg Management](security-and-risk/pricing-and-peg-management.md)
 
 ## Registry
 
@@ -65,6 +66,8 @@
   * [Yield Strategy Proposal](resources/governance-templates/yield-strategy-proposal.md)
   * [Collateral Proposal](resources/governance-templates/collateral-proposal.md)
 * [Guides](resources/guides/README.md)
+  * [Yield-Bearing Token Integrations](resources/guides/yield-bearing-token-integrations.md)
+  * [ARM Integrations](resources/guides/arm-integrations.md)
   * [Integration Guide For Exchanges](resources/guides/integration-guide-for-exchanges.md)
   * [Redeeming superOETHp](resources/guides/redeeming-superoethp.md)
 
