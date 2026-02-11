@@ -31,7 +31,7 @@ description: List of all Safe Modules that Origin uses on Safe multisigs
 
 ### Pool Booster Bribe Module
 
-| Module Contract                                                                                                       | Safe                                                                                                                  |
-| --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [0xfA01FE78bBD1ade8064C34FE537BA2E2670B2198](https://etherscan.io/address/0xfA01FE78bBD1ade8064C34FE537BA2E2670B2198) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
+| Module Contract                                                                                                            | Safe                                                                                                                  |
+| -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [0x82447F7C3eF0a628B0c614A3eA0898a5bb7c18fe](https://etherscan.io/address/0x82447F7C3eF0a628B0c614A3eA0898a5bb7c18fe#code) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
 
