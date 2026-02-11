@@ -70,6 +70,7 @@
   * [ARM Integrations](resources/guides/arm-integrations.md)
   * [Integration Guide For Exchanges](resources/guides/integration-guide-for-exchanges.md)
   * [Redeeming superOETHp](resources/guides/redeeming-superoethp.md)
+* [Media Kit](resources/media-kit.md)
 
 ## Links
 
