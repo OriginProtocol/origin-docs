@@ -35,3 +35,9 @@ description: List of all Safe Modules that Origin uses on Safe multisigs
 | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [0x82447F7C3eF0a628B0c614A3eA0898a5bb7c18fe](https://etherscan.io/address/0x82447F7C3eF0a628B0c614A3eA0898a5bb7c18fe#code) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
 
+### OUSD Auto Withdrawals Module
+
+| Module Contract                                                                                                       | Safe                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [0x90d588fc0eC3DB9c4b417dB4537fE08e063D2ae5](https://etherscan.io/address/0x90d588fc0eC3DB9c4b417dB4537fE08e063D2ae5) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
+
