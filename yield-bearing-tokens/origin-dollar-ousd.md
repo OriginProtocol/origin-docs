@@ -27,7 +27,6 @@ The protocol is able to generate higher yields than direct deposits to underlyin
 * **Yield Bonus from Origin’s rebasing dynamic:** Smart contracts must manually opt-in to earn yield. Contracts that do not opt in to earn yield forfeit rewards to normal holders. For example, the OUSD that is being held on Uniswap does not rebase, but the USDC backing is still deployed and earning yield on behalf of other OUSD holders.
 * **Yield Diversification:** Yields tend to compress as more funds are deployed into a given strategy. By spreading capital across multiple Morpho markets and Curve liquidity provision, OUSD is able to deploy more capital with less yield compression.
 * **Gas Fee Amortization:** The gas costs of harvesting yield are amortized across the entire pool. This makes it economical to harvest more frequently, leading to faster compounding. The more frequent the compounding periods, the faster your money grows.
-* **Exit Fees:** When users redeem OUSD on the Origin dapp, the 0.25% exit fee is returned to the pool, which is distributed as yield to OUSD holders.
 * **Capital Efficiency:** The [AMO](https://docs.originprotocol.com/yield-bearing-tokens/core-concepts/amo) allows the protocol to earn up to 2x the rewards using the same amount of capital.
 
 The net effect of these benefits is that **OUSD is able to consistently return higher yields** than you would get deploying directly into any of the underlying strategies on their own.
