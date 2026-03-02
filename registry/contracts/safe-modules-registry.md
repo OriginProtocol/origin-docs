@@ -25,7 +25,7 @@ description: List of all Safe Modules that Origin uses on Safe multisigs
 
 | Module Contract                                                                                                             | Safe                                                                                                                        |
 | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| [0x362DBD4Ff662b2E2b05b9cEDC91da2Dd2c655b26](https://basescan.org/address/0x362DBD4Ff662b2E2b05b9cEDC91da2Dd2c655b26)       | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://basescan.org/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971)       |
+| [0xe3B3b4Fc77505EcfAACf6dD21619a8Cc12fcc501](https://basescan.org/address/0xe3B3b4Fc77505EcfAACf6dD21619a8Cc12fcc501)       | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://basescan.org/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971)       |
 | [0x630C1763D38AbE76301F58909fa174E7B84A7ECD](https://etherscan.io/address/0x630C1763D38AbE76301F58909fa174E7B84A7ECD)       | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971)       |
 | [0xAc58C88349e00509FEc216E1B61d13b43315E18D](https://explorer.plume.org/address/0xAc58C88349e00509FEc216E1B61d13b43315E18D) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://explorer.plume.org/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
 
