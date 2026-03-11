@@ -34,6 +34,6 @@ Let's look at an example to understand how this is possible:
 Since the user must transfer their ETH to a liquidity pool in order to withdraw OETH, the previously unbacked OETH immediately becomes backed as part of the transaction. You can think of it as the vault pre-minting some OETH for Curve to sell on its behalf with those tokens becoming 100% backed as soon as they enter circulation.
 {% endhint %}
 
-Ultimately, OUSD, OETH, Super OETH, and OS can still be redeemed at any time for the underlying collateral on a 1:1 basis.
+Ultimately, OUSD, OETH, Super OETH, and OS can still be redeemed at any time for the underlying collateral on a 1:1 basis through direct redemptions. Origin's AMOs help traders get instant liquidity with low slippage on AMMs.
 
 This model has been extensively tested and demonstrated to work safely at scale. The Origin team has also completed extensive testing to ensure that flash loan attacks cannot manipulate algorithmic market operations. For safety, funds are never directly deployed or withdrawn from the AMO as a result of a mint or redeem. Like the rest of the code, the AMO has been thoroughly audited by OpenZeppelin and other auditors.
