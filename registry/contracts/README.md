@@ -38,7 +38,9 @@ description: Contracts for all Origin tokens and products
 
 <table><thead><tr><th width="255.27734375">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 Safe)</td><td>0xAdDEA7933Db7d83855786EB43a238111C69B00b6</td></tr><tr><td>Guardian (2 of 9 Safe)</td><td>0x63cdd3072F25664eeC6FAEFf6dAeB668Ea4de94a</td></tr></tbody></table>
 
+#### Deprecated
 
+<table><thead><tr><th width="230.4013671875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original OGN Staking</td><td><a href="https://etherscan.io/address/0x501804b374ef06fa9c427476147ac09f1551b9a0#code">0x501804B374EF06fa9C427476147ac09F1551B9A0</a></td></tr><tr><td>Original OGN Staking Implementation</td><td><a href="https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08#code">0x8cD68A1E0b79150455C5498882d5d5D3DF2DdE08</a></td></tr></tbody></table>
 
 ## Products
 
