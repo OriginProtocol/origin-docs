@@ -28,7 +28,7 @@ Take the [superOETHb/USDC](https://app.morpho.org/base/market/0x67a66cbacb2fe48e
 
 In this market, Super OETH yield is forwarded to Merkl and used to incentivize the borrow rate of USDC. For borrowers, this means lower effective APRs and more efficient leverage opportunities. For lenders, it translates into stronger demand for credit and healthier utilization of capital.
 
-<figure><img src="../../.gitbook/assets/Adobe Express - 5-borrow-booster (1).gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.originprotocol.com/assets/videos/borrow-booster.mp4" %}
 
 ### Other Use Cases
 
