@@ -1,6 +1,6 @@
 # Introduction to OGN
 
-<figure><img src="../.gitbook/assets/origin token (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/origin governance (36).png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction to Origin Token (OGN)
 
