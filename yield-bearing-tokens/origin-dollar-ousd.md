@@ -1,6 +1,6 @@
 # Origin Dollar (OUSD)
 
-<figure><img src="../.gitbook/assets/origin dollar (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/origin dollar (10).png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 

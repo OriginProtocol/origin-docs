@@ -1,6 +1,6 @@
 # Origin Ether (OETH)
 
-<figure><img src="../.gitbook/assets/OETH Hero Image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/origin ether (25).png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 
@@ -12,15 +12,13 @@ In a sea of commoditized liquid staking tokens, OETH stands out with four clear 
 
 **Better risk-adjusted yield:** OETH earns its liquid staking yield from the Ethereum beacon chain using distributed validator technology (DVT). This provides OETH with an open and simple infrastructure for managing Ethereum validators and presents an opportunity to earn incentives from DVT platforms, which are harvested and distributed to OETH holders as additional yield.
 
-<figure><img src="../.gitbook/assets/Adobe Express - 3-oeth-apy-chart (2).gif" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../.gitbook/assets/Adobe Express - 3-oeth-apy-chart (2).gif" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Adobe Express - 4-oeth-peg-(both_bands) (1).gif" alt=""><figcaption></figcaption></figure></div>
 
 **Merkle Proof Verification of Beacon Chain Balances:** The latest OETH staking upgrade replaces reliance on third-party oracles with direct **Merkle Proof validation** of Beacon Chain balances. By verifying validator balances onchain through cryptographic proofs derived from Ethereum’s consensus layer, OETH ensures validator accounting is fully transparent and tamper-resistant. This trust-minimized design enhances both security and decentralization, making OETH one of the most verifiable and resilient liquid staking tokens on Ethereum.
 
 <figure><img src="../.gitbook/assets/Adobe Express - 1-merkle-proof (3).gif" alt=""><figcaption></figcaption></figure>
 
 **Tighter peg to ETH:** LSTs are expected to be stable relative to ETH. As the name implies, liquidity is the core premise of these tokens and any pricing deviation from ETH can be catastrophic. While some are more stable than others, all of the top LSTs have experienced some degree of de-pegging from ETH, resulting in a hidden exit cost for users. OETH holds an extremely tight peg to ETH through a combination of permissionless ETH withdrawals and deep onchain liquidity. Because of the AMO liquidity strategy, OETH sustains a tighter peg to ETH than other LSTs—even those with significantly larger TVL.
-
-<figure><img src="../.gitbook/assets/Adobe Express - 4-oeth-peg-(both_bands) (1).gif" alt=""><figcaption></figcaption></figure>
 
 **Compounding 0x02 Validators:** 0x02 validators introduce a more efficient staking architecture for OETH by enabling **native auto-compounding** and **partial withdrawals**. Instead of relying on offchain scripts or manual operations, rewards are automatically added to the validator balance, increasing total staked ETH without external intervention. At the same time, partial withdrawals allow OETH’s staking strategy to provide faster liquidity without fully exiting a validator, unlocking smoother operations and quicker redemptions
 

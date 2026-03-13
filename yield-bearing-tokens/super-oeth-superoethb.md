@@ -4,7 +4,7 @@ description: Beyond liquid staking
 
 # Super OETH (superOETHb)
 
-<figure><img src="../.gitbook/assets/Super OETH Hero Image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/origin super oeth (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 

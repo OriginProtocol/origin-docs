@@ -1,6 +1,6 @@
 # Origin Sonic (OS)
 
-<figure><img src="../.gitbook/assets/origin sonic (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/origin dollar (11).png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 
