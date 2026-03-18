@@ -30,7 +30,7 @@ Withdrawals from the ARM are processed on-demand when liquidity is available. Ho
 
 ### **DEX Aggregator Integrations**
 
-By offering the best rates for eETH swaps, the eETH ARM captures volume from DEX aggregators. The ARM S Vault is integrated with KyberSwap and OpenOcean at launch, two of the leading DEX aggregators on Sonic.
+By offering the best rates for eETH swaps, the eETH ARM captures volume from DEX aggregators. Aggregators that the eETH ARM Vault is integrated with include: KyberSwap, OpenOcean, 1inch, Velora, Cowswap, and Fly.
 
 ### **LP Token**
 
