@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Origin Dollar (OUSD) launched in 2020 as Origin’s first yield-bearing token and the first liquid, yield-accruing stablecoin in DeFi. OUSD is designed to earn yield automatically while remaining fully liquid at all times.
+Origin Dollar (OUSD) launched in 2020 as Origin’s first yield-bearing token and the first liquid, yield-bearing stablecoin in DeFi. OUSD is designed to earn yield automatically while remaining fully liquid at all times.
 
 OUSD is 100% backed by USDC. The protocol deploys USDC collateral into conservative onchain strategies on Morpho and Curve. As these strategies generate yield, OUSD’s rebasing supply design increases each holder’s balance directly in their wallet without needing to stake, lock tokens, or manually compound rewards.
 
@@ -49,5 +49,9 @@ In addition to collecting interest from lending and trading fees from liquidity 
 On November 7th 2025, a [proposal](https://snapshot.org/#/s:origingov.eth/proposal/0x17b2f0e9f609297c926f004e4f5c7704a03b2123a6a2ba82cd4ee63fc82ee25c) passed to simplify OUSD collateral from 3 stablecoin to just 1: USDC.&#x20;
 {% endhint %}
 
+## Redemptions
 
+OUSD can be redeemed 1:1 for USDC on the Origin dapp. For smaller swaps, users can instantly exit with low slippage on Curve and other AMMs – the [OUSD swap form](https://app.originprotocol.com/#/ousd/) on the Origin Dapp will automatically route OUSD to USDC swaps through the most efficient swap route currently available.&#x20;
+
+For direct redemptions, users can redeem OUSD for USDC via the [Origin Dapp.](https://app.originprotocol.com/#/ousd/redeem) When the OSUD Vault  has enough liquidity to process redemptions, users will receive USDC after a 10 minute delay. In the event the vault needs additional liquidity to process the redemption, the redemption process may take up to 24 hours to process.&#x20;
 
