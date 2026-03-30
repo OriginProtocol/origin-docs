@@ -14,6 +14,8 @@ When a liquid staking token trades below its redemption value, the ARM buys it o
 
 When market spreads tighten and lending yields are more attractive, the ARM dynamically routes capital to external protocols like Morpho (on Ethereum deployments) and Silo (on Sonic deployments) to earn additional yield.
 
+WETH from the stETH and eETH ARM Vaults is sent to the [Morpho WETH ARM Vault](https://app.morpho.org/ethereum/vault/0x3Dfe70B05657949A5dB340754aD664810ac63b21/weth-arm-vault) to earn yield when arbitrage opportunities are not present. The vault lends to top ETH-denominated markets on Morpho, with the majority of WETH being used across wrapped stETH and wrapped eETH Morpho markets.
+
 **ARM Flow of Funds**
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-12-16 at 12.42.46 PM.png" alt=""><figcaption></figcaption></figure>

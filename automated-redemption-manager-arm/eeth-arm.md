@@ -12,7 +12,7 @@ The eETH ARM earns yield by buying discounted eETH on AMMs and redeeming it 1:1 
 
 ### **Lending Market Integrations**
 
-To increase capital efficiency, the eETH ARM routes unused ETH to the wETH/WETH market on Morpho via the Gauntlet WETH Core Vault. When peg volatility is low and fewer arbitrage opportunities are available, idle ETH is deposited to this market to earn additional yield. This keeps the vault productive across varying market conditions and reduces idle capital drag.
+To increase capital efficiency, the eETH ARM routes unused WETH to Morpho to earn lending yields when arbitrage opportunities are not present. WETH from the eETH ARM Vault is sent to the [Morpho WETH ARM Vault](https://app.morpho.org/ethereum/vault/0x3Dfe70B05657949A5dB340754aD664810ac63b21/weth-arm-vault) to earn yield. The vault lends to top ETH-denominated markets on Morpho, with the majority of WETH being used across wrapped stETH and wrapped eETH Morpho markets.
 
 ### **Flow of Funds**
 

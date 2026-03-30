@@ -16,6 +16,8 @@ By providing liquidity to the stETH ARM, the Lido Ecosystem Foundation achieves 
 
 The stETH ARM increases its capital efficiency with lending market integrations. In addition to earning yield from arbitraging stETH redemptions, the stETH ARM routes its idle ETH liquidity to Morpho's lending markets to earn additional yield, unlocking additional upside for depositors even during low-volatility periods.
 
+WETH from the stETH ARM is sent to the [Morpho WETH ARM Vault](https://app.morpho.org/ethereum/vault/0x3Dfe70B05657949A5dB340754aD664810ac63b21/weth-arm-vault) to earn yield when arbitrage opportunities are not present. The vault lends to top ETH-denominated markets on Morpho, with the majority of WETH being used across wrapped stETH and wrapped eETH Morpho markets.
+
 ### **Flow of Funds**
 
 1. LP deposits ETH into the stETH ARM vault [using the Origin dapp](https://app.originprotocol.com/#/arm/146:ARM-WS-OS)
