@@ -31,9 +31,11 @@ description: List of all Safe Modules that Origin uses on Safe multisigs
 
 ### Pool Booster Bribe Module
 
-| Module Contract                                                                                                       | Safe                                                                                                                  |
-| --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [0x6320Db7a3c1B95fD5684DC725C2cda9B82Fa20Fa](https://etherscan.io/address/0x6320Db7a3c1B95fD5684DC725C2cda9B82Fa20Fa) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
+| Module Contract                                                                                                                         | Safe                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [0x6320Db7a3c1B95fD5684DC725C2cda9B82Fa20Fa](https://etherscan.io/address/0x6320Db7a3c1B95fD5684DC725C2cda9B82Fa20Fa) (CurvePB Mainnet) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
+| [0x6241f5e4ad5af39ef3aE54801E0AE431e0B70369](https://etherscan.io/address/0x6241f5e4ad5af39ef3aE54801E0AE431e0B70369) (MerklPB Mainnet) | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
+| [0xf6B23291bF4993832b92A05c67d5f43eF3287C6a](https://basescan.org/address/0xf6B23291bF4993832b92A05c67d5f43eF3287C6a) (MerklPB Base)    | [0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971](https://etherscan.io/address/0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971) |
 
 ### OUSD Auto Withdrawals Module
 
