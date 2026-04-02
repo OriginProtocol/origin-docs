@@ -39,3 +39,5 @@ Institutional users may hold Origin yield-bearing tokens directly as ERC-20s or 
 ### Optional Insurance
 
 Optional third-party insurance coverage is available for select Origin assets. OUSD holders may obtain smart contract coverage through [Nexus Mutual](https://nexusmutual.io/), [Lunos](https://lunos.xyz/), or [OpenCover](https://opencover.com/). Super OETH depeg coverage is available through OpenCover as well. OS exploit and oracle manipulation coverage is available through [Safura](https://www.safura.io/). All insurance products are externally provided, optional, and independently priced.
+
+[OpenCover](https://opencover.com/vaults/) recently added an insurance option for the stETH ARM via their new [Covered Vaults](https://x.com/OpenCover/status/2039721567169483046) primitive.&#x20;
