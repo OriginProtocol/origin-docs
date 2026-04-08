@@ -22,13 +22,15 @@ Protocols can increase the capital efficiency of its liquidity pools by pairing 
 
 ### Borrow Booster
 
-Borrow Booster applies the same principle to lending markets. Borrow Booster directs yield from Origin’s yield-bearing tokens to incentivize borrowing rates on lending markets. This lowers the APR paid by borrowers, resulting in a lending market with an automated and sustainable incentive system for borrowers.
+Borrow Booster applies the same principle to lending markets. Borrow Booster directs yield from Origin’s yield-bearing tokens to incentivize borrowing rates on lending markets. This lowers the APR paid by borrowers, resulting in a lending market with an automated and sustainable incentive system that makes borrowing cheaper.
 
-Take the [superOETHb/USDC](https://app.morpho.org/base/market/0x67a66cbacb2fe48ec4326932d4528215ad11656a86135f2795f5b90e501eb538/superoethb-usdc) market on Morpho, for example:
+Take the [OETH/USDC](https://app.morpho.org/ethereum/market/0xb8fef900b383db2dbbf4458c7f46acf5b140f26d603a6d1829963f241b82510e/oeth-usdc) market on Morpho, for example:
 
-In this market, Super OETH yield is forwarded to Merkl and used to incentivize the borrow rate of USDC. For borrowers, this means lower effective APRs and more efficient leverage opportunities. For lenders, it translates into stronger demand for credit and healthier utilization of capital.
+In this market, OETH yield is forwarded to Merkl and used to incentivize the borrow rate of USDC. For borrowers, this means lower effective APRs and more efficient leverage opportunities. For lenders, it translates into stronger demand for credit and healthier utilization of capital.
 
-<figure><img src="../../.gitbook/assets/Borrowing Booster (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Borrow Booster.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Other Use Cases
 
