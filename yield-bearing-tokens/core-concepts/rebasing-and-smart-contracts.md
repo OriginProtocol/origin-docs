@@ -25,7 +25,7 @@ Developer notes:
 * Rebase status for any address can be checked using the `rebaseState(address)` view.
 
 {% hint style="warning" %}
-If you are deploying a contract and intend to call `rebaseOptIn()`to earn yield, you cannot call it from the contract's constructor. The contract must be deployed before it can be called.
+If you are deploying a contract and intend to call `rebaseOptIn()` to earn yield, you cannot call it from the contract's constructor. The contract must be deployed before it can be called.
 {% endhint %}
 
 #### Safe Users

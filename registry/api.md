@@ -2,7 +2,7 @@
 
 Several data endpoints are used internally and by our partners. These have been created incrementally on an as-needed basis and are not intended for widespread use. This documentation has been added for convenience, but please do not rely on this API for mission-critical data. If you need additional data to use in your application, please [reach out on Discord](https://originprotocol.com/discord).
 
-Our wrapper API can be found on the `api.originprotocol.com` endpoint. Most of the endpoints are wrapping access to our indexer [`origin-squid`](https://github.com/OriginProtocol/origin-squid). Note that our graphQl api is **not** public, you should rely on the REST wrapper api for stability.
+Our wrapper API can be found on the `api.originprotocol.com` endpoint. Most of the endpoints are wrapping access to our indexer [`origin-squid`](https://github.com/OriginProtocol/origin-squid). Note that our GraphQL API is **not** public, you should rely on the REST wrapper api for stability.
 
 Some dates are displayed as timestamps or epochs, which can be converted to human-readable dates [here](https://www.epochconverter.com/).
 
