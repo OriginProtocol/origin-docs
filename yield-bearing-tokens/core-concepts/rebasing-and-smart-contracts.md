@@ -1,10 +1,10 @@
 # Rebasing & Smart Contracts
 
-OTokens (OETH, Super OETH, OUSD, and OS) use a **rebasing supply** design where yield is reflected by increasing each holder’s token balance rather than by increasing the token’s price. The unit of account remains stable: 1 OUSD = $1 and 1 OETH = 1 ETH, while balances rise as underlying assets earn yield. Functionally, this works like interest in a bank account: the value stays constant, the quantity grows.
+OTokens (OETH, Super OETH, OUSD, and OS) use a **rebasing supply** design where yield is reflected by increasing each holder’s token balance rather than by increasing the token’s price. The unit of account remains stable: 1 OUSD = 1 USD and 1 OETH = 1 ETH, while balances rise as underlying assets earn yield. Functionally, this works like interest in a bank account: the value stays constant, the quantity grows.
 
 Yield is realized through **rebases**, which expand token supply proportionally across eligible addresses. Key properties:
 
-* **Up-only supply changes:** Balances increase as yield is earned; they only decline if the protocol takes a loss on underlying assets.
+* **Rebasing Yield Bonus:** Certain smart contracts (e.g Uniswap liquidity pools) do not support rebasing. Users may chose to forgo rebasing yield to earn DeFi rewards, concentrating rebases to eligible wallets. This improves yield for passive holders, users of wrapped OTokens, and for users deployed in smart contracts where rebasing is enabled.&#x20;
 * **Continuous updates:** Rebases are automatically triggered through normal user interactions and by Chainlink Keepers at least once per day. Anyone can also call the `rebase()` function directly on the vault contract.
 * **Wrapped counterparts:** Each yield-bearing token has a wrapped version (wOETH, wOUSD, etc.) that operates as a ERC-4626 vault.
 
