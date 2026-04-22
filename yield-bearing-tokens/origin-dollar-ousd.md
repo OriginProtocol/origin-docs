@@ -2,23 +2,13 @@
 
 <figure><img src="../.gitbook/assets/origin dollar (10).png" alt=""><figcaption></figcaption></figure>
 
-## Introduction
+## Introduction to OUSD&#x20;
 
 Origin Dollar (OUSD) launched in 2020 as Origin’s first yield-bearing token and the first liquid, yield-bearing stablecoin in DeFi. OUSD is designed to earn yield automatically while remaining fully liquid at all times.
 
 OUSD is 100% backed by USDC. The protocol deploys USDC collateral into conservative onchain strategies on Morpho and Curve. As these strategies generate yield, OUSD’s rebasing supply design increases each holder’s balance directly in their wallet without needing to stake, lock tokens, or manually compound rewards.
 
 You can hold OUSD, spend it, or transfer it without unwinding positions. OUSD behaves like a normal stablecoin in your wallet while continuously earning onchain yield in the background.
-
-### Core Concepts
-
-Origin's four yield-bearing token products ( [OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth-superoethb.md), and [OS](os.md)) share most of the same battle-tested code. While each has its own characteristics and use cases, the same overall user experience applies across the product suite. Learn more about the core concepts here:
-
-* [Rebasing & Smart Contracts](core-concepts/rebasing-and-smart-contracts.md)
-* [Wrapping](core-concepts/wrapping.md)
-* [AMO](core-concepts/amo.md)
-* [Yield Forwarding](core-concepts/yield-forwarding.md)
-* [Yield Smoothing](core-concepts/yield-smoothing.md)
 
 ### **Yield Generation**
 
@@ -49,9 +39,13 @@ In addition to collecting interest from lending and trading fees from liquidity 
 On November 7th 2025, a [proposal](https://snapshot.org/#/s:origingov.eth/proposal/0x17b2f0e9f609297c926f004e4f5c7704a03b2123a6a2ba82cd4ee63fc82ee25c) passed to simplify OUSD collateral from 3 stablecoin to just 1: USDC.&#x20;
 {% endhint %}
 
-## Redemptions
+### Redemptions
 
 OUSD can be redeemed 1:1 for USDC on the Origin dapp. For smaller swaps, users can instantly exit with low slippage on Curve and other AMMs – the [OUSD swap form](https://app.originprotocol.com/#/ousd/) on the Origin Dapp will automatically route OUSD to USDC swaps through the most efficient swap route currently available.&#x20;
 
 For direct redemptions, users can redeem OUSD for USDC via the [Origin Dapp.](https://app.originprotocol.com/#/ousd/redeem) When the OSUD Vault  has enough liquidity to process redemptions, users will receive USDC after a 10 minute delay. In the event the vault needs additional liquidity to process the redemption, the redemption process may take up to 24 hours to process.&#x20;
+
+### Performance Fee
+
+Origin charges a 20% performance fee on yield generated on OUSD. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. All fees collected are directed entirely to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.
 

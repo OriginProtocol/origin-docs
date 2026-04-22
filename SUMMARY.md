@@ -10,6 +10,7 @@
   * [AMO](yield-bearing-tokens/core-concepts/amo.md)
   * [Yield Forwarding](yield-bearing-tokens/core-concepts/yield-forwarding.md)
   * [Yield Smoothing](yield-bearing-tokens/core-concepts/yield-smoothing.md)
+  * [Yield Collection (Harvester)](yield-bearing-tokens/core-concepts/yield-collection-harvester.md)
 * [Origin Ether (OETH)](yield-bearing-tokens/origin-ether-oeth.md)
 * [Super OETH (superOETHb)](yield-bearing-tokens/super-oeth-superoethb.md)
 * [Origin Dollar (OUSD)](yield-bearing-tokens/origin-dollar-ousd.md)

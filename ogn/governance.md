@@ -2,6 +2,8 @@
 
 ### Principals
 
+Origin Protocol is developed and maintained by Origin Protocol Labs, a legal entity incorporated in the Cayman Islands. Origin Protocol Labs serves as a core contributor and operational steward of the protocol, acting in accordance with the direction of xOGN governance. Protocol upgrades, parameter changes, and strategy approvals are subject to the governance processes described below.
+
 Origin products operate as decentralized protocols governed by a distributed set of stakeholders. Yield generation, fee collection, and fee distribution are executed entirely through smart contracts. Upgrades to these contracts pass through a timelock and can only be initiated through governance controlled by xOGN holders.
 
 Although the initial contracts and strategies were developed by the Origin team, protocol evolution is open to the broader community. Governance participants can propose parameter changes, introduce new strategies, contribute code, or vote on active proposals. The expectation is that major decisions are made collectively, while limited day-to-day responsibilities may be delegated to trusted contributors who maintain the protocol’s operations.

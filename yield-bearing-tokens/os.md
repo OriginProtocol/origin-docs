@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/origin dollar (11).png" alt=""><figcaption></figcaption></figure>
 
-## Introduction
+## Introduction to OS
 
 Origin Sonic (OS) is a liquid staking token on the Sonic network designed to offer enhanced security, higher yield, and a tighter peg to S when compared to other Sonic LSTs.
 
@@ -17,16 +17,6 @@ OS is designed to unlock the full potential of staking on Sonic while maximizing
 OS was launched in January 2025 with 95% of its code forked from [OUSD](https://docs.originprotocol.com/yield-bearing-tokens/ousd), which has been the basis for all of our yield-bearing tokens (OUSD, OETH, Super OETH and now OS). This allows OS to inherit years of top-tier audits and a proven track record of securing hundreds of millions of dollars worth of underlying collateral.
 
 Like OUSD, OETH, and Super OETH before it, OS is a rebasing token with an up-only design. This means users’ OS balance increases with no manual claiming as staking rewards are earned.
-
-### Core Concepts
-
-Given that Origin's four yield-bearing token products ([OUSD](origin-dollar-ousd.md), [OETH](origin-ether-oeth.md), [Super OETH](super-oeth-superoethb.md), and [OS](os.md)) share most of the same battle-tested code, the same overall user experience applies across the product suite. Learn more about the core concepts here:
-
-* [Rebasing & Smart Contracts](core-concepts/rebasing-and-smart-contracts.md)
-* [Wrapping](core-concepts/wrapping.md)
-* [AMO](core-concepts/amo.md)
-* [Yield Forwarding](core-concepts/yield-forwarding.md)
-* [Yield Smoothing](core-concepts/yield-smoothing.md)
 
 ## **Staking on Sonic**
 
@@ -52,4 +42,8 @@ As a permissionless protocol with no gatekeepers, OS supports redemption by anyo
 2. **DEX swap** - The S/OS pool on SwapX features exit liquidity allowing anyone to swap OS for S at the current spot price. This rate fluctuates based on market demand but will likely be arbitraged back to near 1:1 anytime it falls due to a large sale.
 
 Redemption is a critical feature for any LST and is paramount for OS to remain the optimal building block for DeFi protocols on Sonic. Allowing users to confidently hold OS knowing they can exit at virtually 1:1 for S anytime will always be OS's top priority.
+
+### Performance Fee
+
+Origin charges a 10% performance fee on yield generated on OS. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. All fees collected are directed entirely to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.
 

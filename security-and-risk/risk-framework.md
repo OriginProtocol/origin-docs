@@ -55,3 +55,5 @@ Finally, we have formalized an engineering [rotation](https://github.com/OriginP
 #### **Actions Speak Louder than Words**
 
 You should also know that many members of the Origin team, including both founders, are holding a significant portion of their personal wealth in Origin’s yield-bearing tokens. Origin Protocol's corporate treasury is also holding millions of dollars in OUSD and OETH. We have skin in the game and are willing to put our own money at risk with the code we have written.
+
+_In the event of a security vulnerability, we recommend reaching out to the Origin team via Telegram or Discord. Users and teams can also reach out to_ [_security@originprotocol.com_](mailto:security@originprotocol.com) _which is monitored closely by Origin’s security engineers._
