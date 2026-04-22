@@ -20,6 +20,14 @@ To help stay up to date on Snapshot proposals, you can enable email notification
 
 It’s natural for proposals to be accompanied by healthy debate or discussion regarding implementation, reasoning, methodology, etc. Discussions regarding new proposals now start in the [Origin Governance Forum](https://governance.originprotocol.com/) and are cross-posted to [Origin's Discord server](https://originprotocol.com/discord).
 
+### **Timelock Contract**
+
+All approved proposals execute onchain through a timelock that enforces a mandatory 2-day delay (172,800 seconds) between governance approval and implementation. This window gives any user time to review an approved change and take action before upgrades take effect.
+
+**Contract address (Ethereum):** 0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F
+
+The timelock uses role-based access control. The proposer role — held by the governance multisig — queues onchain proposals approved onchain by xOGN governance. The executor role runs them after the delay has elapsed. No single address can both propose and execute without the delay intervening.
+
 ## **Participating**
 
 High-level criteria are required to vote and make proposals:
@@ -57,8 +65,7 @@ Feel free to use one of the [templates](../resources/governance-templates/) as a
 
 ## Guardians
 
-\
-Some functionality, such as rebalancing funds or pausing deposits, can be triggered without the timelock and with far fewer signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Guardians, have the ability to execute a limited number of functions with only 2 of 9 signers.
+Guardian multisigs can act without a timelock delay for time-sensitive operations: depositing and withdrawing from strategies, adjusting vault buffers, pausing deposits and redeems, swapping collateral, and managing rebasing. These functions require the multisig threshold but not a governance vote or timelock period.
 
 The Guardian multi-sig can do the following actions on the vault:
 
@@ -72,3 +79,7 @@ The Guardian multi-sig can do the following actions on the vault:
 * pauseCapital - pause all mints and redeems
 * unpauseCapital - allow all mints and redeems
 * swapCollateral - swaps collateral assets sitting in the vault
+
+### Governance & Guardian Addresses
+
+<table><thead><tr><th>Role</th><th>Chain</th><th width="254.8662109375">Address</th><th>Configuration</th></tr></thead><tbody><tr><td>Proposer</td><td>Ethereum</td><td>0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d89</td><td>5-of-8 Safe</td></tr><tr><td>Proposer</td><td>Base</td><td>0x92A19381444A001d62cE67BaFF066fA1111d720</td><td>5-of-8 Safe</td></tr><tr><td>Proposer</td><td>Sonic</td><td>0xAdDEA7933Db7d83855786EB43a238111C69B00b</td><td>5-of-8 Safe</td></tr><tr><td>Proposer</td><td>Arbitrum</td><td>0xfD1383fb4eE74ED9D83F2cbC67507bA6Eac289</td><td>5-of-8 Safe</td></tr><tr><td>Guardian</td><td>Ethereum</td><td>0xF14BBdf064E3F67f51cd9BD646aE3716aD938F</td><td>2-of-9 Safe</td></tr><tr><td>Guardian</td><td>Base</td><td>0x28bce2eE5775B652D92bB7c2891A89F0366197</td><td>1-of-2 Safe</td></tr><tr><td>Guardian</td><td>Sonic</td><td>0x63cdd3072F25664eeC6FAEFf6dAeB668Ea4de9</td><td>2-of-9 Safe</td></tr></tbody></table>
