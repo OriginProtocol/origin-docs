@@ -21,3 +21,9 @@ WETH from the stETH and eETH ARM Vaults is sent to the [Morpho WETH ARM Vault](h
 <figure><img src="../.gitbook/assets/Screenshot 2025-12-16 at 12.42.46 PM.png" alt=""><figcaption></figcaption></figure>
 
 This creates a self-balancing mechanism that narrows peg spreads, restores market efficiency, and keeps liquidity productive in all market conditions. The ARM effectively transforms volatility into opportunity, capturing price spreads between LSTs and their backing collateral.
+
+### Historical Yield Performance
+
+During its first year of operation, the stETH ARM averaged 4.06% APY — approximately 50% above the average ETH liquid staking return of 2.67% over the same period. ARM yield is substantially more volatile than staking rewards, reflecting the strategy's dependence on secondary market pricing conditions.&#x20;
+
+During periods of peg stability, yield converges toward Morpho WETH lending rates, reaching as low as 1.5% APY. During periods of market volatility, when stETH trades at meaningful discounts, arbitrage spreads widen significantly and ARM yields have exceeded 50% APY. The lending floor and volatility ceiling together define the ARM's yield range: a persistent baseline from Morpho, with upside captured from market dislocations.

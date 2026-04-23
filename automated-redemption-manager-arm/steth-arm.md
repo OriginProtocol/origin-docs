@@ -12,6 +12,12 @@ The stETH ARM has become a key component of onchain liquidity infrastructure on 
 
 By providing liquidity to the stETH ARM, the Lido Ecosystem Foundation achieves two goals: it earns compelling yield for its treasury while supporting a tight stETH:ETH peg.
 
+### Pricing Mechanics&#x20;
+
+The price at which the stETH ARM purchases stETH is determined by the length of Lido's withdrawal queue and Morpho lending market rates. When withdrawal times are short, typically 1–2 days, the ARM will acquire stETH from AMMs at discounts as small as <1 basis point, provided the resulting yield exceeds Morpho WETH lending rates.&#x20;
+
+Longer withdrawal queues result in larger expected discounts, reflecting the opportunity cost of capital tied up in the redemption process. The ARM's bid range is set manually based on prevailing market conditions and liquidity constraints. Within that range, ARM pricing is automated to remain consistently competitive across DEX aggregators — allowing the ARM to capture arbitrage volume efficiently while maintaining human oversight over acceptable discount thresholds.
+
 ### **Lending Market Integrations**
 
 The stETH ARM increases its capital efficiency with lending market integrations. In addition to earning yield from arbitraging stETH redemptions, the stETH ARM routes its idle ETH liquidity to Morpho's lending markets to earn additional yield, unlocking additional upside for depositors even during low-volatility periods.
