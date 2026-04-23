@@ -25,25 +25,37 @@ The net effect of these benefits is that **OUSD is able to consistently return h
 
 OUSD uses lending on Morpho and liquidity provision on Curve to generate yield:
 
-#### **Lending**
+#### **Morpho Vaults**
 
-OUSD lends to borrowers with over-collateralized loans, ensuring security through strict liquidation rules. OUSD routes a significant portion of its USDC collateral to Morpho markets, earning lending APYs from and exclusive Morpho vault curated by Origin and Yearn. These vaults are known for their strong yield and institutional-grade risk management.
+OUSD lends USDC on Morpho markets on Ethereum Mainnet, Base, and HyperLiquid. OUSD routes USDC crosschain to find the best risk adjusted yield opportunities, earning lending APYs from Morpho Vaults co-curated by Origin and Yearn. These vaults are known for their strong yield and institutional-grade risk management.
 
-#### Liquidity Provision
+#### Morpho Vault Curation
 
-Origin Dollar routes a portion of its USDC collateral to highly-performing Curve pools as determined by trading volume and rewards tokens (e.g. Curve rewards CRV tokens to liquidity providers). Fees generated through liquidity provision are passed on to OUSD holders as yield.
+The OUSD Morpho Vault is co-curated by Origin and Yearn. Origin defines the vault's risk parameters, including market eligibility criteria and allocation ceilings, with ongoing input from Yearn. Within those parameters, Yearn actively manages day-to-day allocations and can adjust market weights unilaterally, provided adjustments remain within agreed bounds. Market eligibility follows a consistent framework: every market included in the vault must demonstrate deep liquidity and be collateralized by blue-chip, audited assets. Each market is independently assessed before inclusion. Current market allocations are published in real time on [Origin's Analytics Dashboard. ](https://analytics.originprotocol.com/ousd/collateral/)
 
-In addition to collecting interest from lending and trading fees from liquidity provision, the protocol automatically claims and converts additional CRV incentives that are being distributed by Curve. Curve incentivizes liquidity pools with CRV tokens, and the rewards routed to the OUSD/USDC pool are regularly converted into OUSD and distributed to holders in the form of additional yield.
+**About Yearn:** Yearn is one of DeFi's longest-running yield optimization protocols, founded in 2020 with no VC +funding and no founder token allocation. Originally a yield aggregator, Yearn has evolved into a protocol with deep + expertise in vault curation — including hourly allocation optimization, continuous monitoring across 20+ DeFi prot +ocols, and onchain supply cap management. As co-curator of the OUSD Morpho Vault, Yearn brings that infrastructure +to bear on the day-to-day allocation decisions that determine OUSD's risk-adjusted yield. More at [yearn.fi.](https://yearn.finance)
 
-{% hint style="info" %}
-On November 7th 2025, a [proposal](https://snapshot.org/#/s:origingov.eth/proposal/0x17b2f0e9f609297c926f004e4f5c7704a03b2123a6a2ba82cd4ee63fc82ee25c) passed to simplify OUSD collateral from 3 stablecoin to just 1: USDC.&#x20;
-{% endhint %}
+#### Utilization Rates & Strategy Rebalancing
+
+OUSD deploys capital into peer-to-peer Morpho lending markets, where withdrawal availability depends on market utilization. When a lending market reaches 100% utilization, meaning all supplied capital is currently borrowed, OUSD cannot withdraw from that market until borrowers repay or new suppliers enter. Yearn monitors utilization across all active markets continuously and reallocates capital to manage this risk. Rebalances are currently executed manually. Automated rebalancing tooling is on the roadmap and will be introduced in a future protocol update.
+
+#### Liquidity Provision on Curve
+
+Alongside Morpho lending, OUSD maintains protocol-owned liquidity on the Curve OUSD/USDC pool. The protocol typically allocates less than 20% of USDC collateral to this position. The Curve AMO serves two purposes: it provides deep instant exit liquidity for OUSD holders who prefer to swap rather than redeem, and it earns LP incentive rewards that compound into OUSD yield alongside Morpho lending returns.
+
+In addition to collecting interest from lending and trading fees from liquidity provision, the protocol automatically claims and converts additional CRV incentives that are being distributed by Curve.&#x20;
+
+### Cross-Chain Yield Architecture
+
+OUSD is an Ethereum mainnet token, but its yield strategies extend beyond Ethereum. Origin Dollar deploys USDC to Morpho Vault instances on Base and HyperLiquid, capturing lending yields that would otherwise be inaccessible to mainnet holders.&#x20;
+
+Yield generated on these chains is bridged back to Ethereum mainnet through Circle's Cross-Chain Transfer Protocol (CCTP), which has undergone rigorous security audits by OtterSec and ChainSecurity. Mainnet OUSD holders receive the blended yield automatically — no bridging, no cross-chain transactions, no additional action required.
 
 ### Redemptions
 
 OUSD can be redeemed 1:1 for USDC on the Origin dapp. For smaller swaps, users can instantly exit with low slippage on Curve and other AMMs – the [OUSD swap form](https://app.originprotocol.com/#/ousd/) on the Origin Dapp will automatically route OUSD to USDC swaps through the most efficient swap route currently available.&#x20;
 
-For direct redemptions, users can redeem OUSD for USDC via the [Origin Dapp.](https://app.originprotocol.com/#/ousd/redeem) When the OSUD Vault  has enough liquidity to process redemptions, users will receive USDC after a 10 minute delay. In the event the vault needs additional liquidity to process the redemption, the redemption process may take up to 24 hours to process.&#x20;
+For direct redemptions, users can redeem OUSD for USDC via the [Origin Dapp.](https://app.originprotocol.com/#/ousd/redeem) When the OUSD Vault  has enough liquidity in the buffer to process redemptions, users will receive USDC after a 10 minute delay. In the event the vault needs additional liquidity to process the redemption, the redemption process may take up to 24 hours to process.&#x20;
 
 ### Performance Fee
 
