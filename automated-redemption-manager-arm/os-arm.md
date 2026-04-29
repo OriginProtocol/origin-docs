@@ -38,5 +38,5 @@ The OS ARM vault LP token is: ARM-WS-OS. Users who deposit into the OS ARM's S V
 
 ### Performance Fee
 
-Origin charges a 20% performance fee on yield generated on the OS ARM. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. All fees collected are directed entirely to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.
+Origin charges a 20% performance fee on yield generated on the OS ARM. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. Net protocol fees are directed to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.
 

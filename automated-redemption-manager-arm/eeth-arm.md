@@ -38,4 +38,4 @@ The eETH ARM vault LP token is: ARM-WETH-eETH. Users who deposit into the eETH A
 
 ### Performance Fee
 
-Origin charges a 20% performance fee on yield generated on the eETH ARM. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. All fees collected are directed entirely to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.
+Origin charges a 20% performance fee on yield generated on the eETH ARM. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. Net protocol fees are directed to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.

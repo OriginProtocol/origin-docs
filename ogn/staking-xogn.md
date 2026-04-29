@@ -2,7 +2,7 @@
 
 OGN staking converts liquid OGN into xOGN, a locked position that concentrates both governance and economic power in long-term participants. Stakers commit their OGN for a chosen lock period between one month and one year, receiving xOGN in exchange. Longer locks earn higher voting weight and a larger share of protocol fees.
 
-100% of protocol fees are directed to OGN stakers. These fees are used to buy back OGN on the open market and distribute it to xOGN, creating a direct link between protocol revenue and staking yield. Rewards accrue continuously and can be claimed at any time without unlocking the underlying position.
+Net protocol fees are directed to OGN stakers. These fees are used to buy back OGN on the open market and distribute it to xOGN, creating a direct link between protocol revenue and staking yield. Rewards accrue continuously and can be claimed at any time without unlocking the underlying position.
 
 xOGN holders can create and vote on governance proposals, set parameters for Origin products, and influence how protocol-controlled value and future incentives are deployed across the ecosystem.
 

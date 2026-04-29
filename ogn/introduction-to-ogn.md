@@ -9,7 +9,7 @@ Origin Token (OGN) is the core value accrual and governance token of Origin Prot
 At the DAO level, OGN is used to govern protocol parameters, prioritize new products, and allocate DAO assets. OGN stakers (xOGN) govern key decisions such as fee configurations, major product upgrades, and how protocol-controlled value is deployed across Origin’s ecosystem.
 
 {% hint style="info" %}
-Origin Ether, Super OETH, Origin Dollar, and ARM Vaults charge a 20% fee on yield generated. 100% of this fee is used to buyback OGN on the open market. All APYs displayed on analytics and the Origin dapp are net of fees.&#x20;
+Origin Ether, Super OETH, Origin Dollar, and ARM Vaults charge a 20% fee on yield generated. Net protocol fees after operating expenses are used to buyback OGN on the open market. All APYs displayed on analytics and the Origin dapp are net of fees.&#x20;
 {% endhint %}
 
 When staked, OGN becomes xOGN, a locked governance position that also participates in protocol earnings. As Origin products generate fees from yield generated, those earnings are routed back to OGN stakers through ongoing buybacks and distributions to xOGN. This creates a direct link between product usage, protocol revenue, and the economic rights of long-term token holders.
