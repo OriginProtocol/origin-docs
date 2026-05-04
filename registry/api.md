@@ -4,6 +4,8 @@ Several data endpoints are used internally and by our partners. These have been 
 
 Our wrapper API can be found on the `api.originprotocol.com` endpoint. Most of the endpoints are wrapping access to our indexer [`origin-squid`](https://github.com/OriginProtocol/origin-squid). Note that our GraphQL API is **not** public, you should rely on the REST wrapper api for stability.
 
+Additional API data not found below can be accessed via Origin's [Scalar](https://api.originprotocol.com/scalar).
+
 Some dates are displayed as timestamps or epochs, which can be converted to human-readable dates [here](https://www.epochconverter.com/).
 
 ## Analytics <a href="#ousd-oeth-analytics" id="ousd-oeth-analytics"></a>
