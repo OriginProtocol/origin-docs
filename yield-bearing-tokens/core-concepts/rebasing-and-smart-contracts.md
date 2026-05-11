@@ -5,7 +5,7 @@ OTokens (OETH, Super OETH, OUSD, and OS) use a **rebasing supply** design where 
 Yield is realized through **rebases**, which expand token supply proportionally across eligible addresses. Key properties:
 
 * **Rebasing Yield Bonus:** Certain smart contracts (e.g Uniswap liquidity pools) do not support rebasing. Users may chose to forgo rebasing yield to earn DeFi rewards, concentrating rebases to eligible wallets. This improves yield for passive holders, users of wrapped OTokens, and for users deployed in smart contracts where rebasing is enabled.&#x20;
-* **Continuous updates:** Rebases are automatically triggered through normal user interactions and by Chainlink Keepers at least once per day. Anyone can also call the `rebase()` function directly on the vault contract.
+* **Continuous updates:** Rebases are automatically triggered through normal user interactions and by Chainlink Keepers at least once per day. The Guardian contract can also call the `rebase()` function directly on the vault contract to trigger a rebase.
 * **Wrapped counterparts:** Each yield-bearing token has a wrapped version (wOETH, wOUSD, etc.) that operates as a ERC-4626 vault.
 
 ### Account Behavior: EOAs vs. Smart Contracts
@@ -20,7 +20,6 @@ Multi-sig wallets or other smart contracts must call `rebaseOptIn()` to earn yie
 
 Developer notes:
 
-* `rebaseOptIn()` cannot be called within a constructor; the contract must be deployed first.
 * Governance can whitelist or remotely opt in contracts via onchain proposal (see the Rebase Opt-In Proposal).
 * Rebase status for any address can be checked using the `rebaseState(address)` view.
 
