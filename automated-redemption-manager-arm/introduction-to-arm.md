@@ -18,7 +18,7 @@ WETH from the stETH and eETH ARM Vaults is sent to the [Morpho WETH ARM Vault](h
 
 **ARM Flow of Funds**
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-12-16 at 12.42.46 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ARM Vault Diagram.png" alt=""><figcaption></figcaption></figure>
 
 This creates a self-balancing mechanism that narrows peg spreads, restores market efficiency, and keeps liquidity productive in all market conditions. The ARM effectively transforms volatility into opportunity, capturing price spreads between LSTs and their backing collateral.
 
