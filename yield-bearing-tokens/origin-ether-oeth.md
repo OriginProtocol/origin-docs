@@ -44,8 +44,15 @@ This pricing and liquidity design applies equally to wOUSD, wOS, and wsuperOETHb
 
 As a permissionless protocol with no gatekeepers, OETH supports redemption by anyone at any time. While there are different ways to exit OETH, users can go through the [Origin dapp](https://app.originprotocol.com/) to get the best outcome without needing to consider every option independently.
 
-1. **Async withdrawals** –– up to 8 days. As with most leading LSTs, OETH offers the ability to request and claim the underlying ETH from the Beacon Chain at any time through a withdrawal queue. This feature provides a fallback in the event that onchain liquidity is insufficient to support a large scale swap with low slippage. Direct redemptions ensure that all of the protocol’s staked ETH is redeemable, with timing determined by Ethereum’s Beacon Chain withdrawal queue . Asynchronous redemptions enable anyone to redeem OETH for ETH at a 1:1 rate with no fees.&#x20;
-2. **DEX swap** –– instant. The OETH/ETH Curve pool features deep exit liquidity allowing anyone to swap OETH for ETH at the current spot price. This rate fluctuates based on market demand but is often arbitraged back to near 1:1 anytime it falls due to users’ ability to redeem OETH 1:1 via the Origin dapp.
+#### Asynchronous Withdrawals
+
+Similarly to other LSTs, OETH offers the ability to request and claim the underlying ETH from the Beacon Chain at any time through a withdrawal queue. Asynchronous withdrawals allow users to redeem OETH at 1:1 to ETH with no fees and take up to 8 days to process. This feature provides a fallback in the event that onchain liquidity is insufficient to support a large scale swap with low slippage. Direct redemptions ensure that all of the protocol’s staked ETH is redeemable, with timing determined by Ethereum’s Beacon Chain withdrawal queue.
+
+Withdrawal timing depends on the depth of the Ethereum validator exit queue at the time of redemption. During normal network conditions, with low exit queue demand, withdrawals typically complete within 1–3 days. During periods of elevated exit activity across the Ethereum network, the queue can extend up to 8 days. This timing is determined by the Ethereum protocol and is outside Origin's control. Current queue depth can be tracked in real time via tools such as [rated.network.](https://explorer.rated.network/network?network=mainnet\&timeWindow=1d\&rewardsMetric=average\&geoDistType=all\&hostDistType=all\&soloProDist=stake) OETH's migration to 0x02 compounding validators introduces partial withdrawal support, which allows the protocol to source ETH for redemptions without fully exiting a validator. This reduces the frequency of full validator exits needed to satisfy withdrawal requests, improving responsiveness under normal queue conditions.
+
+#### DEX Swap
+
+The OETH/ETH Curve pool provides instant exit liquidity, allowing anyone to swap OETH for ETH at the current spot price. This rate fluctuates based on market demand but is often arbitraged back to near 1:1 anytime it falls due to users’ ability to redeem OETH 1:1 via the Origin dapp.
 
 Redemption is a critical feature for any LST and is paramount for OETH to remain the optimal building block for DeFi protocols. Allowing users to confidently hold OETH knowing they can exit at virtually 1:1 for ETH anytime will always be OETH's top priority.
 
