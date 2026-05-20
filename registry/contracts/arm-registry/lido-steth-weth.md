@@ -22,5 +22,5 @@ Docs: [https://docs.originprotocol.com/automated-redemption-manager-arm/steth-ar
 
 #### Operational Accounts
 
-<table><thead><tr><th width="229.76171875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F">0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x39878253374355DBcc15C86458F084fb6f2d6DE7">0x39878253374355DBcc15C86458F084fb6f2d6DE7</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0x4ff1b9d9ba8558f5eafcec096318ea0d8b541971">0x4FF1b9D9ba8558F5EAfCec096318eA0d8b541971</a></td></tr></tbody></table>
+<table><thead><tr><th width="229.76171875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F">0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x39878253374355DBcc15C86458F084fb6f2d6DE7">0x39878253374355DBcc15C86458F084fb6f2d6DE7</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c">0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c</a></td></tr></tbody></table>
 
