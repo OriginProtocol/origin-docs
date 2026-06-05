@@ -18,7 +18,7 @@ University blockchain clubs participating in the [university-governance-program.
 * [0x330...4b368](https://etherscan.io/address/0x33067db928e7ED73Ddb761bF7a118b586564b368) — Vanderbilt / Anchor DAO&#x20;
 * [0x93...3f1d7](https://etherscan.io/address/0x933EB459569836D53ad6647a29748Bb096b3f1d7) — Queens College
 * [0x253...C5EA](https://etherscan.io/address/0x2535Aa0d1058dd9336a7B22b60Eb7c0881EAC5EA) — Tulane University
-* [0x123...3b9DE](https://etherscan.io/address/0x1237B1b6EDC76b1aBC3614e6c9b5f75C4e13b9DE) — UC Santa Barbara
+* [0x2C1...3866](https://etherscan.io/address/0x2C1ff5ECd471FFF24Ecc34051698a924b7B63866) — UC Santa Barbara
 * [0xE22...C90B7](https://etherscan.io/address/0xa12c0b50F1b81C3Ecbf56097e85e607eE22C90B7)— Cal Poly San Luis Obispo
 * [0x13b...Bf614f](https://etherscan.io/address/0x13b530005fDA72a40077318bD752470604Bf614f) — Dartmouth College
 * [0x481...71449e](https://etherscan.io/address/0x481e6a9C263B9855c1C410180a7e69C66371449e) — University of Washington
