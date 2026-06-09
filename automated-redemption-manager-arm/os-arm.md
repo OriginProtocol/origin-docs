@@ -24,9 +24,15 @@ The OS ARM increases its capital efficiency with lending market integrations. In
 4. OS is redeemed 1:1 for S via Sonic’s 14 day unstaking process (the delta between the discounted price and the 1:1 price accrues as yield to the OS ARM)
 5. \[Back to Step 2] Resulting S is split between the vault buffer and the lending market
 
+### Rebalancing
+
+Idle S can be routed to Silo when it is not needed for immediate ARM liquidity. Rebalancing around the configured ARM buffer is separate from redemption exposure, which is created when the ARM buys discounted OS and redeems it through Sonic’s unstaking process.
+
 ### **Redemptions**
 
 Withdrawals from the ARM are processed on-demand when liquidity is available. However, because OS must be redeemed through Sonic’s unstaking process which is hardcoded at 14 days, large redemptions can take up to 14-15 days. In the case that the ARM receives additional user deposits, withdrawal liquidity may be available sooner.
+
+Redemptions follow the ARM two-step request/claim flow. The 10-minute delay is the minimum claim delay when liquidity is available. For large withdrawals or liquidity-constrained periods, claim timing may depend on Sonic unstaking, Silo liquidity, new deposits, or swap inflows.
 
 ### **DEX Aggregator Integrations**
 

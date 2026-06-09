@@ -2,13 +2,13 @@
 
 ## **eETH ARM: Introduction**
 
-Origin’s Automated Redemption Manager (ARM) supports instant redemptions for [Ether.fi](http://ether.fi)’s eETH.
+Origin’s Automated Redemption Manager (ARM) supports instant redemptions for Ether.fi’s eETH.
 
-The eETH ARM applies the same redemption-based strategy pioneered by the stETH ARM. It arbitrages the pricing of [Ether.fi](http://ether.fi/)’s liquid staking token, eETH, against its underlying collateral value, capturing yield from peg volatility while improving instant exit liquidity on eETH. This design gives depositors a low-risk, passive way to earn yield in ETH without needing to manually manage their position or monitor spreads.
+The eETH ARM applies the same redemption-based strategy pioneered by the stETH ARM. It arbitrages the pricing of Ether.fi’s liquid staking token, eETH, against its underlying collateral value, capturing yield from peg volatility while improving instant exit liquidity on eETH. This design gives depositors a low-risk, passive way to earn yield in ETH without needing to manually manage their position or monitor spreads.
 
 ### **How it Works**
 
-The eETH ARM earns yield by buying discounted eETH on AMMs and redeeming it 1:1 for ETH through [Ether.fi](http://ether.fi)’s withdrawal process. The spread between the market price and the redemption value becomes yield for eETH ARM depositors. This approach consistently monetizes short-term peg deviations while helping stabilize eETH’s onchain market pricing.
+The eETH ARM earns yield by buying discounted eETH on AMMs and redeeming it 1:1 for ETH through Ether.fi’s withdrawal process. The spread between the market price and the redemption value becomes yield for eETH ARM depositors. This approach consistently monetizes short-term peg deviations while helping stabilize eETH’s onchain market pricing.
 
 ### **Lending Market Integrations**
 
@@ -21,12 +21,20 @@ To increase capital efficiency, the eETH ARM routes unused WETH to Morpho to ear
    * Vault buffer (used to arbitrage eETH market pricing)
    * Morpho (anything beyond the required vault liquidity goes here to earn lending market yield)
 3. ETH in the vault buffer is used by the ARM to acquire eETH at a discount
-4. eETH is redeemed 1:1 for ETH via [Ether.fi](http://ether.fi)’s withdrawal queue (the delta between the discounted price and the 1:1 price accrues as yield to the eETH ARM)
+4. eETH is redeemed 1:1 for ETH via Ether.fi’s withdrawal queue (the delta between the discounted price and the 1:1 price accrues as yield to the eETH ARM)
 5. \[Back to Step 2] Resulting ETH is split between the vault buffer and Morpho
+
+### Rebalancing
+
+allocate() is permissionless and rebalances idle WETH between the ARM and Morpho around the configured ARM buffer. It does not independently choose eETH redemption exposure; that exposure is driven by ARM pricing, swap flow, and withdrawal batching.
 
 ### **Redemptions**
 
-Withdrawals from the ARM are processed on-demand when liquidity is available. However, because eETH must be redeemed through [Ether.fi](http://ether.fi)’s unstaking process which is is asynchronous, redemptions for large withdrawals can take 7-15 days. In the case that the ARM receives additional user deposits, withdrawal liquidity may be available sooner.
+Withdrawals from the ARM are processed on-demand when liquidity is available. However, because eETH must be redeemed through Ether.fi’s unstaking process which is asynchronous, redemptions for large withdrawals can take up to 7-15 days. In the case that the ARM receives additional user deposits, withdrawal liquidity may be available sooner.
+
+Redemptions follow the ARM two-step flow: request first, then claim once liquidity is available. The 10-minute delay is the minimum claim delay, not a guarantee that every redemption will be claimable after 10 minutes.
+
+If WETH liquidity is available in the ARM, exits can be faster. If liquidity is constrained, claim timing may depend on Ether.fi withdrawal processing, Morpho liquidity, new deposits, or swap inflows.
 
 ### **DEX Aggregator Integrations**
 

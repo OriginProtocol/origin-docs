@@ -16,6 +16,8 @@ When market spreads tighten and lending yields are more attractive, the ARM dyna
 
 WETH from the stETH and eETH ARM Vaults is sent to the [Morpho WETH ARM Vault](https://app.morpho.org/ethereum/vault/0x3Dfe70B05657949A5dB340754aD664810ac63b21/weth-arm-vault) to earn yield when arbitrage opportunities are not present. The vault lends to top ETH-denominated markets on Morpho, with the majority of WETH being used across wrapped stETH and wrapped eETH Morpho markets.
 
+ARM rebalancing is buffer-driven. Idle liquidity can be allocated to external lending markets when it is not needed for immediate swap/redemption activity, while the configured ARM buffer determines how much liquidity remains available in the vault. Rebalancing around this buffer can be triggered permissionlessly through the allocate() fuction.
+
 **ARM Flow of Funds**
 
 <figure><img src="../.gitbook/assets/ARM Vault Diagram.png" alt=""><figcaption></figcaption></figure>
@@ -24,6 +26,8 @@ This creates a self-balancing mechanism that narrows peg spreads, restores marke
 
 ### Historical Yield Performance
 
-During its first year of operation, the stETH ARM averaged 4.06% APY — approximately 50% above the average ETH liquid staking return of 2.67% over the same period. ARM yield is substantially more volatile than staking rewards, reflecting the strategy's dependence on secondary market pricing conditions.&#x20;
+During its first year of operation, the stETH ARM averaged 4.06% APY, approximately 50% above the average ETH liquid staking return of 2.67% over the same period. ARM yield is substantially more volatile than staking rewards, reflecting the strategy's dependence on secondary market pricing conditions.&#x20;
 
-During periods of peg stability, yield converges toward Morpho WETH lending rates, reaching as low as 1.5% APY. During periods of market volatility, when stETH trades at meaningful discounts, arbitrage spreads widen significantly and ARM yields have exceeded 50% APY. The lending floor and volatility ceiling together define the ARM's yield range: a persistent baseline from Morpho, with upside captured from market dislocations.
+ARM yield is variable because capital rotates between redemption arbitrage and lending-market yield. In quiet markets, yield trends toward the lending-market baseline. During larger peg dislocations, redemption arbitrage can become the dominant source of returns.
+
+The lending floor and volatility ceiling together define the ARM's yield range: a persistent baseline from Morpho, with upside captured from market dislocations.

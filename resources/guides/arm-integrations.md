@@ -18,6 +18,10 @@ Redemptions follow a two-step flow. Users first submit a redemption request usin
 
 When instant liquidity is unavailable, withdrawals follow the underlying asset’s withdrawal mechanics, such as the stETH withdrawal queue for ARM-WETH-stETH. For select ARM deployments, including the stETH ARM, there is onchain liquidity available via AMMs.
 
+Integrators should distinguish between redemption request time and claim time. Redemption NAV is set at request time, but if NAV decreases before claim, the claim amount is reduced to the lower claim-time NAV. Integrations should not assume that a queued redemption is economically final until claimed.
+
+Claimability depends on vault liquidity. If instant liquidity is unavailable, requests can remain pending until liquidity returns from underlying withdrawals, lending-market withdrawals, new deposits, or swap inflows. Integrations should surface pending state clearly and avoid assuming a fixed maximum exit latency.
+
 ### Share Valuation
 
 ARM share value should be derived using the vault’s onchain conversion functions, such as `convertToAssets`, rather than AMM spot prices. This provides the canonical share-to-asset exchange rate for accounting and risk calculations.
