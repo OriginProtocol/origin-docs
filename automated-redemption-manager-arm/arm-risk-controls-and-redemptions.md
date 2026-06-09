@@ -1,0 +1,61 @@
+# ARM Risk, Controls & Redemptions
+
+This page covers capital allocation, rebalancing mechanics, redemption exit timing, NAV calculation, access controls, and operational security topics that apply across all ARM deployments. For deployment-specific contract addresses, fee configuration, market whitelists, and audit history, see the individual ARM product pages.
+
+### Capital Allocation and Lending Buffer
+
+ARM Vault capital is split between immediate vault liquidity, redemption and arbitrage exposure, and external lending markets. On Ethereum ARM deployments, idle WETH can be routed to the Morpho WETH ARM Vault when arbitrage opportunities are not present.
+
+There is no standalone hard cap on the Morpho lending share of the book. Instead, lending allocation is governed by the configured ARM liquidity buffer. Based on current buffer configuration, the effective lending allocation can approach the buffer ceiling of 95% when arbitrage flow is absent.
+
+The amount currently allocated to lending markets can be monitored on the [Origin Analytics dashboard.](https://analytics.originprotocol.com/arm/1:ARM-WETH-stETH)
+
+### Rebalancing and allocate()
+
+allocate() is a permissionless, rule-based rebalance function. It rebalances idle assets between the ARM Vault and the active lending market to maintain the configured liquidity buffer.
+
+allocate() does not itself decide whether the ARM should enter redemption exposure. Redemption exposure is created by swap flow and ARM pricing: when the ARM purchases discounted stETH, eETH, OS, or sUSDe on DEXs, those assets are later redeemed through the underlying protocol's withdrawal process. Pricing bands and withdrawal batching are controlled by the operator.
+
+* allocate() is permissionless, any address can call it.
+* It only moves idle liquidity between the ARM Vault and the active lending market.
+* It does not control the ARM's entry into redemption exposure.
+
+### Redemptions and Exit Timing
+
+ARM redemptions use a two-step flow. LPs first submit a redemption request, then claim once the request becomes claimable.
+
+If sufficient vault liquidity is available, a redemption may be claimable after the 10-minute minimum delay. If liquidity is unavailable, the request remains pending until liquidity returns.
+
+Exit timing depends on the state of the book:
+
+* Lending-heavy state: Exits may depend on whether the active lending market has sufficient available liquidity to withdraw.
+* Redemption-heavy state: Exits may depend on the underlying protocol's withdrawal queue, such as Lido, [Ether.fi](http://ether.fi/), Ethena, or the applicable withdrawal mechanics for that protocol.
+* New deposits and swap inflows can restore liquidity independently and may shorten exit times.
+
+There is no hard maximum claim latency. LPs should monitor available liquidity, withdrawal queue depth, and lending-market exposure before requesting large redemptions. On average, large withdrawals become claimable within 24 hours of the withdrawal request.
+
+### NAV Calculation for Redemptions
+
+Redemption NAV is set at request time. If NAV decreases before claim, the claim amount is reduced to the lower claim-time NAV — this protects remaining LPs from losses that occur after a redemption request is queued. If NAV increases before claim, the claimant receives the higher claim-time rate.
+
+### Role Model: Owner, Operator, and Permissionless Callers
+
+The ARM is not fully dependent on a single keeper for all operations. Core buffer rebalancing through allocate() is permissionless. If the operator is offline, existing pricing remains active, completed withdrawals can still be claimed, and allocate() can still be called. However, new pricing updates and new withdrawal batching require operator or owner intervention.
+
+<table><thead><tr><th width="178.1337890625">Role</th><th>Capability</th></tr></thead><tbody><tr><td>Permissionless Callers</td><td>Can call allocate() to rebalance idle assets are the ARM Vault liquidity buffer.</td></tr><tr><td>Operator</td><td>Can update ARM prices, switch the active lending market within owner-approved whitelist, adjust the ARM buffer, initiate and operate withdrawal batching, and pause the ARM. </td></tr><tr><td>Owner</td><td>Controls upgrades, fee configuration, market whitelist changes, operator assignment, unpause, and other admin actions.</td></tr></tbody></table>
+
+### Active Lending Market Controls
+
+The operator can switch the active lending market only to a market already present in the supportedMarkets whitelist. The operator cannot point the ARM to an arbitrary adapter.
+
+Only the Owner can add or remove supported markets. Switching markets also requires the ARM to exit the previous market first, so high utilization or insufficient liquidity in the previous market can delay a switch.
+
+### Pause and Unpause Controls
+
+Pause authority is held by the operator and owner. The operator can pause immediately. Unpause is owner-only and therefore subject to the owner/timelock process.
+
+For the stETH ARM, the owner and proxy admin is the Origin Timelock, with a 48-hour minimum delay. Owner-only actions include upgrades, fee changes, market whitelist updates, operator changes, and unpause.
+
+### Operational Key Security
+
+Operational signing uses hardened key management and transaction controls. Additional operational-security detail can be provided through the diligence process where appropriate.

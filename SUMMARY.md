@@ -19,6 +19,7 @@
 ## Automated Redemption Manager (ARM)
 
 * [Introduction to ARM](automated-redemption-manager-arm/introduction-to-arm.md)
+* [ARM Risk, Controls & Redemptions](automated-redemption-manager-arm/arm-risk-controls-and-redemptions.md)
 * [stETH ARM](automated-redemption-manager-arm/steth-arm.md)
 * [eETH ARM](automated-redemption-manager-arm/eeth-arm.md)
 * [OS ARM](automated-redemption-manager-arm/os-arm.md)
