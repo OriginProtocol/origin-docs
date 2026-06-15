@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # AMO
 
 OETH, Super OETH, OS, and OUSD all utilize Automated Market Operations (AMOs). The AMO helps to maintain the peg, increases capital efficiency, and maximizes yield for holders. The AMO is allowed to enact monetary policy within a closed system so long as it does not negatively impact the peg. The protocol remains 100% collateralized at all times even as the money supply programmatically expands and contracts within liquidity pools in response to market conditions.

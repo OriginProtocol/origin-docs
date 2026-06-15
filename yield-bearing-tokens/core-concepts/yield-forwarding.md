@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Yield Forwarding
 
 Yield Forwarding is a feature that applies to all of Origin's yield-bearing tokens (OUSD, OETH, Super OETH, OS). With Yield Forwarding, protocols can route the yield from Origin’s rebasing tokens to approved smart contracts.

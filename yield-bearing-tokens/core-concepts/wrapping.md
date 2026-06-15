@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Wrapping
 
 Wrapped versions of OETH, OUSD, Super OETH, and OS are available as non-rebasing alternatives that still earn yield. This makes it easier to use these tokens as building blocks in other contracts. The wrapped versions may also provide tax benefits in some jurisdictions.
