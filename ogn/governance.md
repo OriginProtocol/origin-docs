@@ -69,18 +69,21 @@ Feel free to use one of the [templates](../resources/governance-templates/) as a
 
 Guardian multisigs can act without a timelock delay for time-sensitive operations: depositing and withdrawing from strategies, adjusting vault buffers, pausing deposits and redeems, swapping collateral, and managing rebasing. These functions require the multisig threshold but not a governance vote or timelock period.
 
-The Guardian multi-sig can do the following actions on the vault:
+The Guardian multi-sig can perform the following actions on supported vaults:
 
-* depositToStrategy - deposit multiple assets from the vault into the strategy.
-* withdrawFromStrategy - withdraw multiple assets from the strategy to the vault.
-* setVaultBuffer - adjust the amount of funds held outside strategies for cheaper redeems.
-* setAssetDefaultStrategy - which strategy mints and redeems pull from for a particular strategy
-* withdrawAllFromStrategy - remove funds from a single strategy and send them to the vault
-* withdrawAllFromStrategies - remove funds from all active strategies and send them to the vault
-* pauseRebase - pause all rebases
-* pauseCapital - pause all mints and redeems
-* unpauseCapital - allow all mints and redeems
-* swapCollateral - swaps collateral assets sitting in the vault
+* depositToStrategy - deposit vault assets into an approved strategy.
+* withdrawFromStrategy - withdraw assets from an approved strategy back to the vault.
+* setVaultBuffer - adjust the amount of funds held in the vault for cheaper redeems.
+* setDefaultStrategy - set the default strategy used for automatic allocation and withdrawals.
+* withdrawAllFromStrategy - remove funds from a single strategy and return them to the vault.
+* withdrawAllFromStrategies - remove funds from all active strategies and return them to the vault.
+* pauseRebase - pause rebases.
+* unpauseRebase - allow rebases.
+* pauseCapital - pause capital movement, including mints, redeems, and allocation.
+* unpauseCapital - allow capital movement.
+* rebase - update vault accounting and OToken supply.
+* setRebaseRateMax - set the maximum rate at which yield can be streamed into rebases.
+* setDripDuration - set the duration over which yield is streamed.
 
 ### Governance & Guardian Addresses
 
