@@ -22,6 +22,7 @@
 * [ARM Risk, Controls & Redemptions](automated-redemption-manager-arm/arm-risk-controls-and-redemptions.md)
 * [stETH ARM](automated-redemption-manager-arm/steth-arm.md)
 * [eETH ARM](automated-redemption-manager-arm/eeth-arm.md)
+* [sUSDe ARM](automated-redemption-manager-arm/susde-arm.md)
 * [OS ARM](automated-redemption-manager-arm/os-arm.md)
 
 ## OGN
