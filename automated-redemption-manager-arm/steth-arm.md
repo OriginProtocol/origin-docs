@@ -48,7 +48,7 @@ The current lending allocation is governed by the ARM liquidity buffer rather th
 
 ### Vault Withdrawals&#x20;
 
-Withdrawals from the stETH ARM are processed at NAV through a two-step redemption flow. LPs submit a redemption request and can claim once the request becomes claimable.
+Withdrawals from the stETH ARM are processed at NAV through a two-step withdrawal flow. LPs submit a withdrawal request and can claim once the request becomes claimable.
 
 If sufficient WETH liquidity is available, claims may be available after the 10-minute minimum delay. If liquidity is constrained, claim timing depends on when liquidity returns to the ARM. This may come from Morpho withdrawals, completed Lido withdrawal claims, new deposits, or swap inflows.
 

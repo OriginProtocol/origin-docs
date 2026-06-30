@@ -48,7 +48,7 @@ The Aave V3 lending rate establishes the ARM's yield floor. The current lending 
 
 #### Vault Withdrawals&#x20;
 
-Withdrawals from the sUSDe ARM are processed at NAV through a two-step redemption flow. LPs submit a redemption request and can claim once the request becomes claimable.
+Withdrawals from the sUSDe ARM are processed at NAV through a two-step redemption flow. LPs submit a withdrawal request and can claim once the request becomes claimable.
 
 If sufficient USDe liquidity is available in the ARM, claims may be available after the\
 10-minute minimum delay. If liquidity is constrained, claim timing depends on when\

@@ -30,9 +30,9 @@ allocate() is permissionless and rebalances idle WETH between the ARM and Morpho
 
 ### **Vault Withdrawals**
 
-Withdrawals from the ARM are processed on-demand when liquidity is available. However, because eETH must be redeemed through Ether.fi’s unstaking process which is asynchronous, redemptions for large withdrawals can take up to 7-15 days. In the case that the ARM receives additional user deposits, withdrawal liquidity may be available sooner.
+Withdrawals from the ARM are processed on-demand when liquidity is available. However, because eETH must be redeemed through Ether.fi’s unstaking process which is asynchronous, large withdrawals can take up to 7-15 days. In the case that the ARM receives additional user deposits, withdrawal liquidity may be available sooner.
 
-Redemptions follow the ARM two-step flow: request first, then claim once liquidity is available. The 10-minute delay is the minimum claim delay, not a guarantee that every redemption will be claimable after 10 minutes.
+Withdrawals follow the ARM two-step flow: request first, then claim once liquidity is available. The 10-minute delay is the minimum claim delay, not a guarantee that every redemption will be claimable after 10 minutes.
 
 If WETH liquidity is available in the ARM, exits can be faster. If liquidity is constrained, claim timing may depend on Ether.fi withdrawal processing, Morpho liquidity, new deposits, or swap inflows.
 
