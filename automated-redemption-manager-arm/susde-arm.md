@@ -4,7 +4,7 @@
 
 Origin's sUSDe ARM is the first ARM deployment for a yield-bearing stablecoin. It earns\
 yield by arbitraging the spread between sUSDe's secondary market price and its USDe\
-redemption value through Ethena's unstaking process.
+redemption value.
 
 The sUSDe ARM uses its USDe liquidity to sell USDe for discounted sUSDe, redeeming it for USDe through Ethena's unstaking process. The delta between the discounted purchase price and the redemption value accrues as yield to sUSDe ARM LPs. The same framework that has processed over $3B in volume across the stETH and eETH ARMs now applies to the stablecoin market.
 
@@ -44,7 +44,7 @@ The Aave V3 lending rate establishes the ARM's yield floor. The current lending 
 4. sUSDe is redeemed for USDe via Ethena's unstaking process (dynamic 1-5 day cooldown per batch)
 5. \[Back to Step 2] Resulting USDe is split between the vault buffer and Aave V3
 
-<figure><img src="../.gitbook/assets/ARM Vault Diagram (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ARM Vault Diagram (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Redemptions
 
