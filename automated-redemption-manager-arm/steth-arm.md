@@ -46,7 +46,7 @@ The current lending allocation is governed by the ARM liquidity buffer rather th
 4. stETH is redeemed 1:1 for ETH via Lido's withdrawal queue
 5. \[Back to Step 2] Resulting ETH is split between the vault buffer and the lending market
 
-### Redemptions
+### Vault Withdrawals&#x20;
 
 Withdrawals from the stETH ARM are processed at NAV through a two-step redemption flow. LPs submit a redemption request and can claim once the request becomes claimable.
 

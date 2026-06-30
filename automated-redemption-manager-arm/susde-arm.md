@@ -46,7 +46,7 @@ The Aave V3 lending rate establishes the ARM's yield floor. The current lending 
 
 <figure><img src="../.gitbook/assets/ARM Vault Diagram (2).png" alt=""><figcaption></figcaption></figure>
 
-#### Redemptions
+#### Vault Withdrawals&#x20;
 
 Withdrawals from the sUSDe ARM are processed at NAV through a two-step redemption flow. LPs submit a redemption request and can claim once the request becomes claimable.
 

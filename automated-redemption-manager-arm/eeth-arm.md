@@ -28,7 +28,7 @@ To increase capital efficiency, the eETH ARM routes unused WETH to Morpho to ear
 
 allocate() is permissionless and rebalances idle WETH between the ARM and Morpho around the configured ARM buffer. It does not independently choose eETH redemption exposure; that exposure is driven by ARM pricing, swap flow, and withdrawal batching.
 
-### **Redemptions**
+### **Vault Withdrawals**
 
 Withdrawals from the ARM are processed on-demand when liquidity is available. However, because eETH must be redeemed through Ether.fi’s unstaking process which is asynchronous, redemptions for large withdrawals can take up to 7-15 days. In the case that the ARM receives additional user deposits, withdrawal liquidity may be available sooner.
 
