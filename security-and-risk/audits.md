@@ -53,6 +53,12 @@ We're also grateful for the in-depth risk assessments of OETH from [LlamaRisk](h
 >
 > [Addendum to Collateral Risk Assessment - Wrapped Origin ETH (wOETH)](https://www.llamarisk.com/research/collateral-risk-woeth-addendum1)
 
+As well as in-depth risk assessments of OUSD and ARM from the Yearn [Curation team](https://curation.yearn.fi/):
+
+> [Origin OUSD](https://curation.yearn.fi/report/origin-ousd/)
+>
+> [Origin ARM](https://curation.yearn.fi/report/origin-arm/)
+
 In addition, the underlying strategies and dependencies that OUSD utilizes have been thoroughly audited by various firms.
 
 {% hint style="info" %}
