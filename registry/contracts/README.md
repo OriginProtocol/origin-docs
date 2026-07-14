@@ -24,7 +24,7 @@ description: Contracts for all Origin tokens and products
 
 #### Ethereum
 
-<table><thead><tr><th width="250">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Timelock</td><td>0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</td></tr><tr><td>Admin (5 of 8 Safe)</td><td>0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</td></tr><tr><td>Guardian (2 of 9 Safe)</td><td>0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</td></tr></tbody></table>
+<table><thead><tr><th width="250">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Timelock</td><td>0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</td></tr><tr><td>Admin (5 of 8 Safe)</td><td>0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</td></tr></tbody></table>
 
 #### Arbitrum
 
@@ -32,7 +32,7 @@ description: Contracts for all Origin tokens and products
 
 #### Base
 
-<table><thead><tr><th width="252">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 Safe)</td><td>0x92A19381444A001d62cE67BaFF066fA1111d7202</td></tr><tr><td>Guardian (1 of 2 Safe)</td><td>0x28bce2eE5775B652D92bB7c2891A89F036619703</td></tr><tr><td>Locker (2 of 8 Safe)</td><td>0xb6D85Ce798660076152d6FD3a484129668839c95</td></tr><tr><td>Timelock</td><td><a href="https://basescan.org/address/0xf817cb3092179083c48c014688d98b72fb61464f">0xf817cb3092179083c48c014688D98B72fB61464f</a></td></tr></tbody></table>
+<table><thead><tr><th width="252">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Admin (5 of 8 Safe)</td><td>0x92A19381444A001d62cE67BaFF066fA1111d7202</td></tr><tr><td>Locker (2 of 8 Safe)</td><td>0xb6D85Ce798660076152d6FD3a484129668839c95</td></tr><tr><td>Timelock</td><td><a href="https://basescan.org/address/0xf817cb3092179083c48c014688d98b72fb61464f">0xf817cb3092179083c48c014688D98B72fB61464f</a></td></tr></tbody></table>
 
 #### Sonic
 
@@ -40,7 +40,7 @@ description: Contracts for all Origin tokens and products
 
 #### Deprecated
 
-<table><thead><tr><th width="230.4013671875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original OGN Staking</td><td><a href="https://etherscan.io/address/0x501804b374ef06fa9c427476147ac09f1551b9a0#code">0x501804B374EF06fa9C427476147ac09F1551B9A0</a></td></tr><tr><td>Original OGN Staking Implementation</td><td><a href="https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08#code">0x8cD68A1E0b79150455C5498882d5d5D3DF2DdE08</a></td></tr></tbody></table>
+<table><thead><tr><th width="230.4013671875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original OGN Staking</td><td><a href="https://etherscan.io/address/0x501804b374ef06fa9c427476147ac09f1551b9a0#code">0x501804B374EF06fa9C427476147ac09F1551B9A0</a></td></tr><tr><td>Original OGN Staking Implementation</td><td><a href="https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08#code">0x8cD68A1E0b79150455C5498882d5d5D3DF2DdE08</a></td></tr><tr><td>Guardian (Ethereum)</td><td><a href="https://etherscan.io/address/0xf14bbdf064e3f67f51cd9bd646ae3716ad938fdc">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a> </td></tr><tr><td>Guardian (Base)</td><td><a href="https://basescan.org/address/0x28bce2eE5775B652D92bB7c2891A89F036619703">0x28bce2eE5775B652D92bB7c2891A89F036619703</a></td></tr></tbody></table>
 
 ## Products
 
