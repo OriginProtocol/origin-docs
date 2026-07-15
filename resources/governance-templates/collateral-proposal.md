@@ -143,5 +143,3 @@ _Can be binary, or have multiple options with a "No" option. Please also add an 
 * **Yes** - Approve \[collateral name]
 * **No** - Do not approve \[collateral name]
 * **Abstain**
-
-Unsure of the voting type to use? Check out the [Snapshot guide](https://docs.snapshot.org/user-guides/proposals/voting-types).

@@ -75,7 +75,7 @@ Aave has been audited by [Trail of Bits](https://www.trailofbits.com), [OpenZepp
 
 **Curve Strategy**
 
-Curve has been audited by [Trail of Bits](https://www.trailofbits.com) and [Quantstamp](https://quantstamp.com/). Visit the Curve documentation for [their full list of audits](https://docs.curve.finance/security/security/#security-audits).
+Curve has been audited by [Trail of Bits](https://www.trailofbits.com) and [Quantstamp](https://quantstamp.com/). Visit the Curve documentation for their [full list of audits.](https://classic.curve.finance/audits)
 
 **Convex Strategy**
 
@@ -83,11 +83,11 @@ Convex has been audited by [MixBytes](https://mixbytes.io/) and [PeckShield](htt
 
 **Morpho Strategy**
 
-Morpho has been audited by [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), [ChainSecurity](https://chainsecurity.com/), [Omniscia](https://omniscia.io/), [Pessimistic Security](https://pessimistic.io/), and [Spearbit](https://spearbit.com/). Visit the Morpho documentation [for their full list of audits](https://docs.morpho.xyz/security/audits).
+Morpho has been audited by [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), [ChainSecurity](https://chainsecurity.com/), [Omniscia](https://omniscia.io/), [Pessimistic Security](https://pessimistic.io/), and [Spearbit](https://spearbit.com/). Visit the Morpho documentation for their [full list of audits.](https://docs.morpho.org/get-started/resources/audits/)
 
 **Chainlink Oracles**
 
-Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9).
+Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://callisto.network/chainlink-token-link-security-audit-report/), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9).
 
 ### **Full list of audits**
 
