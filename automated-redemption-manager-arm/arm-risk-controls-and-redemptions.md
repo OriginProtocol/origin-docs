@@ -4,11 +4,11 @@ This page covers capital allocation, rebalancing mechanics, redemption exit timi
 
 ### Capital Allocation and Lending Buffer
 
-ARM Vault capital is split between immediate vault liquidity, redemption and arbitrage exposure, and external lending markets. On Ethereum ARM deployments, idle WETH can be routed to the Morpho WETH ARM Vault when arbitrage opportunities are not present.
+ARM Vault capital is split between immediate vault liquidity, redemption and arbitrage exposure, and external lending markets. On Ethereum ARM deployments, idle WETH can be routed to the Morpho WETH ARM Vault when arbitrage opportunities are not present. The sUSDe ARM routes idle USDe to Aave V3 under the same buffer-governed model.
 
-There is no standalone hard cap on the Morpho lending share of the book. Instead, lending allocation is governed by the configured ARM liquidity buffer. Based on current buffer configuration, the effective lending allocation targets up to 95% of ARM Vault liquidity when arbitrage flow is absent.
+Both lending destinations carry smart contract and utilization risk: withdrawal timing can be affected during periods of high borrowing demand in the active market. The Morpho WETH ARM Vault allocates to highly liquid, ETH-based markets that have been externally audited and vetted by the Origin Protocol team; Aave V3 has a long audit history and secures billions of dollars in capital across its markets.
 
-The amount currently allocated to lending markets can be monitored on the [Origin Analytics dashboard.](https://analytics.originprotocol.com/arm/1:ARM-WETH-stETH)
+There is no standalone hard cap on the Morpho lending share of the book. Instead, lending allocation is governed by the configured ARM liquidity buffer. The amount currently allocated to lending markets can be monitored on the [Origin Analytics dashboard.](https://analytics.originprotocol.com/arm/1:ARM-WETH-stETH)
 
 ### Rebalancing and allocate()
 
@@ -28,11 +28,17 @@ If sufficient vault liquidity is available, a redemption may be claimable after 
 
 Exit timing depends on the state of the book:
 
-* Lending-heavy state: Exits may depend on whether the active lending market has sufficient available liquidity to withdraw.
-* Redemption-heavy state: Exits may depend on the underlying protocol's withdrawal queue, such as Lido, [Ether.fi](http://ether.fi/), Ethena, or the applicable withdrawal mechanics for that protocol.
+* **Redemption-heavy state:** Exits may depend on the underlying protocol's withdrawal queue, such as Lido, Ether.fi, Ethena, or the applicable withdrawal mechanics for that protocol.
+* **Lending-heavy state:** Exits may depend on whether the active lending market has sufficient available liquidity to withdraw.
 * New deposits and swap inflows can restore liquidity independently and may shorten exit times.
 
-There is no hard maximum claim latency. LPs should monitor available liquidity, withdrawal queue depth, and lending-market exposure before requesting large redemptions. On average, large withdrawals become claimable within 24 hours of the withdrawal request.
+There is no hard maximum claim latency. LPs should monitor available liquidity, withdrawal queue depth, and lending-market exposure before requesting large redemptions. On average, 95% of withdrawals are processed within 24 hours of the withdrawal request.
+
+### ARM Pricing and Oracle Risk
+
+The operator sets the ARM's bid price for redeemable assets based on observed withdrawal queue depth, lending market rates, and market price data. There is no external price oracle feeding ARM's pricing function, which removes oracle manipulation risk from the ARM's core pricing mechanism.
+
+Buy and sell prices must remain within a narrow range of an owner-set crossPrice, which bounds how far operator pricing can drift from fair value and acts as a guardrail for LPs.
 
 ### NAV Calculation for Redemptions
 
