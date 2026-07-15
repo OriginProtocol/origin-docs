@@ -30,7 +30,29 @@ All approved proposals execute onchain through a timelock that enforces a mandat
 
 The timelock uses role-based access control. The proposer role — held by the governance multisig — queues onchain proposals approved onchain by xOGN governance. The executor role runs them after the delay has elapsed. No single address can both propose and execute without the delay intervening.
 
-## **Participating**
+## **Participating In Governance**
+
+Snapshot is Origin's off-chain, gas-free signaling venue, and it's where nearly every governance proposal starts. Here's how to participate in Snapshot governance:&#x20;
+
+1. Obtain OGN from a centralized exchange (Coinbase, Binance) or a decentralized exchange (Uniswap, Curve).
+2. Stake OGN for xOGN using the [Origin Dapp.](https://app.originprotocol.com/#/ogn/staking) xOGN is what grants voting power; the longer you stake, the more voting power is allotted per OGN staked.
+3. Submit and discuss your proposal on the [Origin Governance Forum](https://governance.originprotocol.com/), and share it in the #governance channel on Origin's [Discord server](https://originprotocol.com/discord) for visibility. 1–4 weeks of discussion is typical before moving forward.
+4. Submit the proposal on [Snapshot](https://snapshot.org/#/origingov.eth) for a signaling vote. Creating a Snapshot proposal requires at least 5,000 xOGN; voting on an existing one has no minimum.
+5. Cast your vote, or delegate your voting power to another Ethereum address if you'd rather not vote directly yourself.
+
+Feel free to use one of the [templates](../resources/governance-templates/) as a guide when writing a proposal.
+
+### Onchain Governance Process
+
+Once a proposal has clear community support on Snapshot, it can move to a binding onchain vote. Onchain proposals are formal, require gas fees to submit, and execute directly against Origin's smart contracts.
+
+1. Hold at least 100,000 xOGN, then submit the proposal onchain through the governance contract: 0x1D3Fbd4d129Ddd2372EA85c5Fa00b2682081c9EC.
+2. Voting opens 24 hours after the proposal is created, giving holders time to acquire tokens or delegate votes before the window begins.
+3. The voting period runs for 48 hours. If quorum (20% of xOGN supply) is reached within the final 24 hours of that window, voting automatically extends by another \~1.6 days, so a late swing in quorum can't decide the outcome without giving the community time to respond.
+4. If the proposal passes and quorum is reached, it needs to be queued in the Timelock contract.
+5. After the 48-hour Timelock delay has passed, the proposal can be executed onchain.
+
+### Parameters
 
 High-level criteria are required to vote and make proposals:
 
@@ -38,21 +60,9 @@ Hold sufficient xOGN tokens (Staked Origin Tokens)
 
 * No minimum to vote on existing proposals
 * 5,000 xOGN to create a Snapshot proposal
-* 100,000 xOGN to create an on-chain proposal
+* 100,000 xOGN to create an onchain proposal
 
 (Note, you have the option to delegate your votes to another Ethereum wallet.)
-
-Here are the step-by-step instructions to vote and create a proposal:
-
-1. Obtain OGN from a centralized exchange like Coinbase or Binance, or a decentralized exchange such as Uniswap or Curve.
-2. Stake OGN using the [Origin App](https://app.originprotocol.com/#/ogn/staking)
-3.  Submit and discuss the proposal on the [Origin Governance Forum](https://governance.originprotocol.com/) and share the link on the [Origin Protocol Discord server](https://originprotocol.com/discord) under the #governance channel for maximum visibility
-
-    _(1-4 weeks of discussion recommended)_
-4. Submit the proposal on Snapshot for a signaling vote
-5. Vote for the implementation to be executed&#x20;
-
-Feel free to use one of the [templates](../resources/governance-templates/) as a guide for writing governance proposals
 
 #### Here are the parameters currently configured on the governance contract: <a href="#strategists" id="strategists"></a>
 
