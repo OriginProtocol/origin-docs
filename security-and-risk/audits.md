@@ -2,7 +2,7 @@
 
 ### **Continuously Audited**
 
-Origin has a continuous auditing agreement with [OpenZeppelin](https://openzeppelin.com/) to review 100% of the OETH and OUSD smart contract changes. OpenZeppelin has audited Coinbase, Ethereum, Aave, Compound, and other leading projects. They are one of the most trusted auditing firms in the industry and we are thrilled to count them as part of our extended team.
+Security shapes how every Origin product gets built and shipped. Each smart contract deployment across OETH, OUSD, and Origin's other yield products undergoes independent review from multiple specialized auditing firms before it opens to depositors, and that scrutiny continues as contracts evolve rather than ending once a product goes live. This reflects 6+ years of treating audits as an ongoing practice rather than a one-time checkbox, with firms selected for deep expertise in the specific mechanisms under review.
 
 OETH utilized 95% of the same code as OUSD and has been simplified with the removal of LST collateral and farming strategies. Changes were audited by [OpenZeppelin](https://www.openzeppelin.com/) and [Narya](https://narya.ai/) prior to launch. The ARM, OUSD, and Origin’s other yield-bearing tokens have also been thoroughly audited by multiple top security firms listed below.
 
