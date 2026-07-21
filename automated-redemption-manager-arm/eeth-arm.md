@@ -4,11 +4,11 @@
 
 Origin’s Automated Redemption Manager (ARM) supports instant redemptions for Ether.fi’s eETH.
 
-The eETH ARM applies the same redemption-based strategy pioneered by the stETH ARM. It arbitrages the pricing of Ether.fi’s liquid staking token, eETH, against its underlying collateral value, capturing yield from peg volatility while improving instant exit liquidity on eETH. This design gives depositors a low-risk, passive way to earn yield in ETH without needing to manually manage their position or monitor spreads.
+The eETH ARM applies the same redemption-based strategy pioneered by the stETH ARM. It arbitrages the pricing of Ether.fi’s liquid staking token, eETH, against its underlying collateral value, capturing yield from peg volatility while improving instant exit liquidity on eETH. This design gives depositors a low-risk, passive way to earn ETH yield  without needing to manually manage their position or monitor spreads.
 
 ### **How it Works**
 
-The eETH ARM earns yield by buying discounted eETH on AMMs and redeeming it 1:1 for ETH through Ether.fi’s withdrawal process. The spread between the market price and the redemption value becomes yield for eETH ARM depositors. This approach consistently monetizes short-term peg deviations while helping stabilize eETH’s onchain market pricing.
+The eETH ARM earns yield by quoting a price for eETH based on Ether.fi's withdrawal timing, letting users sell discounted eETH into its liquidity before the ARM redeems it 1:1 for ETH through Ether.fi's withdrawal process. The spread between the market price and the redemption value becomes yield for eETH ARM depositors. This approach consistently monetizes short-term peg deviations while helping stabilize eETH's onchain market pricing.
 
 ### **Lending Market Integrations**
 

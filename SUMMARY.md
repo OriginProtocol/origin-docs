@@ -14,7 +14,6 @@
 * [Origin Ether (OETH)](yield-bearing-tokens/origin-ether-oeth.md)
 * [Super OETH (superOETHb)](yield-bearing-tokens/super-oeth-superoethb.md)
 * [Origin Dollar (OUSD)](yield-bearing-tokens/origin-dollar-ousd.md)
-* [Origin Sonic (OS)](yield-bearing-tokens/os.md)
 
 ## Automated Redemption Manager (ARM)
 
@@ -23,7 +22,6 @@
 * [stETH ARM](automated-redemption-manager-arm/steth-arm.md)
 * [eETH ARM](automated-redemption-manager-arm/eeth-arm.md)
 * [sUSDe ARM](automated-redemption-manager-arm/susde-arm.md)
-* [OS ARM](automated-redemption-manager-arm/os-arm.md)
 
 ## OGN
 

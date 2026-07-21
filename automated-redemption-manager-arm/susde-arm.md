@@ -6,7 +6,7 @@ Origin's sUSDe ARM is the first ARM deployment for a yield-bearing stablecoin. I
 yield by arbitraging the spread between sUSDe's secondary market price and its USDe\
 redemption value.
 
-The sUSDe ARM uses its USDe liquidity to sell USDe for discounted sUSDe, redeeming it for USDe through Ethena's unstaking process. The delta between the discounted purchase price and the redemption value accrues as yield to sUSDe ARM LPs. The same framework that has processed over $3B in volume across the stETH and eETH ARMs now applies to the stablecoin market.
+The sUSDe ARM quotes a price for sUSDe based on Ethena's unstaking cooldown and Aave V3 lending rates, letting users sell discounted sUSDe into its USDe liquidity. When the ARM acquires sUSDe, it redeems it for USDe through Ethena's unstaking process. The delta between the discounted price and the redemption value accrues as yield to sUSDe ARM LPs. The same framework that has processed over $3B in volume across the stETH and eETH ARMs now applies to the stablecoin market.
 
 Origin’s ARM contracts were audited by OpenZeppelin and yAudit. View the reports [here.](https://docs.originprotocol.com/security-and-risk/audits)
 
@@ -16,7 +16,7 @@ See [Risk, Controls & Redemptions](https://docs.originprotocol.com/automated-red
 
 #### Pricing Mechanics
 
-The price at which the sUSDe ARM sells USDe for sUSDe is a function of secondary market pricing, Ethena's unstaking cooldown, and Aave V3 USDe lending market rates. The Aave V3 lending rate is the yield hurdle; the yield-implied discount from sUSDe arbitrage must surpass lending yields for the ARM to sell USDe for discounted sUSDe.
+The price at which the sUSDe ARM quotes sUSDe against USDe is a function of secondary market pricing, Ethena's unstaking cooldown, and Aave V3 USDe lending market rates. The Aave V3 lending rate is the yield hurdle; the yield-implied discount from sUSDe arbitrage must surpass lending yields for the ARM to quote a discount deep enough for arbitrageurs to trade against.
 
 Ethena enforces a dynamic cooldown (typically 1 day) before sUSDe can be unstaked to USDe. This illiquidity during redemption is factored into the pricing mechanics: longer redemptions times require larger discounts to justify arbitrage activity.
 
