@@ -1,6 +1,6 @@
 # Introduction to ARM
 
-<figure><img src="../.gitbook/assets/origin arm (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/origin arm (13).png" alt=""><figcaption></figcaption></figure>
 
 The Automated Redemption Manager (ARM) is Origin’s onchain liquidity engine designed to enable better exit liquidity and tighter pegs for yield-bearing assets such as stETH, eETH, and sUSDe. The ARM continuously arbitrages between secondary market prices and the token’s underlying collateral to help tokens trade close to their underlying value.
 
