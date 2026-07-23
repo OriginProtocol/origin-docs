@@ -10,7 +10,7 @@ description: >-
 
 #### ARMs Contracts
 
-<table><thead><tr><th width="230.2109375">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Ethena ARM </td><td><a href="https://etherscan.io/address/0xCEDa2d856238aA0D12f6329de20B9115f07C366d">0xCEDa2d856238aA0D12f6329de20B9115f07C366d</a></td></tr><tr><td>AAVE Strategy</td><td><a href="https://etherscan.io/address/0x0DC20109Ea012f050BeDA184844c1eD5ec6dA33A#readProxyContract">0x0DC20109Ea012f050BeDA184844c1eD5ec6dA33A</a></td></tr><tr><td>Cap Manager</td><td><a href="https://etherscan.io/address/0x687AFB5A52A15122fD5FC54A8B52cfd58346fb0C">0x687AFB5A52A15122fD5FC54A8B52cfd58346fb0C</a></td></tr><tr><td>Zapper</td><td></td></tr><tr><td>Unstaker (example)</td><td><a href="https://etherscan.io/address/0x77789BB87eAdfC429440209F7d28ED55aC15f17a">0x77789BB87eAdfC429440209F7d28ED55aC15f17a</a></td></tr></tbody></table>
+<table><thead><tr><th width="230.2109375">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Ethena ARM </td><td><a href="https://etherscan.io/address/0xCEDa2d856238aA0D12f6329de20B9115f07C366d">0xCEDa2d856238aA0D12f6329de20B9115f07C366d</a></td></tr><tr><td>AAVE Strategy</td><td><a href="https://etherscan.io/address/0x0DC20109Ea012f050BeDA184844c1eD5ec6dA33A#readProxyContract">0x0DC20109Ea012f050BeDA184844c1eD5ec6dA33A</a></td></tr><tr><td>Unstaker (example)</td><td><a href="https://etherscan.io/address/0x77789BB87eAdfC429440209F7d28ED55aC15f17a">0x77789BB87eAdfC429440209F7d28ED55aC15f17a</a></td></tr></tbody></table>
 
 #### Third Party Contracts
 
@@ -18,5 +18,5 @@ description: >-
 
 #### Operational Accounts
 
-<table><thead><tr><th width="229.76171875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899">0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x39878253374355DBcc15C86458F084fb6f2d6DE7">0x39878253374355DBcc15C86458F084fb6f2d6DE7</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c">0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c</a></td></tr></tbody></table>
+<table><thead><tr><th width="229.76171875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F">0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x739212d5bAfE6AAC8Be49a60B7d003bD41DBf38b">0x739212d5bAfE6AAC8Be49a60B7d003bD41DBf38b</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c">0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c</a></td></tr></tbody></table>
 

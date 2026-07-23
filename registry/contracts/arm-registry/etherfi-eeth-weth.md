@@ -14,7 +14,7 @@ Docs: [https://docs.originprotocol.com/automated-redemption-manager-arm/eeth-arm
 
 #### ARMs Contracts
 
-<table><thead><tr><th width="230.2109375">Contract</th><th>Address</th></tr></thead><tbody><tr><td>EtherFi ARM </td><td><a href="https://etherscan.io/address/0xfB0A3CF9B019BFd8827443d131b235B3E0FC58d2">0xfB0A3CF9B019BFd8827443d131b235B3E0FC58d2</a></td></tr><tr><td>Morpho Market</td><td><a href="https://etherscan.io/address/0x8Cf42b82fFFa3E7714D62a2cA223acBeC1Eef095">0x8Cf42b82fFFa3E7714D62a2cA223acBeC1Eef095</a></td></tr><tr><td>Cap Manager</td><td><a href="https://etherscan.io/address/0xf2A18F7330141Ec737EB73A0A5Ea8E4d7e9bE7ec">0xf2A18F7330141Ec737EB73A0A5Ea8E4d7e9bE7ec</a></td></tr><tr><td>Zapper</td><td><a href="https://etherscan.io/address/0xE11EDbd5AE4Fa434Af7f8D7F03Da1742996e7Ab2">0xE11EDbd5AE4Fa434Af7f8D7F03Da1742996e7Ab2</a></td></tr></tbody></table>
+<table><thead><tr><th width="230.2109375">Contract</th><th>Address</th></tr></thead><tbody><tr><td>EtherFi ARM </td><td><a href="https://etherscan.io/address/0xfB0A3CF9B019BFd8827443d131b235B3E0FC58d2">0xfB0A3CF9B019BFd8827443d131b235B3E0FC58d2</a></td></tr><tr><td>Morpho Market</td><td><a href="https://etherscan.io/address/0xe776485b4a12d50503af40dbea519671318472ed">0xe776485B4A12d50503aF40DBEa519671318472Ed</a></td></tr><tr><td>Zapper</td><td><a href="https://etherscan.io/address/0xE11EDbd5AE4Fa434Af7f8D7F03Da1742996e7Ab2">0xE11EDbd5AE4Fa434Af7f8D7F03Da1742996e7Ab2</a></td></tr></tbody></table>
 
 #### Third Party Contracts
 
@@ -22,5 +22,5 @@ Docs: [https://docs.originprotocol.com/automated-redemption-manager-arm/eeth-arm
 
 #### Operational Accounts
 
-<table><thead><tr><th width="229.76171875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899">0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x39878253374355DBcc15C86458F084fb6f2d6DE7">0x39878253374355DBcc15C86458F084fb6f2d6DE7</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c">0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c</a></td></tr></tbody></table>
+<table><thead><tr><th width="229.76171875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Owner</td><td><a href="https://etherscan.io/address/0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F">0x35918cDE7233F2dD33fA41ae3Cb6aE0e42E0e69F</a></td></tr><tr><td>Operator</td><td><a href="https://etherscan.io/address/0x739212d5bAfE6AAC8Be49a60B7d003bD41DBf38b">0x739212d5bAfE6AAC8Be49a60B7d003bD41DBf38b</a></td></tr><tr><td>Fee Collector</td><td><a href="https://etherscan.io/address/0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c">0xBB077E716A5f1F1B63ed5244eBFf5214E50fec8c</a></td></tr></tbody></table>
 
