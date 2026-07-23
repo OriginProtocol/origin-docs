@@ -69,6 +69,7 @@
   * [Yield-Bearing Token Integrations](resources/guides/yield-bearing-token-integrations.md)
   * [ARM Integrations](resources/guides/arm-integrations.md)
   * [Integration Guide For Exchanges](resources/guides/integration-guide-for-exchanges.md)
+  * [Withdrawing from OS and the OS ARM](resources/guides/withdrawing-from-os-and-the-os-arm.md)
   * [Redeeming superOETHp](resources/guides/redeeming-superoethp.md)
 * [Media Kit](resources/media-kit.md)
 
