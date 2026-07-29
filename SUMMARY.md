@@ -47,6 +47,7 @@
   * [Super OETH Registry](registry/contracts/super-oeth-registry.md)
   * [OUSD Registry](registry/contracts/ousd-registry.md)
   * [ARM Registry](registry/contracts/arm-registry/README.md)
+    * [WETH: eETH/weETH/stETH/wstETH](registry/contracts/arm-registry/weth-eeth-weeth-steth-wsteth.md)
     * [Lido: stETH/WETH](registry/contracts/arm-registry/lido-steth-weth.md)
     * [EtherFi: eETH/WETH](registry/contracts/arm-registry/etherfi-eeth-weth.md)
     * [Ethena: sUSDe/USDe](registry/contracts/arm-registry/ethena-susde-usde.md)
