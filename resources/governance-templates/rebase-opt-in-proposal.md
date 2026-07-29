@@ -1,6 +1,6 @@
 # Rebase Opt-In Proposal
 
-Use this template as a guide to write a proposal for [opting a smart contract in to receive yield](../../yield-bearing-tokens/core-concepts/rebasing-and-smart-contracts.md). Keep in mind that wOUSD, wOS, wOETH, and wsuperOETH are alternate solutions for receiving yield and, as ERC-4626 vaults, earn yield automatically through value accrual.
+Use this template as a guide to write a proposal for [opting a smart contract in to receive yield](../../yield-bearing-tokens/core-concepts/rebasing-and-smart-contracts.md). Keep in mind that wOUSD, wOETH, and wsuperOETH are alternate solutions for receiving yield and, as ERC-4626 vaults, earn yield automatically through value accrual.
 
 ## _**Title:**_
 

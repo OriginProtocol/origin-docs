@@ -1,6 +1,6 @@
 # General Proposal
 
-Use this template as a guide for writing any other kind of proposal for OETH, superOETH, OS, OUSD, or ARM that does not fit any of the other governance templates.
+Use this template as a guide for writing any other kind of proposal for OETH, superOETH, OUSD, or ARM that does not fit any of the other governance templates.
 
 ## _**Title:**_
 
