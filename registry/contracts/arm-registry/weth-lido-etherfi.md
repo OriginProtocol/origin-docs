@@ -1,10 +1,10 @@
 ---
 description: >-
-  EtherFi ARM on Ethereum with eETH as the base asset and WETH as the liquidity
-  asset.
+  WETH ARM on Ethereum with base assets eETH, weETH, stETH and wstETH and WETH
+  as the liquidity asset.
 ---
 
-# WETH: eETH/weETH/stETH/wstETH
+# WETH: Lido, EtherFi
 
 <figure><img src="../../../.gitbook/assets/wethContracts (1).png" alt=""><figcaption></figcaption></figure>
 
