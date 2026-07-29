@@ -1,7 +1,7 @@
 ---
 description: >-
-  WETH ARM on Ethereum with base assets eETH, weETH, stETH and wstETH and WETH
-  as the liquidity asset.
+  WETH ARM on Ethereum with base assets eETH, weETH, stETH and wstETH. WETH is
+  the liquidity asset.
 ---
 
 # WETH: Lido, EtherFi

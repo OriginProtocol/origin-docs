@@ -51,6 +51,7 @@
     * [Lido: stETH/WETH](registry/contracts/arm-registry/lido-steth-weth.md)
     * [EtherFi: eETH/WETH](registry/contracts/arm-registry/etherfi-eeth-weth.md)
     * [Ethena: sUSDe/USDe](registry/contracts/arm-registry/ethena-susde-usde.md)
+    * [USDC: Paxos](registry/contracts/arm-registry/usdc-paxos.md)
     * [Origin: OS/WS](registry/contracts/arm-registry/origin-os-ws.md)
   * [Pool Booster](registry/contracts/pool-booster.md)
   * [Safe Modules Registry](registry/contracts/safe-modules-registry.md)
