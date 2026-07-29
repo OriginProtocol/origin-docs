@@ -14,7 +14,7 @@ description: >-
 
 #### Third Party Contracts
 
-<table><thead><tr><th width="249.8203125">Contract</th><th>Address</th></tr></thead><tbody><tr><td>PYUSD Deposit Address</td><td><a href="https://etherscan.io/address/0x3Dc62a521871497357F205a18cC40EE34fD596b6">0x3Dc62a521871497357F205a18cC40EE34fD596b6</a></td></tr><tr><td>USDCG Deposit Address</td><td><a href="https://etherscan.io/address/0xeA01359b1bf0deaF35fE61091e9b0774514a5bFB">0xeA01359b1bf0deaF35fE61091e9b0774514a5bFB</a></td></tr></tbody></table>
+<table><thead><tr><th width="249.8203125">Contract</th><th>Address</th></tr></thead><tbody><tr><td>PYUSD Deposit Address</td><td><a href="https://etherscan.io/address/0x3Dc62a521871497357F205a18cC40EE34fD596b6">0x3Dc62a521871497357F205a18cC40EE34fD596b6</a></td></tr><tr><td>USDG Deposit Address</td><td><a href="https://etherscan.io/address/0xeA01359b1bf0deaF35fE61091e9b0774514a5bFB">0xeA01359b1bf0deaF35fE61091e9b0774514a5bFB</a></td></tr></tbody></table>
 
 #### Operational Accounts
 
