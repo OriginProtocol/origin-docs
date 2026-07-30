@@ -20,6 +20,7 @@
 * [Introduction to ARM](automated-redemption-manager-arm/introduction-to-arm.md)
 * [ARM Risk, Controls & Redemptions](automated-redemption-manager-arm/arm-risk-controls-and-redemptions.md)
 * [stETH ARM](automated-redemption-manager-arm/steth-arm.md)
+* [WETH ARM](automated-redemption-manager-arm/weth-arm.md)
 * [eETH ARM](automated-redemption-manager-arm/eeth-arm.md)
 * [sUSDe ARM](automated-redemption-manager-arm/susde-arm.md)
 
