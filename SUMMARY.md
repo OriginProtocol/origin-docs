@@ -80,7 +80,7 @@
 
 * [Website](https://originprotocol.com)
 * [Dapp](https://app.originprotocol.com/)
-* [GitHub](https://github.com/OriginProtocol)
+* [Twitter (X) ](https://x.com/OriginProtocol)
 * [Discord](https://originprotocol.com/discord)
-* [Telegram](https://t.me/originprotocol)
+* [GitHub](https://github.com/OriginProtocol)
 * [Governance Forum](https://governance.originprotocol.com/)
