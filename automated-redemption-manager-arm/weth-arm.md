@@ -1,10 +1,3 @@
----
-description: >-
-  Origin Protocol’s multi-asset automated redemption manager earns
-  ETH-denominated yield through passive arbitrage between liquid staking token
-  market prices and redemption values.
----
-
 # WETH ARM
 
 ### WETH ARM: Introduction
