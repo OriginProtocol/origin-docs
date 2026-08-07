@@ -64,9 +64,4 @@ Chainlink CCIP has undergone rigorous, multi-party security audits, including re
 
 Super OETH collateral is held on Ethereum Mainnet rather than bridged to Base. This limits the value in transit over CCIP at any given time: collateral is only bridged when vault liquidity is required to process redemptions that AMO pool depth cannot satisfy. Under normal conditions, the value exposed to CCIP is a small fraction of total TVL.
 
-In the event of a CCIP outage, yield updates to superOETHb balances would pause until the bridge resumes and the next rebase occurs. Yield continues to accrue at the validator level on Ethereum during any outage; it is the delivery of that yield to Base that is temporarily suspended. The peg is unaffected: Super OETH maintains its ETH parity through protocol-owned AMO liquidity on\
-Base, which operates independently of CCIP. Holders can continue to exit at near 1:1 through the AMO pool regardless of bridge status.
-
-### Performance Fee
-
-Origin charges a 20% performance fee on yield generated on Super OETH. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. Net protocol fees after operating expenses are directed to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.
+In the event of a CCIP outage, yield updates to superOETHb balances would pause until the bridge resumes and the next rebase occurs. Yield continues to accrue at the validator level on Ethereum during any outage; it is the delivery of that yield to Base that is temporarily suspended. The peg is unaffected: Super OETH maintains its ETH parity through protocol-owned AMO liquidity on Base, which operates independently of CCIP. Holders can continue to exit at near 1:1 through the AMO pool regardless of bridge status.

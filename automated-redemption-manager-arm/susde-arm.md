@@ -67,9 +67,3 @@ The sUSDe ARM captures volume from DEX aggregators by offering the best rates fo
 The sUSDe ARM vault LP token is: ARM-USDe-sUSDe. Users who deposit into the sUSDe ARM's USDe Vault receive ARM-USDe-sUSDe, representing their share of the vault. The token’s contract address is viewable on [Etherscan.](https://etherscan.io/token/0xCEDa2d856238aA0D12f6329de20B9115f07C366d)
 
 The LP Token address is 0xCEDa2d856238aA0D12f6329de20B9115f07C366d
-
-#### Performance Fee
-
-Origin charges a 20% performance fee on yield generated from arbitrage by the sUSDe ARM. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. No fees are charged on lending market yields earned through Aave V3.
-
-Net protocol fees are directed to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.

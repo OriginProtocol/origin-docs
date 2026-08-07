@@ -69,9 +69,3 @@ Users who deposit into the WETH ARM Vault receive `ARM-WETH`, representing their
 **Origin dapp:** [https://app.originprotocol.com/#/arm/1:ARM-WETH](https://app.originprotocol.com/#/arm/1:ARM-WETH)
 
 **Analytics:** [https://analytics.originprotocol.com/arm/1:ARM-WETH](https://analytics.originprotocol.com/arm/1:ARM-WETH)
-
-### **Performance Fee**
-
-Origin charges a 20% performance fee on yield generated from arbitrage activity on the WETH ARM. No fees are charged on lending market yields earned by the vault.
-
-This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. Net protocol fees are directed to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.

@@ -77,10 +77,6 @@ The OETH/ETH Curve pool provides instant exit liquidity, allowing anyone to swap
 
 Redemption is a critical feature for any LST and is paramount for OETH to remain the optimal building block for DeFi protocols. Allowing users to confidently hold OETH knowing they can exit at virtually 1:1 for ETH anytime will always be OETH's top priority.
 
-### Performance Fee
-
-Origin charges a 20% performance fee on yield generated on OETH. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. Net protocol fees after operating expenses are directed to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.
-
 ### **Zapper**
 
 The OETH Zapper is a convenience contract enabling depositors to use Ether (ETH) to mint OETH or wOETH. The OETH Vault supports WETH but does not allow direct minting with ETH. This design decision increases security and also reduces the gas costs associated with minting.

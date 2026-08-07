@@ -78,7 +78,3 @@ OUSD can be redeemed 1:1 for USDC on the Origin dapp. For smaller swaps, users c
 
 For direct redemptions, users can redeem OUSD for USDC via the [Origin Dapp.](https://app.originprotocol.com/#/ousd/redeem) When the OUSD Vault  has enough liquidity in the buffer to process redemptions, users will receive USDC after a 10 minute delay. In the event the vault needs additional liquidity to process the redemption, the redemption process may take up to 24 hours to process.&#x20;
 
-### Performance Fee
-
-Origin charges a 20% performance fee on yield generated on OUSD. This fee is deducted from gross yield before distributions are made to depositors; it does not apply to principal. Net protocol fees after operating expenses are directed to OGN buybacks, which flow to xOGN stakers, creating a direct link between protocol revenue and token holder value. The APYs displayed on Origin's analytics dashboard and third-party tracking platforms reflect net returns after this fee has been applied, so the figures represent what depositors actually earn.
-
