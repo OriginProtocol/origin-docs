@@ -2,7 +2,7 @@
 
 ## **eETH ARM: Introduction**
 
-Origin’s Automated Redemption Manager (ARM) supports instant redemptions for Ether.fi’s eETH.
+Origin’s Automated Redemption Manager (ARM) supports atomic liquidity for Ether.fi’s eETH.
 
 The eETH ARM applies the same redemption-based strategy pioneered by the stETH ARM. It arbitrages the pricing of Ether.fi’s liquid staking token, eETH, against its underlying collateral value, capturing yield from peg volatility while improving instant exit liquidity on eETH. This design gives depositors a low-risk, passive way to earn ETH yield  without needing to manually manage their position or monitor spreads.
 
