@@ -1,5 +1,9 @@
 # eETH ARM
 
+{% hint style="info" %}
+The eETH ARM now earns lending market yields through Morpho. Arbitrage activity is currently paused, and users are encouraged to migrate to the new multi-asset [WETH ARM Vault.](https://app.originprotocol.com/#/arm/1:ARM-WETH)
+{% endhint %}
+
 ## **eETH ARM: Introduction**
 
 Origin’s Automated Redemption Manager (ARM) supports atomic liquidity for Ether.fi’s eETH.
