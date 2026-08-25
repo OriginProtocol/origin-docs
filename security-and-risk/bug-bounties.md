@@ -1,6 +1,6 @@
 # Bug Bounties
 
-Origin Protocol's bug bounty program has been active since November 2021 and is administered through Immunefi. The program offers a maximum reward of $1,000,000 for critical vulnerabilities, with payouts scaling based on severity, report quality, and the assistance provided. The bug bounty program covers all of Origin's products: OETH, Super OETH, OUSD, OS, OGN, and ARM Vaults.
+Origin Protocol's bug bounty program has been active since November 2021 and is administered through Immunefi. The program offers a maximum reward of $1,000,000 for critical vulnerabilities, with payouts scaling based on severity, report quality, and the assistance provided. The bug bounty program covers all of Origin's products: OETH, Super OETH, OUSD, OGN, and ARM Vaults.
 
 To date, Origin Protocol has paid out over $80,000 to qualified reporters. Origin Protocol maintains one of the shortest average response times on Immunefi, with an average first response of 8 hours. Full scope, eligibility criteria, and reward tiers are available at the Immunefi program page.
 

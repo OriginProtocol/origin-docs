@@ -24,7 +24,7 @@ Strict caps on mint and redeem prices ensure that mispriced oracle inputs cannot
 
 The ARM uses a number of different pricing strategies. ARM pricing is relative to DEX aggregators like 1Inch or Kyber. Pricing parameters control how close the price is relative to the DEX price. For example, the Lido ARM can be set to buy stETH at 0.1 basis points better than Kyber and sell stETH at 0.8 basis points more than what it bought it. The buy and sell prices can be held in a range and prices can only be updated if the relative price moves more than a set tolerance amount.
 
-Pricing can also be done relative to the estimated withdrawal time and lending platform rate. For example, the OS ARM pricing estimates the OS Vault’s withdrawal time and uses lending market rates to calculate a comparable discount for the ARM to buy OS.
+Pricing can also be done relative to the estimated redemption time and lending platform rate. For example, the stETH ARM pricing estimates stETH redemption time and uses lending market rates to calculate a comparable discount for the ARM to quote stETH pricing.
 
 Repricing is triggered off-chain if there is a large swap on the ARM or a related DEX pool. If the recalculated price is more than the tolerance level, a transaction is broadcast to update the onchain price. There are also regular reprice checks.
 

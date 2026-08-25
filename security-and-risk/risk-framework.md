@@ -17,7 +17,7 @@ Many of Origin’s products have exposure to other platforms, such as Curve and 
 
 ### **Collateral Risks**
 
-It is important to understand that Origin’s yield-bearing tokens are only as strong as their backing collateral. Any loss of value to underlying assets would cause a similar loss to the value of Origin’s yield-bearing counterparts. Origin only onboards high quality collateral assets to its yield-bearing tokens: USDC backs OUSD, ETH backs OETH, and S backs OS.
+It is important to understand that Origin’s yield-bearing tokens are only as strong as their backing collateral. Any loss of value to underlying assets would cause a similar loss to the value of Origin’s yield-bearing counterparts. Origin only onboards high quality collateral assets to its yield-bearing tokens: USDC backs OUSD, and ETH backs OETH.
 
 ### **Slashing Risk**
 
@@ -44,7 +44,7 @@ While it's impossible to guarantee our contracts are 100% safe, we have taken ev
 
 We regularly have our work [audited](https://docs.oeth.com/security-and-risks/audits) by the top auditors in the industry.
 
-DeFi insurance is available to offer smart contract coverage as an optional add-on service for OUSD holders through [Nexus Mutual](https://v2.nexusmutual.io/cover/buy-cover), [Lunos](https://app.lunos.xyz/), and [OpenCover](https://opencover.com/app/?invite=ousd\&cover=198). Super OETH depeg insurance is available through [OpenCover](https://opencover.com/app/?invite=superoethdepeg\&cover=266). OS exploit or oracle manipulation insurance is available through [Safura](https://app.safura.io/products/2).
+DeFi insurance is available to offer smart contract coverage as an optional add-on service for OUSD holders through [Nexus Mutual](https://v2.nexusmutual.io/cover/buy-cover), [Lunos](https://app.lunos.xyz/), and [OpenCover](https://opencover.com/app/?invite=ousd\&cover=198). Super OETH depeg insurance is available through [OpenCover](https://opencover.com/app/?invite=superoethdepeg\&cover=266).
 
 We have also retained [yAudit](https://yaudit.dev/) to look at our PRs as we code. [Certora](https://www.certora.com/) has helped us establish automated verifications that will run anytime we update our contracts. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 

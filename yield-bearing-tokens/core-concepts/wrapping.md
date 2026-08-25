@@ -21,7 +21,7 @@ layout:
 
 # Wrapping
 
-Wrapped versions of OETH, OUSD, Super OETH, and OS are available as non-rebasing alternatives that still earn yield. This makes it easier to use these tokens as building blocks in other contracts. The wrapped versions may also provide tax benefits in some jurisdictions.
+Wrapped versions of OETH, OUSD, and Super OETH are available as non-rebasing alternatives that still earn yield. This makes it easier to use these tokens as building blocks in other contracts. The wrapped versions may also provide tax benefits in some jurisdictions.
 
 {% hint style="info" %}
 All wrapped versions of Origin’s yield-bearing tokens are ERC-4626 compliant. These tokens are protected from donation attacks and are ideal for supplying to money markets such Morpho and Compound. See our [wrapped token audit](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20WOETH%20and%20Vault%20Update%20-%20April%202025.pdf) here.
@@ -41,7 +41,7 @@ wOUSD, wOETH, wOS, and wsuperOETHb use the same smart contract code.
 
 ### Wrapping
 
-OS, Super OETH, OETH and OUSD can be wrapped using their respective swap forms in the [Origin dapp.](https://app.originprotocol.com/)
+Super OETH, OETH, and OUSD can be wrapped using their respective swap forms in the [Origin dapp.](https://app.originprotocol.com/)
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-25 at 23.19.09.png" alt=""><figcaption><p>Lossless token wrapping in the Origin dapp</p></figcaption></figure>
 

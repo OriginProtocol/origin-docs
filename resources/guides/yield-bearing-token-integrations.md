@@ -2,7 +2,7 @@
 
 ### Integrating Origin’s Yield-Bearing Tokens
 
-This guide covers protocol-level integrations for Origin’s yield-bearing tokens and their wrapped counterparts. It applies to OUSD, OETH, Super OETH, and OS. All tokens share the same integration behavior.
+This guide covers protocol-level integrations for Origin’s yield-bearing tokens and their wrapped counterparts. It applies to OUSD, OETH, and Super OETH. All tokens share the same integration behavior.
 
 ### Token Behavior
 
@@ -38,6 +38,6 @@ Institutional users may hold Origin yield-bearing tokens directly as ERC-20s or 
 
 ### Optional Insurance
 
-Optional third-party insurance coverage is available for select Origin assets. OUSD holders may obtain smart contract coverage through [Nexus Mutual](https://nexusmutual.io/), [Lunos](https://lunos.xyz/), or [OpenCover](https://opencover.com/). Super OETH depeg coverage is available through OpenCover as well. OS exploit and oracle manipulation coverage is available through [Safura](https://www.safura.io/). All insurance products are externally provided, optional, and independently priced.
+Optional third-party insurance coverage is available for select Origin assets. OUSD holders may obtain smart contract coverage through [Nexus Mutual](https://nexusmutual.io/), [Lunos](https://lunos.xyz/), or [OpenCover](https://opencover.com/). Super OETH depeg coverage is available through OpenCover as well. All insurance products are externally provided, optional, and independently priced.
 
 [OpenCover](https://opencover.com/vaults/) recently added an insurance option for the stETH ARM via their new [Covered Vaults](https://x.com/OpenCover/status/2039721567169483046) primitive.&#x20;

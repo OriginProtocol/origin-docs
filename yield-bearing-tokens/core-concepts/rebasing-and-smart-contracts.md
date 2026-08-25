@@ -21,7 +21,7 @@ layout:
 
 # Rebasing & Smart Contracts
 
-OTokens (OETH, Super OETH, OUSD, and OS) use a **rebasing supply** design where yield is reflected by increasing each holder’s token balance rather than by increasing the token’s price. The unit of account remains stable: 1 OUSD = 1 USD and 1 OETH = 1 ETH, while balances rise as underlying assets earn yield. Functionally, this works like interest in a bank account: the value stays constant, the quantity grows.
+OTokens (OETH, Super OETH, and OUSD) use a **rebasing supply** design where yield is reflected by increasing each holder’s token balance rather than by increasing the token’s price. The unit of account remains stable: 1 OUSD = 1 USD and 1 OETH = 1 ETH, while balances rise as underlying assets earn yield. Functionally, this works like interest in a bank account: the value stays constant, the quantity grows.
 
 Yield is realized through **rebases**, which expand token supply proportionally across eligible addresses. Key properties:
 

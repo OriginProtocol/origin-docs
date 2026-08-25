@@ -21,10 +21,10 @@ layout:
 
 # AMO
 
-OETH, Super OETH, OS, and OUSD all utilize Automated Market Operations (AMOs). The AMO helps to maintain the peg, increases capital efficiency, and maximizes yield for holders. The AMO is allowed to enact monetary policy within a closed system so long as it does not negatively impact the peg. The protocol remains 100% collateralized at all times even as the money supply programmatically expands and contracts within liquidity pools in response to market conditions.
+OETH, Super OETH, and OUSD all utilize Automated Market Operations (AMOs). The AMO helps to maintain the peg, increases capital efficiency, and maximizes yield for holders. The AMO is allowed to enact monetary policy within a closed system so long as it does not negatively impact the peg. The protocol remains 100% collateralized at all times even as the money supply programmatically expands and contracts within liquidity pools in response to market conditions.
 
 {% hint style="info" %}
-The AMO helps to maintain the peg, increases capital efficiency, and deploys deep liquidity for OETH, Super OETH, OS, and OUSD holders.
+The AMO helps to maintain the peg, increases capital efficiency, and deploys deep liquidity for OETH, Super OETH, and OUSD holders.
 {% endhint %}
 
 ### How the AMO Works
@@ -35,14 +35,14 @@ Therefore, when the protocol deposits funds into a pool, it deploys liquidity to
 
 When the pools get unbalanced, the AMO can add or remove liquidity from one side of the pool to bring it back into balance. If the OETH/ETH pool contains more ETH than OETH, for example, the AMO deploys additional OETH to bring the pool back into balance. This approach of providing up to double the liquidity to the pool allows the protocol to deploy up to twice the amount of liquidity in a given pool.
 
-This feature can also work in reverse. The AMO can remove extra OUSD, OETH, OS or Super OETH from the pool when necessary. This ensures peg stability with high capital efficiency.
+This feature can also work in reverse. The AMO can remove extra OUSD, OETH, or Super OETH from the pool when necessary. This ensures peg stability with high capital efficiency.
 
 ### Protocol Owned Liquidity
 
 Remaining 100% collateralized is an important bedrock component of the protocol. It may sound counterintuitive that the protocol can remain fully collateralized even while deploying unbacked tokens into a liquidity pool. But those unbacked tokens will never enter circulation without being fully collateralized.
 
 {% hint style="info" %}
-The OUSD, OETH, OS, and Super OETH deployed by the AMO never enter circulation without being fully collateralized.&#x20;
+The OUSD, OETH, and Super OETH deployed by the AMO never enter circulation without being fully collateralized.&#x20;
 {% endhint %}
 
 Let's look at an example to understand how this is possible:
@@ -55,6 +55,6 @@ Let's look at an example to understand how this is possible:
 Since the user must transfer their ETH to a liquidity pool in order to withdraw OETH, the previously unbacked OETH immediately becomes backed as part of the transaction. You can think of it as the vault pre-minting some OETH for Curve to sell on its behalf with those tokens becoming 100% backed as soon as they enter circulation.
 {% endhint %}
 
-Ultimately, OUSD, OETH, Super OETH, and OS can still be redeemed at any time for the underlying collateral on a 1:1 basis through direct redemptions. Origin's AMOs help traders get instant liquidity with low slippage on AMMs.
+Ultimately, OUSD, OETH, and Super OETH can still be redeemed at any time for the underlying collateral on a 1:1 basis through direct redemptions. Origin's AMOs help traders get instant liquidity with low slippage on AMMs.
 
 This model has been extensively tested and demonstrated to work safely at scale. The Origin team has also completed extensive testing to ensure that flash loan attacks cannot manipulate algorithmic market operations. For safety, funds are never directly deployed or withdrawn from the AMO as a result of a mint or redeem. Like the rest of the code, the AMO has been thoroughly audited by OpenZeppelin and other auditors.

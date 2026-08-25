@@ -4,7 +4,7 @@
 
 ## Introduction to Origin Token (OGN)
 
-Origin Token (OGN) is the core value accrual and governance token of Origin Protocol. It aligns long-term stakeholders with the performance of Origin’s products, including OETH, Super OETH, OUSD, OS, and the Automated Redemption Manager (ARM).
+Origin Token (OGN) is the core value accrual and governance token of Origin Protocol. It aligns long-term stakeholders with the performance of Origin’s products, including OETH, Super OETH, OUSD, and the Automated Redemption Manager (ARM).
 
 At the DAO level, OGN is used to govern protocol parameters, prioritize new products, and allocate DAO assets. OGN stakers (xOGN) govern key decisions such as fee configurations, major product upgrades, and how protocol-controlled value is deployed across Origin’s ecosystem.
 
