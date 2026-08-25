@@ -36,7 +36,7 @@ Slashing is crucial for two main reasons:
 
 In essence, slashing ensures validators have a financial reason to do their job correctly and keeps the Ethereum network secure.
 
-If any of the node operators that are backing OETH are slashed, you can expect that OETH holders will similarly lose money. In the case of a minor slashing like we've seen to date, the result will be that OETH holders will earn slightly less yield. In the event of a major slashing, you can expect that OETH will drop in value proportional to the percentage of the backing LST that was impacted. However, this risk is mitigated by using DVT (Distributed Validator Technology) which distributes transaction validation across multiple nodes, enhancing security and reliability. This reduces the risk of single points of failure and ensures a more decentralized, robust staking process, protecting against validator downtime or malicious activity.
+If any of the node operators that are backing OETH are slashed, you can expect that OETH holders will similarly lose money. In the case of a minor slashing like we've seen to date, the result will be that OETH holders will earn slightly less yield. In the event of a major slashing, you can expect that OETH will drop in value proportional to the percentage of the backing LST that was impacted.
 
 ### **Risk Mitigation**
 

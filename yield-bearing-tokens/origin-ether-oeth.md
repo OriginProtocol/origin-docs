@@ -25,31 +25,29 @@ layout:
 
 ## Introduction to OETH
 
-Origin Ether (OETH) is an Ethereum liquid staking token designed to offer enhanced security, higher yield, and a tighter peg to ETH when compared to other LSTs. This is accomplished through rigorous audits, decentralized validator technology (DVT), and a permissionless redemption mechanism paired with deep exit liquidity.
+Origin Ether (OETH) is an Ethereum liquid staking token designed to offer enhanced security, higher yield, and a tighter peg to ETH when compared to other LSTs. This is accomplished through rigorous audits, compounding validators, and a permissionless redemption mechanism paired with deep exit liquidity.
 
 OETH was launched in May 2023 with 95% of its code forked from [OUSD](https://docs.originprotocol.com/yield-bearing-tokens/ousd). This allowed OETH to inherit years of top-tier audits and a proven track record of securing hundreds of millions of dollars of underlying collateral. Since growing to over $100 million of TVL itself and being integrated into top protocols such as Morpho, EigenLayer, and Pendle, OETH has become a widely adopted liquid staking token on Ethereum.
 
-In a sea of commoditized liquid staking tokens, OETH stands out with four clear advantages:
+In a sea of commoditized liquid staking tokens, OETH stands out with three clear advantages:
 
-**Better risk-adjusted yield:** OETH earns its liquid staking yield from the Ethereum beacon chain using distributed validator technology (DVT). This provides OETH with an open and simple infrastructure for managing Ethereum validators and presents an opportunity to earn incentives from DVT platforms, which are harvested and distributed to OETH holders as additional yield.
+**Better risk-adjusted yield:** OETH earns its liquid staking yield from the Ethereum beacon chain using compounding (0x02) validators. Compounding validators allow for quicker compounding of staking rewards and partial withdrawals, increasing OETH's capital efficiency compared to standard liquid staking tokens.
 
 {% embed url="https://www.originprotocol.com/assets/videos/oeth-peg.mp4" %}
 
-**Merkle Proof Verification of Beacon Chain Balances:** The latest OETH staking upgrade replaces reliance on third-party oracles with direct **Merkle Proof validation** of Beacon Chain balances. By verifying validator balances onchain through cryptographic proofs derived from Ethereum’s consensus layer, OETH ensures validator accounting is fully transparent and tamper-resistant. This trust-minimized design enhances both security and decentralization, making OETH one of the most verifiable and resilient liquid staking tokens on Ethereum.
+**Merkle Proof Verification of Beacon Chain Balances:** OETH replaces reliance on third-party oracles with direct **Merkle Proof validation** of Beacon Chain balances. By verifying validator balances onchain through cryptographic proofs derived from Ethereum’s consensus layer, OETH ensures validator accounting is fully transparent and tamper-resistant. This trust-minimized design enhances both security and decentralization, making OETH one of the most verifiable and resilient liquid staking tokens on Ethereum.
 
 {% embed url="https://www.originprotocol.com/assets/videos/merkle-proof.mp4" %}
 
 **Tighter peg to ETH:** LSTs are expected to be stable relative to ETH. As the name implies, liquidity is the core premise of these tokens and any pricing deviation from ETH can be catastrophic. While some are more stable than others, all of the top LSTs have experienced some degree of de-pegging from ETH, resulting in a hidden exit cost for users. OETH holds an extremely tight peg to ETH through a combination of permissionless ETH withdrawals and deep onchain liquidity. Because of the AMO liquidity strategy, OETH sustains a tighter peg to ETH than other LSTs—even those with significantly larger TVL.
 
-**Compounding 0x02 Validators:** 0x02 validators introduce a more efficient staking architecture for OETH by enabling **native auto-compounding** and **partial withdrawals**. Instead of relying on offchain scripts or manual operations, rewards are automatically added to the validator balance, increasing total staked ETH without external intervention. At the same time, partial withdrawals allow OETH’s staking strategy to provide faster liquidity without fully exiting a validator, unlocking smoother operations and quicker redemptions
-
-These four core pillars of OETH make it the ideal building block for DeFi integrations. By generating the best risk-adjusted yield and maintaining the tightest peg to ETH, OETH allows other protocols to confidently plug into a secure and scalable yield source for their products to leverage.
+These three core pillars of OETH make it the ideal building block for DeFi integrations. By generating the best risk-adjusted yield and maintaining the tightest peg to ETH, OETH allows other protocols to confidently plug into a secure and scalable yield source for their products to leverage.
 
 ### Validator Infrastructure
 
-OETH's validators run entirely on SSV Network, organized into two clusters with four nodes each, distributed across separate geographic regions to minimize correlated failure risk. The two node operators running these clusters are P2P and PierTwo. As part of the ongoing transition to 0x02 compounding validators, P2P's cluster is being migrated to PierTwo.&#x20;
+OETH uses 0x02 compounding validators running on [MAVAN infrastructure](https://docs.mavan.bitminetech.io/docs/start-staking-with-mavan). These validators support effective balances of up to 2,048 ETH and allow eligible rewards to compound within the validator in 1 ETH increments. OETH can also add stake in granular amounts and withdraw part of a validator’s balance without requiring a full validator exit.
 
-Upon completion, PierTwo will operate all OETH validators across both clusters, maintaining the same four-node geographic distribution. The use of SSV's distributed validator technology means no single node holds a complete validator key — consensus requires coordination across the cluster, which reduces slashing risk and eliminates single points of failure at the key level.
+Origin’s contracts control how stake is deposited, verified, accounted for, and withdrawn, while MAVAN operates the underlying validator infrastructure. OETH uses EIP-4788 Merkle proofs to verify validator balances and withdrawal credentials against Ethereum consensus data, reducing reliance on operator-reported accounting.&#x20;
 
 ### wOETH Pricing and Liquidity
 
