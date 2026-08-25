@@ -14,7 +14,7 @@ There is no standalone hard cap on the Morpho lending share of the book. Instead
 
 allocate() is a permissionless, rule-based rebalance function. It rebalances idle assets between the ARM Vault and the active lending market to maintain the configured liquidity buffer.
 
-allocate() does not itself decide whether the ARM should enter redemption exposure. Redemption exposure is created by swap flow and ARM pricing: when the ARM purchases discounted stETH, eETH, OS, or sUSDe on DEXs, those assets are later redeemed through the underlying protocol's withdrawal process. Pricing bands and withdrawal batching are controlled by the operator.
+allocate() does not itself decide whether the ARM should enter redemption exposure. Redemption exposure is created by swap flow and ARM pricing: when the ARM purchases discounted stETH, eETH, or sUSDe on DEXs, those assets are later redeemed through the underlying protocol's withdrawal process. Pricing bands and withdrawal batching are controlled by the operator.
 
 * allocate() is permissionless, any address can call it.
 * It only moves idle liquidity between the ARM Vault and the active lending market.
