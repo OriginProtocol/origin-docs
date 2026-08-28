@@ -8,6 +8,7 @@ OETH utilized 95% of the same code as OUSD and has been simplified with the remo
 
 All of Origin’s products are audited extensively before opening up to external deposits. As of 2026, Origin Protocol works with OpenZeppelin, yAudit, NetherMind, and Sigma Prime to review smart contract deployments.
 
+* [Sigma Prime, OETH Vanilla Compounding Staking Strategy – June 2026](https://github.com/OriginProtocol/security/blob/master/audits/Sigma%20Prime%20-%20Origin%20Protocol%20Vanilla%20Compounding%20Staking%20Strategy%20-%20June%202026.pdf)
 * [yAudit, Origin ARM Vault Upgrade - May 2026](https://github.com/OriginProtocol/security/blob/c569cb403e907769ce8a8ee9c7dccaa1725bde34/audits/yAudit%20-%20Origin%20ARM%20upgrade%20-%20May%202026.pdf)
 * [Sigma Prime, Origin OUSD Upgrade Security Assessment Report v2 - February 2026](https://github.com/OriginProtocol/security/blob/master/audits/Sigma%20Prime%20-%20Origin%20OUSD%20Upgrade%20Security%20Assessment%20Report%20v2%20-%20February%202026.pdf)
 * [yAudit, Origin ARM - December 2025](https://github.com/OriginProtocol/security/blob/master/audits/yAudit%20-%20Origin%20ARM%20-%20December%202025.pdf)
