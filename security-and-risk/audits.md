@@ -1,37 +1,5 @@
 # Audits
 
-* [Sigma Prime, OETH Vanilla Compounding Staking Strategy – June 2026](https://github.com/OriginProtocol/security/blob/master/audits/Sigma%20Prime%20-%20Origin%20Protocol%20Vanilla%20Compounding%20Staking%20Strategy%20-%20June%202026.pdf)
-* [yAudit, Origin ARM Vault Upgrade - May 2026](https://github.com/OriginProtocol/security/blob/c569cb403e907769ce8a8ee9c7dccaa1725bde34/audits/yAudit%20-%20Origin%20ARM%20upgrade%20-%20May%202026.pdf)
-* [Sigma Prime, Origin OUSD Upgrade Security Assessment Report v2 - February 2026](https://github.com/OriginProtocol/security/blob/master/audits/Sigma%20Prime%20-%20Origin%20OUSD%20Upgrade%20Security%20Assessment%20Report%20v2%20-%20February%202026.pdf)
-* [yAudit, Origin ARM - December 2025](https://github.com/OriginProtocol/security/blob/master/audits/yAudit%20-%20Origin%20ARM%20-%20December%202025.pdf)
-* [Nethermind, Origin Compounding Staking Strategy - October 2025](https://github.com/OriginProtocol/security/blob/master/audits/Nethermind%20-%20Origin%20Compounding%20Straking%20Strategy%20%20Audit%20-%20October%202025.pdf)
-* [OpenZeppelin, Origin Compounding Staking Strategy - September 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Compounding%20Staking%20Strategy%20Audit%20-%20September%202025.pdf)
-* [SigmaPrime, Origin Compounding Staking Strategy - September 2025](https://github.com/OriginProtocol/security/blob/master/audits/Sigma%20Prime%20-%20Origin%20Compounding%20Staking%20Strategy%20Audit%20-%20September%202025.pdf)
-* [OpenZeppelin, Origin Plume Rooster AMO - July 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Plume%20Rooster%20AMO%20-%20July%202025.pdf)
-* [OpenZeppelin, Origin ARM - June 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20ARM%20-%20June%202025.pdf)
-* [OpenZeppelin, Wrapped and Vault updates - April 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20WOETH%20and%20Vault%20Update%20-%20April%202025.pdf)
-* [OpenZeppelin, Sonic SwapX AMO Strategy Audit - April 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Sonic%20SwapX%20AMO%20Strategy%20Audit%20-%20April%202025.pdf)
-* [OpenZeppelin, OS - February 2025](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Sonic%20Staking%20-%20February%202025.pdf)
-* [Certora, Formal verification - December 2024](https://github.com/OriginProtocol/security/blob/1e0adf97ee4c148f1a0e19a3556849987776c703/audits/Certora%20-%20Formal%20verification%20-%20December%202024.pdf)
-* [OpenZeppelin, OUSD Yield Delegation - December 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20OUSD%20-%20December%202024.pdf)
-* [OpenZeppelin, Origin Arm Audit - November 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Arm%20Audit%20-%20November%202024.pdf)
-* [OpenZeppelin, Super OETH Aerodrome AMO Strategy Audit - September 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Aerodrome%20AMO%20Strategy%20Audit%20-%20September%202024.pdf)
-* [OpenZeppelin, OETH Withdrawal Queue, August 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20OETH%20Withdrawal%20Queue%20Audit%20-%20August%202024.pdf)
-* [OpenZeppelin, OETH Native Staking, June 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20SSV%20Native%20Staking%20-%20June%202024.pdf)
-* [OpenZeppelin, OGN/OGV Merge, May 2024](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20OGV%20and%20OGN%20Merge%20-%20May%202024.pdf)
-* [Perimeter, OETH Vault Fuzzing, March 2024](https://github.com/OriginProtocol/security/blob/master/audits/Perimeter%20-%20OETHVault%20-%20March%202024%20-%20Fuzzing%20Report.pdf)
-* [OpenZeppelin, Origin Balancer MetaPool Strategy, Sept 2023](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Balancer%20MetaPool%20Strategy%20-%20Sept%202023.pdf)
-* [Narya, Origin OETH Report, May 2023, Initial Report](https://github.com/OriginProtocol/security/blob/master/audits/Narya%20-%20Origin%20OETH%20Report%20-%20May%202023%20-%20Initial%20Report.pdf)
-* [OpenZeppelin, Origin Dollar OETH Integration, May 2023](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20OETH%20Integration%20-%20May%202023.pdf)
-* [OpenZeppelin, OUSD Dripper & Uniswap Strategy Audit, April 2023](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20Dripper%20%26%20Uniswap%20strategy%20-%20April%202023.pdf)
-* [CyberScope, OGN Staking Audit, December 2022](https://github.com/OriginProtocol/security/blob/master/audits/community/CyberScope%20-%20OGN%20Staking%20-%20Dec%202022.pdf)
-* [OpenZeppelin, OUSD Convex Strategies Audit, October 2022](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20Convex%20-%20October%202022.pdf)
-* [Solidified, wOUSD, ERC721a, Governance, Harvester & Dripper Audit, May 2022](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGV%2C%20wOUSD%2C%20and%20ERC721a%20-%20May%202022.pdf)
-* [OpenZeppelin, OUSD Audit, August 2021](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20-%20October%202021.pdf)
-* [Solidified, OGN Staking Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
-* [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
-* [Trail of Bits, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
-
 This page maps published security work to the Origin products and components that use the reviewed code. It includes direct product reviews as well as relevant evidence from shared implementations.
 
 Every report remains limited to its stated scope, version, date, and assumptions. Review the report itself and compare it with the current deployed code and configuration before relying on it.
