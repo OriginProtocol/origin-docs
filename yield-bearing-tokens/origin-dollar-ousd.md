@@ -17,13 +17,15 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Origin Dollar (OUSD)
 
 <figure><img src="../.gitbook/assets/origin dollar (10).png" alt=""><figcaption></figcaption></figure>
 
-## Introduction to OUSD&#x20;
+## Introduction to Origin Dollar (OUSD)&#x20;
 
 Origin Dollar (OUSD) launched in 2020 as Origin’s first yield-bearing token and the first liquid, yield-bearing stablecoin in DeFi. OUSD is designed to earn yield automatically while remaining fully liquid at all times.
 
