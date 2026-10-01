@@ -10,17 +10,17 @@ This wind-down follows a governance [proposal](https://snapshot.org/#/s:origingo
 
 OS holders can withdraw the underlying S directly from the Origin dapp's [OS page.](https://app.originprotocol.com/#/rebasing/os?o=withdraw) Because the vault's liquidity is now fully available, withdrawals are processed after the protocol-enforced 10 minute delay.
 
-* Head to [https://app.originprotocol.com/#/rebasing/os](https://app.originprotocol.com/#/rebasing/os)
-* Click "Withdrawal" in the swap form
+* Head to [https://app.originprotocol.com/#/rebasing/os?o=withdraw](https://app.originprotocol.com/#/rebasing/os?o=withdraw)
+* Click the Withdrawal tab in the swap form
 * Connect wallet and withdraw max
 * Confirm transaction in your wallet
-* Claim OS after the 10-minute delay
+* Claim after the 10-minute delay
 
 ### OS ARM Withdrawals
 
 ARM-WS-OS LPs exit through the [OS ARM Vault page.](https://app.originprotocol.com/#/arm/146:ARM-WS-OS?o=withdraw) Withdrawing redeems your pro-rata share of the ARM Vault's S-denominated assets, which have already been unstaked and returned to the vault, so the withdrawal also executes without a redemption queue.
 
-* Head to [https://app.originprotocol.com/#/rebasing/os?o=withdraw](https://app.originprotocol.com/#/rebasing/os?o=withdraw)
+* Head to [https://app.originprotocol.com/#/arm/146:ARM-WS-OS?o=withdraw](https://app.originprotocol.com/#/arm/146:ARM-WS-OS?o=withdraw)
 * Click the Withdrawal tab in the swap form
 * Connect wallet and withdraw max
 * Confirm transaction in your wallet
