@@ -40,7 +40,7 @@ description: Contracts for all Origin tokens and products
 
 #### Deprecated
 
-<table><thead><tr><th width="230.4013671875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original OGN Staking</td><td><a href="https://etherscan.io/address/0x501804b374ef06fa9c427476147ac09f1551b9a0#code">0x501804B374EF06fa9C427476147ac09F1551B9A0</a></td></tr><tr><td>Original OGN Staking Implementation</td><td><a href="https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08#code">0x8cD68A1E0b79150455C5498882d5d5D3DF2DdE08</a></td></tr><tr><td>Guardian (Ethereum)</td><td><a href="https://etherscan.io/address/0xf14bbdf064e3f67f51cd9bd646ae3716ad938fdc">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a> </td></tr><tr><td>Guardian (Base)</td><td><a href="https://basescan.org/address/0x28bce2eE5775B652D92bB7c2891A89F036619703">0x28bce2eE5775B652D92bB7c2891A89F036619703</a></td></tr></tbody></table>
+<table><thead><tr><th width="230.4013671875">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Original OGN Staking</td><td><a href="https://etherscan.io/address/0x501804b374ef06fa9c427476147ac09f1551b9a0#code">0x501804B374EF06fa9C427476147ac09F1551B9A0</a></td></tr><tr><td>Original OGN Staking Implementation</td><td><a href="https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08#code">0x8cD68A1E0b79150455C5498882d5d5D3DF2DdE08</a></td></tr><tr><td>Guardian (Ethereum)</td><td><a href="https://etherscan.io/address/0xf14bbdf064e3f67f51cd9bd646ae3716ad938fdc">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a> </td></tr><tr><td>Guardian (Base)</td><td><a href="https://basescan.org/address/0x28bce2eE5775B652D92bB7c2891A89F036619703">0x28bce2eE5775B652D92bB7c2891A89F036619703</a></td></tr><tr><td>Origin DeFi Governance (ERC-20)</td><td><a href="https://etherscan.io/address/0x9c354503c38481a7a7a51629142963f98ecc12d0#code">0x9c354503c38481a7a7a51629142963f98ecc12d0</a> (ogv.eth)</td></tr><tr><td>OGV Staking (veOGV)</td><td><a href="https://etherscan.io/address/0x0c4576ca1c365868e162554af8e385dc3e7c66d9#code">0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9</a> (veogv.eth)</td></tr><tr><td>Legacy OGN Staking</td><td><a href="https://etherscan.io/address/0x501804b374ef06fa9c427476147ac09f1551b9a0#code">0x501804B374EF06fa9C427476147ac09F1551B9A0</a></td></tr></tbody></table>
 
 ## Products
 
@@ -60,14 +60,15 @@ description: Contracts for all Origin tokens and products
 [Broken link](/broken/pages/Kv2RThR7mJHXqOxaWtVq)
 {% endcontent-ref %}
 
+## Deprecated
+
+#### Sonic
+
+<table><thead><tr><th width="220.5333251953125">Contract</th><th width="444.2332763671875">Address</th></tr></thead><tbody><tr><td>Origin Sonic (ERC-20)</td><td><a href="https://sonicscan.org/address/0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794#code">0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794</a></td></tr><tr><td>Wrapped OS (ERC-4626)</td><td><a href="https://sonicscan.org/address/0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1#code">0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1</a></td></tr><tr><td>OS Vault</td><td><a href="https://sonicscan.org/address/0xa3c0eCA00D2B76b4d1F170b0AB3FdeA16C180186#code">0xa3c0eCA00D2B76b4d1F170b0AB3FdeA16C180186</a></td></tr></tbody></table>
+
 ## Miscellaneous
 
 #### Ethereum
 
 <table><thead><tr><th width="227">Contract</th><th>Address</th></tr></thead><tbody><tr><td>Chainlink Automation</td><td>0x9c979C2687B2E64293c45B2D122d688e2d7fD8ec</td></tr><tr><td>1inch Swapper</td><td>0xcD0fcF8a31Bc78ec07752e9CCD3960E936D18366</td></tr></tbody></table>
 
-## Deprecated
-
-#### Ethereum
-
-<table><thead><tr><th width="222">Contract</th><th width="420">Address</th><th>ENS</th></tr></thead><tbody><tr><td>Origin DeFi Governance (ERC-20)</td><td><a href="https://etherscan.io/address/0x9c354503c38481a7a7a51629142963f98ecc12d0#code">0x9c354503c38481a7a7a51629142963f98ecc12d0</a></td><td><a href="https://etherscan.io/name-lookup-search?id=ogv.eth">ogv.eth</a></td></tr><tr><td>OGV Staking (veOGV)</td><td><a href="https://etherscan.io/address/0x0c4576ca1c365868e162554af8e385dc3e7c66d9#code">0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9</a></td><td><a href="https://etherscan.io/name-lookup-search?id=veogv.eth">veogv.eth</a></td></tr><tr><td>Legacy OGN Staking</td><td><a href="https://etherscan.io/address/0x501804b374ef06fa9c427476147ac09f1551b9a0#code">0x501804B374EF06fa9C427476147ac09F1551B9A0</a></td><td></td></tr></tbody></table>
