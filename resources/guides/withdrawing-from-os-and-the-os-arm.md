@@ -76,4 +76,4 @@ OS ARM LPs hold the ARM-WS-OS LP token. Withdrawing redeems your pro-rata share 
 
 #### Need help?
 
-Ask in the [Origin Discord](https://discord.com/invite/ogn). Origin’s team will never message you first or ask for your seed phrase.
+Ask in the [Origin Discord](https://originprotocol.com/discord). Origin’s team will never message you first or ask for your seed phrase.
